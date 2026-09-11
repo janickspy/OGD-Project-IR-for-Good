@@ -1,0 +1,780 @@
+{
+  "query": "Verkehrsunfälle Statistik Schweiz",
+  "query_id": "MOB-02",
+  "rank_movement": -9,
+  "traces": [
+    {
+      "alpha": 0.65,
+      "config_hash": "f608008928603527d4ed19157e5f229f58b5f2a5a94365c4548102dd8c97e189",
+      "corpus_hash": "139fef1253de576caca467aa3efbdc16d1b2e21f2ca2c0a61f50ff8223cdb8f6",
+      "dataset_id": "c9d4d947-a839-4ea9-96eb-864d530fe24c",
+      "evidence": {
+        "age_days": 0.44769176506944447,
+        "bm25": 5.567629343185509,
+        "completeness_checks": {
+          "description": true,
+          "keywords": true,
+          "license": false,
+          "modified": true,
+          "publisher": true,
+          "resources": true,
+          "themes": true,
+          "title": true
+        },
+        "date_status": "valid",
+        "matched_terms": [
+          {
+            "bm25_contribution": 2.1213372286791365,
+            "fields": {
+              "description": 1,
+              "title": 1
+            },
+            "term": "schweiz"
+          },
+          {
+            "bm25_contribution": 3.446292114506372,
+            "fields": {
+              "description": 2
+            },
+            "term": "statistik"
+          }
+        ],
+        "metadata_modified": "2026-03-06T13:15:18.431498",
+        "query_coverage": 0.6666666666666666,
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_count": 3
+      },
+      "features": {
+        "completeness": 0.875,
+        "freshness": 0.9995749995373101,
+        "resources": 0.5781296526357756,
+        "similarity": 0.5651587051434739
+      },
+      "inference": {
+        "active_rules": [
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.0008500009253797902,
+              "resources": 0.8437406947284487,
+              "similarity": 0.8696825897130522
+            },
+            "id": "R040",
+            "if": {
+              "completeness": "medium",
+              "freshness": "medium",
+              "resources": "medium",
+              "similarity": "medium"
+            },
+            "strength": 0.0008500009253797902,
+            "then": "moderate",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.0008500009253797902,
+              "resources": 0.1562593052715513,
+              "similarity": 0.8696825897130522
+            },
+            "id": "R041",
+            "if": {
+              "completeness": "medium",
+              "freshness": "medium",
+              "resources": "high",
+              "similarity": "medium"
+            },
+            "strength": 0.0008500009253797902,
+            "then": "moderate",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.9991499990746202,
+              "resources": 0.8437406947284487,
+              "similarity": 0.8696825897130522
+            },
+            "id": "R043",
+            "if": {
+              "completeness": "medium",
+              "freshness": "high",
+              "resources": "medium",
+              "similarity": "medium"
+            },
+            "strength": 0.25,
+            "then": "moderate",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.9991499990746202,
+              "resources": 0.1562593052715513,
+              "similarity": 0.8696825897130522
+            },
+            "id": "R044",
+            "if": {
+              "completeness": "medium",
+              "freshness": "high",
+              "resources": "high",
+              "similarity": "medium"
+            },
+            "strength": 0.1562593052715513,
+            "then": "moderate",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.0008500009253797902,
+              "resources": 0.8437406947284487,
+              "similarity": 0.8696825897130522
+            },
+            "id": "R049",
+            "if": {
+              "completeness": "high",
+              "freshness": "medium",
+              "resources": "medium",
+              "similarity": "medium"
+            },
+            "strength": 0.0008500009253797902,
+            "then": "moderate",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.0008500009253797902,
+              "resources": 0.1562593052715513,
+              "similarity": 0.8696825897130522
+            },
+            "id": "R050",
+            "if": {
+              "completeness": "high",
+              "freshness": "medium",
+              "resources": "high",
+              "similarity": "medium"
+            },
+            "strength": 0.0008500009253797902,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.9991499990746202,
+              "resources": 0.8437406947284487,
+              "similarity": 0.8696825897130522
+            },
+            "id": "R052",
+            "if": {
+              "completeness": "high",
+              "freshness": "high",
+              "resources": "medium",
+              "similarity": "medium"
+            },
+            "strength": 0.75,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.9991499990746202,
+              "resources": 0.1562593052715513,
+              "similarity": 0.8696825897130522
+            },
+            "id": "R053",
+            "if": {
+              "completeness": "high",
+              "freshness": "high",
+              "resources": "high",
+              "similarity": "medium"
+            },
+            "strength": 0.1562593052715513,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.0008500009253797902,
+              "resources": 0.8437406947284487,
+              "similarity": 0.13031741028694777
+            },
+            "id": "R067",
+            "if": {
+              "completeness": "medium",
+              "freshness": "medium",
+              "resources": "medium",
+              "similarity": "high"
+            },
+            "strength": 0.0008500009253797902,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.0008500009253797902,
+              "resources": 0.1562593052715513,
+              "similarity": 0.13031741028694777
+            },
+            "id": "R068",
+            "if": {
+              "completeness": "medium",
+              "freshness": "medium",
+              "resources": "high",
+              "similarity": "high"
+            },
+            "strength": 0.0008500009253797902,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.9991499990746202,
+              "resources": 0.8437406947284487,
+              "similarity": 0.13031741028694777
+            },
+            "id": "R070",
+            "if": {
+              "completeness": "medium",
+              "freshness": "high",
+              "resources": "medium",
+              "similarity": "high"
+            },
+            "strength": 0.13031741028694777,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.9991499990746202,
+              "resources": 0.1562593052715513,
+              "similarity": 0.13031741028694777
+            },
+            "id": "R071",
+            "if": {
+              "completeness": "medium",
+              "freshness": "high",
+              "resources": "high",
+              "similarity": "high"
+            },
+            "strength": 0.13031741028694777,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.0008500009253797902,
+              "resources": 0.8437406947284487,
+              "similarity": 0.13031741028694777
+            },
+            "id": "R076",
+            "if": {
+              "completeness": "high",
+              "freshness": "medium",
+              "resources": "medium",
+              "similarity": "high"
+            },
+            "strength": 0.0008500009253797902,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.0008500009253797902,
+              "resources": 0.1562593052715513,
+              "similarity": 0.13031741028694777
+            },
+            "id": "R077",
+            "if": {
+              "completeness": "high",
+              "freshness": "medium",
+              "resources": "high",
+              "similarity": "high"
+            },
+            "strength": 0.0008500009253797902,
+            "then": "excellent",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.9991499990746202,
+              "resources": 0.8437406947284487,
+              "similarity": 0.13031741028694777
+            },
+            "id": "R079",
+            "if": {
+              "completeness": "high",
+              "freshness": "high",
+              "resources": "medium",
+              "similarity": "high"
+            },
+            "strength": 0.13031741028694777,
+            "then": "excellent",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.9991499990746202,
+              "resources": 0.1562593052715513,
+              "similarity": 0.13031741028694777
+            },
+            "id": "R080",
+            "if": {
+              "completeness": "high",
+              "freshness": "high",
+              "resources": "high",
+              "similarity": "high"
+            },
+            "strength": 0.13031741028694777,
+            "then": "excellent",
+            "weight": 1.0
+          }
+        ],
+        "centroid": 0.6799137112068605,
+        "discrete_output_mass": 299.06247453946924,
+        "memberships": {
+          "completeness": {
+            "high": 0.75,
+            "low": 0.0,
+            "medium": 0.25
+          },
+          "freshness": {
+            "high": 0.9991499990746202,
+            "low": 0.0,
+            "medium": 0.0008500009253797902
+          },
+          "resources": {
+            "high": 0.1562593052715513,
+            "low": 0.0,
+            "medium": 0.8437406947284487
+          },
+          "similarity": {
+            "high": 0.13031741028694777,
+            "low": 0.0,
+            "medium": 0.8696825897130522
+          }
+        },
+        "output_strengths": {
+          "excellent": 0.13031741028694777,
+          "good": 0.75,
+          "low": 0.0,
+          "moderate": 0.25,
+          "very_low": 0.0
+        },
+        "universe_points": 1001
+      },
+      "lexical_gate_passed": true,
+      "linear_contributions": {
+        "completeness": 0.21875,
+        "freshness": 0.24989374988432753,
+        "resources": 0.1445324131589439,
+        "similarity": 0.14128967628586847
+      },
+      "scores": {
+        "bm25": 5.567629343185509,
+        "hybrid": 0.7060069560496582,
+        "linear": 0.7544658393291399,
+        "mamdani": 0.6799137112068605
+      },
+      "title": "Statistisches Jahrbuch der Schweiz 2005  Annuaire statistique de la Suisse 2005 ",
+      "ungated_hybrid": 0.7060069560496582
+    },
+    {
+      "alpha": 0.65,
+      "config_hash": "f608008928603527d4ed19157e5f229f58b5f2a5a94365c4548102dd8c97e189",
+      "corpus_hash": "139fef1253de576caca467aa3efbdc16d1b2e21f2ca2c0a61f50ff8223cdb8f6",
+      "dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+      "evidence": {
+        "age_days": 0.44326727035879626,
+        "bm25": 5.4857321511969355,
+        "completeness_checks": {
+          "description": true,
+          "keywords": true,
+          "license": false,
+          "modified": true,
+          "publisher": true,
+          "resources": true,
+          "themes": true,
+          "title": true
+        },
+        "date_status": "valid",
+        "matched_terms": [
+          {
+            "bm25_contribution": 1.0298762726293378,
+            "fields": {
+              "description": 1
+            },
+            "term": "schweiz"
+          },
+          {
+            "bm25_contribution": 4.455855878567598,
+            "fields": {
+              "description": 5
+            },
+            "term": "statistik"
+          }
+        ],
+        "metadata_modified": "2026-03-06T13:21:40.707841",
+        "query_coverage": 0.6666666666666666,
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_count": 9
+      },
+      "features": {
+        "completeness": 0.875,
+        "freshness": 0.9995791988922018,
+        "resources": 0.9602525677891275,
+        "similarity": 0.5638769351259285
+      },
+      "inference": {
+        "active_rules": [
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.0008416022155963709,
+              "resources": 0.07949486442174503,
+              "similarity": 0.872246129748143
+            },
+            "id": "R040",
+            "if": {
+              "completeness": "medium",
+              "freshness": "medium",
+              "resources": "medium",
+              "similarity": "medium"
+            },
+            "strength": 0.0008416022155963709,
+            "then": "moderate",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.0008416022155963709,
+              "resources": 0.920505135578255,
+              "similarity": 0.872246129748143
+            },
+            "id": "R041",
+            "if": {
+              "completeness": "medium",
+              "freshness": "medium",
+              "resources": "high",
+              "similarity": "medium"
+            },
+            "strength": 0.0008416022155963709,
+            "then": "moderate",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.9991583977844036,
+              "resources": 0.07949486442174503,
+              "similarity": 0.872246129748143
+            },
+            "id": "R043",
+            "if": {
+              "completeness": "medium",
+              "freshness": "high",
+              "resources": "medium",
+              "similarity": "medium"
+            },
+            "strength": 0.07949486442174503,
+            "then": "moderate",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.9991583977844036,
+              "resources": 0.920505135578255,
+              "similarity": 0.872246129748143
+            },
+            "id": "R044",
+            "if": {
+              "completeness": "medium",
+              "freshness": "high",
+              "resources": "high",
+              "similarity": "medium"
+            },
+            "strength": 0.25,
+            "then": "moderate",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.0008416022155963709,
+              "resources": 0.07949486442174503,
+              "similarity": 0.872246129748143
+            },
+            "id": "R049",
+            "if": {
+              "completeness": "high",
+              "freshness": "medium",
+              "resources": "medium",
+              "similarity": "medium"
+            },
+            "strength": 0.0008416022155963709,
+            "then": "moderate",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.0008416022155963709,
+              "resources": 0.920505135578255,
+              "similarity": 0.872246129748143
+            },
+            "id": "R050",
+            "if": {
+              "completeness": "high",
+              "freshness": "medium",
+              "resources": "high",
+              "similarity": "medium"
+            },
+            "strength": 0.0008416022155963709,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.9991583977844036,
+              "resources": 0.07949486442174503,
+              "similarity": 0.872246129748143
+            },
+            "id": "R052",
+            "if": {
+              "completeness": "high",
+              "freshness": "high",
+              "resources": "medium",
+              "similarity": "medium"
+            },
+            "strength": 0.07949486442174503,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.9991583977844036,
+              "resources": 0.920505135578255,
+              "similarity": 0.872246129748143
+            },
+            "id": "R053",
+            "if": {
+              "completeness": "high",
+              "freshness": "high",
+              "resources": "high",
+              "similarity": "medium"
+            },
+            "strength": 0.75,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.0008416022155963709,
+              "resources": 0.07949486442174503,
+              "similarity": 0.12775387025185703
+            },
+            "id": "R067",
+            "if": {
+              "completeness": "medium",
+              "freshness": "medium",
+              "resources": "medium",
+              "similarity": "high"
+            },
+            "strength": 0.0008416022155963709,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.0008416022155963709,
+              "resources": 0.920505135578255,
+              "similarity": 0.12775387025185703
+            },
+            "id": "R068",
+            "if": {
+              "completeness": "medium",
+              "freshness": "medium",
+              "resources": "high",
+              "similarity": "high"
+            },
+            "strength": 0.0008416022155963709,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.9991583977844036,
+              "resources": 0.07949486442174503,
+              "similarity": 0.12775387025185703
+            },
+            "id": "R070",
+            "if": {
+              "completeness": "medium",
+              "freshness": "high",
+              "resources": "medium",
+              "similarity": "high"
+            },
+            "strength": 0.07949486442174503,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.25,
+              "freshness": 0.9991583977844036,
+              "resources": 0.920505135578255,
+              "similarity": 0.12775387025185703
+            },
+            "id": "R071",
+            "if": {
+              "completeness": "medium",
+              "freshness": "high",
+              "resources": "high",
+              "similarity": "high"
+            },
+            "strength": 0.12775387025185703,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.0008416022155963709,
+              "resources": 0.07949486442174503,
+              "similarity": 0.12775387025185703
+            },
+            "id": "R076",
+            "if": {
+              "completeness": "high",
+              "freshness": "medium",
+              "resources": "medium",
+              "similarity": "high"
+            },
+            "strength": 0.0008416022155963709,
+            "then": "good",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.0008416022155963709,
+              "resources": 0.920505135578255,
+              "similarity": 0.12775387025185703
+            },
+            "id": "R077",
+            "if": {
+              "completeness": "high",
+              "freshness": "medium",
+              "resources": "high",
+              "similarity": "high"
+            },
+            "strength": 0.0008416022155963709,
+            "then": "excellent",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.9991583977844036,
+              "resources": 0.07949486442174503,
+              "similarity": 0.12775387025185703
+            },
+            "id": "R079",
+            "if": {
+              "completeness": "high",
+              "freshness": "high",
+              "resources": "medium",
+              "similarity": "high"
+            },
+            "strength": 0.07949486442174503,
+            "then": "excellent",
+            "weight": 1.0
+          },
+          {
+            "antecedent_memberships": {
+              "completeness": 0.75,
+              "freshness": 0.9991583977844036,
+              "resources": 0.920505135578255,
+              "similarity": 0.12775387025185703
+            },
+            "id": "R080",
+            "if": {
+              "completeness": "high",
+              "freshness": "high",
+              "resources": "high",
+              "similarity": "high"
+            },
+            "strength": 0.12775387025185703,
+            "then": "excellent",
+            "weight": 1.0
+          }
+        ],
+        "centroid": 0.6798279061772023,
+        "discrete_output_mass": 298.9781238480594,
+        "memberships": {
+          "completeness": {
+            "high": 0.75,
+            "low": 0.0,
+            "medium": 0.25
+          },
+          "freshness": {
+            "high": 0.9991583977844036,
+            "low": 0.0,
+            "medium": 0.0008416022155963709
+          },
+          "resources": {
+            "high": 0.920505135578255,
+            "low": 0.0,
+            "medium": 0.07949486442174503
+          },
+          "similarity": {
+            "high": 0.12775387025185703,
+            "low": 0.0,
+            "medium": 0.872246129748143
+          }
+        },
+        "output_strengths": {
+          "excellent": 0.12775387025185703,
+          "good": 0.75,
+          "low": 0.0,
+          "moderate": 0.25,
+          "very_low": 0.0
+        },
+        "universe_points": 1001
+      },
+      "lexical_gate_passed": true,
+      "linear_contributions": {
+        "completeness": 0.21875,
+        "freshness": 0.24989479972305045,
+        "resources": 0.24006314194728187,
+        "similarity": 0.14096923378148213
+      },
+      "scores": {
+        "bm25": 5.4857321511969355,
+        "hybrid": 0.7392751504233166,
+        "linear": 0.8496771754518144,
+        "mamdani": 0.6798279061772023
+      },
+      "title": "Anzahl Beschäftigte nach Wirtschaftszweigen nach Gemeinden   ",
+      "ungated_hybrid": 0.7392751504233166
+    }
+  ]
+}

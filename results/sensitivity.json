@@ -1,0 +1,2363 @@
+{
+  "baseline_config_hash": "f608008928603527d4ed19157e5f229f58b5f2a5a94365c4548102dd8c97e189",
+  "baseline_metrics": {
+    "map10": {
+      "bootstrap95": [
+        0.23497817460317458,
+        0.6623222369194592
+      ],
+      "mean": 0.4480790711346267
+    },
+    "mrr10": {
+      "bootstrap95": [
+        0.21666666666666667,
+        0.65
+      ],
+      "mean": 0.4277777777777778
+    },
+    "n": 15,
+    "ndcg10": {
+      "bootstrap95": [
+        0.26624641723544196,
+        0.6798014631326376
+      ],
+      "mean": 0.4732999246116469
+    },
+    "p5": {
+      "bootstrap95": [
+        0.12000000000000002,
+        0.4933333333333333
+      ],
+      "mean": 0.29333333333333333
+    }
+  },
+  "scope": "14 prespecified local policy perturbations. Kendall tau uses deterministic total ranks including ID tie-breaks. Changed configuration does not guarantee changed ranking.",
+  "variations": [
+    {
+      "changed_query_orders": 3,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.45,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {},
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "0dc18106f47f79b7c92b0d5f802cb54a563431978e5dedc3f71d2c0e732c7fd9",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.2341164021164021,
+            0.660100014697237
+          ],
+          "mean": 0.44585684891240446
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.2645039432573204,
+            0.6775448054112724
+          ],
+          "mean": 0.471067400127762
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.991111111111111,
+      "name": "similarity_middle_peak_-0.05"
+    },
+    {
+      "changed_query_orders": 1,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.55,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {},
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "5328ce7b4d1a454dc5ed738fe6ebe886e40c98e86f81e8c1268957ee6df27504",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26624641723544196,
+            0.6798014631326376
+          ],
+          "mean": 0.4732999246116469
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.9970370370370369,
+      "name": "similarity_middle_peak_+0.05"
+    },
+    {
+      "changed_query_orders": 0,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.45,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {},
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "a1f8e9ae87a716608c6c7c05cbf63a6a086a7ec12a111837757a57d52c599b56",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26624641723544196,
+            0.6798014631326376
+          ],
+          "mean": 0.4732999246116469
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.9999999999999999,
+      "name": "completeness_middle_peak_-0.05"
+    },
+    {
+      "changed_query_orders": 0,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.55,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {},
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "5249d72aacc2b53b2e39877d3f5e2f93c88eec3e9a73f6c5f9c4024e0ee62536",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26624641723544196,
+            0.6798014631326376
+          ],
+          "mean": 0.4732999246116469
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.9999999999999999,
+      "name": "completeness_middle_peak_+0.05"
+    },
+    {
+      "changed_query_orders": 0,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.45,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {},
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "2bef73fa6596ea76f9b6715118596e8c12e038e78fdd0b4144095e61b1a36998",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26624641723544196,
+            0.6798014631326376
+          ],
+          "mean": 0.4732999246116469
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.9999999999999999,
+      "name": "freshness_middle_peak_-0.05"
+    },
+    {
+      "changed_query_orders": 0,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.55,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {},
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "610e658aec89ad4e7f939d5437e4dd60a55c76d2124ba4cabdee4ba15853a2a7",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26624641723544196,
+            0.6798014631326376
+          ],
+          "mean": 0.4732999246116469
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.9999999999999999,
+      "name": "freshness_middle_peak_+0.05"
+    },
+    {
+      "changed_query_orders": 1,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.45,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {},
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "9a6add0a4963787914d742150bad72627500a887d3be6446d12c237a83c5db8a",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26624641723544196,
+            0.6798014631326376
+          ],
+          "mean": 0.4732999246116469
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.9970370370370369,
+      "name": "resources_middle_peak_-0.05"
+    },
+    {
+      "changed_query_orders": 2,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.55,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {},
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "44446a8c14bd5797f0bc71491e78b38c799482314c513e2ce26387cfbeb423ba",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26624641723544196,
+            0.6798014631326376
+          ],
+          "mean": 0.4732999246116469
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.994074074074074,
+      "name": "resources_middle_peak_+0.05"
+    },
+    {
+      "changed_query_orders": 4,
+      "config": {
+        "alpha": 0.5,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {},
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "ed362b0af071296f57dccd973eb818c791a67184144bab20cc2e22d0610f7196",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.2282513668430335,
+            0.6548118386243384
+          ],
+          "mean": 0.44230129335684887
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.20555555555555557,
+            0.6444444444444444
+          ],
+          "mean": 0.4166666666666667
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26120720737050057,
+            0.6732099200720081
+          ],
+          "mean": 0.4654395566970542
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.9585185185185184,
+      "name": "alpha_0.5"
+    },
+    {
+      "changed_query_orders": 8,
+      "config": {
+        "alpha": 0.8,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {},
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "0ebfc3822831ce3cbbc89c193327f1694e1a2be1e73a0ad4be457475a4f479f9",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.27073384975177306,
+            0.6979358572797335
+          ],
+          "mean": 0.4839589261570484
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.8992592592592591,
+      "name": "alpha_0.8"
+    },
+    {
+      "changed_query_orders": 0,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {
+          "R027": 0.9,
+          "R028": 0.9,
+          "R029": 0.9,
+          "R030": 0.9,
+          "R031": 0.9,
+          "R032": 0.9,
+          "R033": 0.9,
+          "R034": 0.9,
+          "R035": 0.9,
+          "R036": 0.9,
+          "R045": 0.9
+        },
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "f7dbedb961eb1832a27e3193dff1cc8fffee43e34e5ca903fb0ef6dc7466b3bf",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26624641723544196,
+            0.6798014631326376
+          ],
+          "mean": 0.4732999246116469
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.9999999999999999,
+      "name": "low_rule_weights_0.9"
+    },
+    {
+      "changed_query_orders": 0,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {
+          "R037": 0.9,
+          "R038": 0.9,
+          "R039": 0.9,
+          "R040": 0.9,
+          "R041": 0.9,
+          "R042": 0.9,
+          "R043": 0.9,
+          "R044": 0.9,
+          "R046": 0.9,
+          "R048": 0.9,
+          "R049": 0.9,
+          "R054": 0.9,
+          "R055": 0.9,
+          "R056": 0.9,
+          "R057": 0.9,
+          "R058": 0.9,
+          "R059": 0.9,
+          "R060": 0.9,
+          "R061": 0.9,
+          "R062": 0.9,
+          "R063": 0.9,
+          "R072": 0.9
+        },
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "da4e0bc981a089147c18252d01a221f8da65ef78c0401e93fdfbafda97a2df34",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26624641723544196,
+            0.6798014631326376
+          ],
+          "mean": 0.4732999246116469
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.9999999999999999,
+      "name": "moderate_rule_weights_0.9"
+    },
+    {
+      "changed_query_orders": 0,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {
+          "R047": 0.9,
+          "R050": 0.9,
+          "R051": 0.9,
+          "R052": 0.9,
+          "R053": 0.9,
+          "R064": 0.9,
+          "R065": 0.9,
+          "R066": 0.9,
+          "R067": 0.9,
+          "R068": 0.9,
+          "R069": 0.9,
+          "R070": 0.9,
+          "R071": 0.9,
+          "R073": 0.9,
+          "R075": 0.9,
+          "R076": 0.9
+        },
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "8009e192b8197ff14401db876565bee4976fb2b4378c7568eb58945983576d89",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26624641723544196,
+            0.6798014631326376
+          ],
+          "mean": 0.4732999246116469
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.9999999999999999,
+      "name": "good_rule_weights_0.9"
+    },
+    {
+      "changed_query_orders": 0,
+      "config": {
+        "alpha": 0.65,
+        "bm25": {
+          "b": 0.75,
+          "field_weights": {
+            "description": 1,
+            "keywords": 2,
+            "themes": 2,
+            "title": 3
+          },
+          "k1": 1.5
+        },
+        "feature_weights": {
+          "completeness": 1.0,
+          "freshness": 1.0,
+          "resources": 1.0,
+          "similarity": 1.0
+        },
+        "freshness_half_life_days": 730.0,
+        "memberships": {
+          "completeness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "freshness": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "resources": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          },
+          "similarity": {
+            "high": [
+              0.5,
+              1.0,
+              1.0
+            ],
+            "low": [
+              0.0,
+              0.0,
+              0.5
+            ],
+            "medium": [
+              0.0,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        "missing_freshness": 0.5,
+        "output_memberships": {
+          "excellent": [
+            0.75,
+            1.0,
+            1.0
+          ],
+          "good": [
+            0.5,
+            0.75,
+            1.0
+          ],
+          "low": [
+            0.0,
+            0.25,
+            0.5
+          ],
+          "moderate": [
+            0.25,
+            0.5,
+            0.75
+          ],
+          "very_low": [
+            0.0,
+            0.0,
+            0.25
+          ]
+        },
+        "policy": "complete_rule_grid_v1",
+        "reference_date": "2026-03-06T23:59:59Z",
+        "resource_cap": 10,
+        "rule_weights": {
+          "R074": 0.9,
+          "R077": 0.9,
+          "R078": 0.9,
+          "R079": 0.9,
+          "R080": 0.9
+        },
+        "schema_version": 1,
+        "similarity_saturation": 1.0,
+        "universe_points": 1001
+      },
+      "config_hash": "e12717b3a70353e74b80e9fc30064218601704c6e170f9f38b96df2805c4c7b8",
+      "hybrid_metrics": {
+        "map10": {
+          "bootstrap95": [
+            0.23497817460317458,
+            0.6623222369194592
+          ],
+          "mean": 0.4480790711346267
+        },
+        "mrr10": {
+          "bootstrap95": [
+            0.21666666666666667,
+            0.65
+          ],
+          "mean": 0.4277777777777778
+        },
+        "n": 15,
+        "ndcg10": {
+          "bootstrap95": [
+            0.26624641723544196,
+            0.6798014631326376
+          ],
+          "mean": 0.4732999246116469
+        },
+        "p5": {
+          "bootstrap95": [
+            0.12000000000000002,
+            0.4933333333333333
+          ],
+          "mean": 0.29333333333333333
+        }
+      },
+      "mean_tau": 0.9999999999999999,
+      "name": "excellent_rule_weights_0.9"
+    }
+  ]
+}

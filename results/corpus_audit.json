@@ -1,0 +1,25 @@
+{
+  "datasets": 500,
+  "grade_counts": {
+    "0": 107,
+    "1": 35,
+    "2": 8
+  },
+  "modification_days": {
+    "2026-03-06": 500
+  },
+  "publishers": {
+    "Bundesamt für Statistik Federal Statistical Office Office fédéral de la statistique Ufficio federale di statistica https://www.bfs.admin.ch/": 302,
+    "Schweizerische Nationalbibliothek (NB) Swiss National Library (NL) Bibliothèque nationale suisse (BN) Biblioteca nazionale svizzera (BN) ": 1,
+    "kanton-thurgau    https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau": 197
+  },
+  "warning": "Zero positives apply to the inherited judged pools, not the full corpus.",
+  "zero_positive_queries": [
+    "ENV-01",
+    "ENV-02",
+    "ENV-04",
+    "ENV-05",
+    "MOB-03",
+    "XD-04"
+  ]
+}

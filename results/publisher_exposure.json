@@ -1,0 +1,25 @@
+{
+  "exposure": {
+    "bm25": {
+      "Bundesamt für Statistik Federal Statistical Office Office fédéral de la statistique Ufficio federale di statistica https://www.bfs.admin.ch/": 0.32002050933574017,
+      "Schweizerische Nationalbibliothek (NB) Swiss National Library (NL) Bibliothèque nationale suisse (BN) Biblioteca nazionale svizzera (BN) ": 0.08198291794366225,
+      "kanton-thurgau    https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau": 0.5979965727205976
+    },
+    "hybrid": {
+      "Bundesamt für Statistik Federal Statistical Office Office fédéral de la statistique Ufficio federale di statistica https://www.bfs.admin.ch/": 0.29268198193313305,
+      "Schweizerische Nationalbibliothek (NB) Swiss National Library (NL) Bibliothèque nationale suisse (BN) Biblioteca nazionale svizzera (BN) ": 0.05243988901608377,
+      "kanton-thurgau    https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau": 0.6548781290507831
+    },
+    "linear": {
+      "Bundesamt für Statistik Federal Statistical Office Office fédéral de la statistique Ufficio federale di statistica https://www.bfs.admin.ch/": 0.26404960565874297,
+      "Schweizerische Nationalbibliothek (NB) Swiss National Library (NL) Bibliothèque nationale suisse (BN) Biblioteca nazionale svizzera (BN) ": 0.04241385879930114,
+      "kanton-thurgau    https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau": 0.6935365355419558
+    },
+    "mamdani": {
+      "Bundesamt für Statistik Federal Statistical Office Office fédéral de la statistique Ufficio federale di statistica https://www.bfs.admin.ch/": 0.2941102780844791,
+      "Schweizerische Nationalbibliothek (NB) Swiss National Library (NL) Bibliothèque nationale suisse (BN) Biblioteca nazionale svizzera (BN) ": 0.09805322007820487,
+      "kanton-thurgau    https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau": 0.6078365018373161
+    }
+  },
+  "scope": "Discounted rank exposure within inherited pools, all queries including zero-positive pools. Not a fairness estimate or corpus-wide visibility measure."
+}

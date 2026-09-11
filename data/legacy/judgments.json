@@ -1,0 +1,261 @@
+{
+  "provenance": {
+    "commit": "307d454248182cf4221a15d5853ae337da7c7798",
+    "credit": "Deep Shukla: predecessor thesis, collected metadata and inherited relevance judgments. Original publishers retain their data rights.",
+    "files": {
+      "corpus": {
+        "path": "data/raw/ogd_metadata_20260306_183841.json",
+        "sha256": "a827392f6c788749a71ba3e19103f126e6bafb47ee07329f0301950bc15edfe1"
+      },
+      "qrels": {
+        "path": "evaluation/ground_truth_final.json",
+        "sha256": "4b8bb8be954061005715a38ce3b49b624f5a2fdc9efe880b16260122aeab6be6"
+      }
+    },
+    "source_repository": "https://github.com/Deep0901/Master_thesis_project",
+    "warning": "Historical judgment provenance is not independently verified. Published source declares 3-to-2 collapse; no new conversion or annotation performed."
+  },
+  "queries": [
+    {
+      "id": "ENV-01",
+      "judgments": {
+        "0c8b2a1e-9ccc-43aa-8b6c-345c2e17fc76": 0,
+        "38298bea-afbd-4366-ba58-288a68ffff33": 0,
+        "59b3d25c-ad8d-4cdb-be67-deb1325499a3": 0,
+        "5ad6ebdc-5ca5-4396-aed0-173106afc9e1": 0,
+        "700bf5e2-a6ef-4a9a-8530-5d3879934357": 0,
+        "74036f9a-f906-4c44-91cb-03e45e241514": 0,
+        "93e2578b-4c56-44d1-bf13-3d74b5f7fdc5": 0,
+        "b67a9abf-3cb2-4756-a965-9dc5b99e836d": 0,
+        "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b": 0,
+        "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6": 0
+      },
+      "text": "Aktuelle Luftqualitätsdaten für Schweizer Städte"
+    },
+    {
+      "id": "ENV-02",
+      "judgments": {
+        "02cd7112-5173-4604-b1b4-de5807d610ba": 0,
+        "3f8295e7-6758-44a9-b1b5-6cabfa5241e5": 0,
+        "5ad6ebdc-5ca5-4396-aed0-173106afc9e1": 0,
+        "673777ca-ca92-439c-a2e5-3ea9981ff596": 0,
+        "700bf5e2-a6ef-4a9a-8530-5d3879934357": 0,
+        "b317dee9-2e0c-499c-842a-aaeddd0d2255": 0,
+        "def4897e-3077-49de-82fc-095ec5f227f3": 0,
+        "f5d4b068-3f63-4cc2-ba6a-2d793a0db2c9": 0,
+        "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b": 0,
+        "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6": 0
+      },
+      "text": "Biodiversität und Artenschutz in der Schweiz"
+    },
+    {
+      "id": "ENV-03",
+      "judgments": {
+        "3a8e485f-b184-48f3-9d60-fda4a7d1388f": 0,
+        "3f8295e7-6758-44a9-b1b5-6cabfa5241e5": 0,
+        "a4ee794f-b4fb-4e50-a23a-4e911419bb02": 0,
+        "b317dee9-2e0c-499c-842a-aaeddd0d2255": 0,
+        "def4897e-3077-49de-82fc-095ec5f227f3": 0,
+        "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b": 0,
+        "f5d4b068-3f63-4cc2-ba6a-2d793a0db2c9": 0,
+        "f8b84e99-95df-4b13-b19f-1d159244c9da": 2,
+        "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b": 0,
+        "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6": 0
+      },
+      "text": "Wasserqualität in Schweizer Seen und Flüssen"
+    },
+    {
+      "id": "ENV-04",
+      "judgments": {
+        "3a8e485f-b184-48f3-9d60-fda4a7d1388f": 0,
+        "3f8295e7-6758-44a9-b1b5-6cabfa5241e5": 0,
+        "700bf5e2-a6ef-4a9a-8530-5d3879934357": 0,
+        "7b3d08ac-8071-4c44-b0fe-7941262b16bb": 0,
+        "a4ee794f-b4fb-4e50-a23a-4e911419bb02": 0,
+        "d83130c1-9646-4484-8c1b-a94d43a0af30": 0,
+        "def4897e-3077-49de-82fc-095ec5f227f3": 0,
+        "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b": 0,
+        "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b": 0,
+        "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6": 0
+      },
+      "text": "Lärmbelastung und Lärmkarten Schweiz"
+    },
+    {
+      "id": "ENV-05",
+      "judgments": {
+        "3a8e485f-b184-48f3-9d60-fda4a7d1388f": 0,
+        "3f8295e7-6758-44a9-b1b5-6cabfa5241e5": 0,
+        "700bf5e2-a6ef-4a9a-8530-5d3879934357": 0,
+        "7b3d08ac-8071-4c44-b0fe-7941262b16bb": 0,
+        "a4ee794f-b4fb-4e50-a23a-4e911419bb02": 0,
+        "d83130c1-9646-4484-8c1b-a94d43a0af30": 0,
+        "def4897e-3077-49de-82fc-095ec5f227f3": 0,
+        "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b": 0,
+        "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b": 0,
+        "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6": 0
+      },
+      "text": "Klimawandel und CO2-Emissionen Schweiz"
+    },
+    {
+      "id": "MOB-01",
+      "judgments": {
+        "02cd7112-5173-4604-b1b4-de5807d610ba": 1,
+        "3f8295e7-6758-44a9-b1b5-6cabfa5241e5": 0,
+        "673777ca-ca92-439c-a2e5-3ea9981ff596": 1,
+        "7a0060e8-3b81-4fbb-886e-a7222ec242e2": 1,
+        "8f6093c8-8ab5-40a0-8346-5c36f9f12dbd": 1,
+        "914ea772-626f-4e4d-ae75-c2cfb650bfaa": 1,
+        "9f499a83-a216-4a96-870d-c65a0ee35241": 1,
+        "c90862c4-4ca4-4256-bf2e-8e1b94b0c40f": 1,
+        "c9d20e5c-0502-4c43-aa95-f05996ba6410": 1,
+        "db0d4122-5ee2-4569-8d7d-847d42d05dd1": 2
+      },
+      "text": "Öffentlicher Verkehr Fahrplandaten Schweiz"
+    },
+    {
+      "id": "MOB-02",
+      "judgments": {
+        "1908a13b-73c5-40bc-8c01-9cfc8c853136": 1,
+        "2f73d61c-34c9-4c0f-98eb-c4eecb88b084": 1,
+        "3fa88fed-4af7-4cfd-8c01-7655811e5279": 1,
+        "5ad6ebdc-5ca5-4396-aed0-173106afc9e1": 0,
+        "700bf5e2-a6ef-4a9a-8530-5d3879934357": 1,
+        "9fa0c39c-c702-46aa-b380-8a3953d93e06": 1,
+        "bdcce409-c128-47f5-891f-7f33da2ae1a1": 1,
+        "c9d4d947-a839-4ea9-96eb-864d530fe24c": 1,
+        "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b": 1,
+        "ff2e4ea7-5ffb-4cdd-8d44-0ed0b5d3a8d8": 1
+      },
+      "text": "Verkehrsunfälle Statistik Schweiz"
+    },
+    {
+      "id": "MOB-03",
+      "judgments": {
+        "1908a13b-73c5-40bc-8c01-9cfc8c853136": 0,
+        "2f73d61c-34c9-4c0f-98eb-c4eecb88b084": 0,
+        "3f8295e7-6758-44a9-b1b5-6cabfa5241e5": 0,
+        "3fa88fed-4af7-4cfd-8c01-7655811e5279": 0,
+        "700bf5e2-a6ef-4a9a-8530-5d3879934357": 0,
+        "9fa0c39c-c702-46aa-b380-8a3953d93e06": 0,
+        "bdcce409-c128-47f5-891f-7f33da2ae1a1": 0,
+        "c9d4d947-a839-4ea9-96eb-864d530fe24c": 0,
+        "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b": 0,
+        "ff2e4ea7-5ffb-4cdd-8d44-0ed0b5d3a8d8": 0
+      },
+      "text": "Elektromobilität Ladestationen Schweiz"
+    },
+    {
+      "id": "MOB-04",
+      "judgments": {
+        "02cd7112-5173-4604-b1b4-de5807d610ba": 1,
+        "3f8295e7-6758-44a9-b1b5-6cabfa5241e5": 0,
+        "5ad6ebdc-5ca5-4396-aed0-173106afc9e1": 0,
+        "673777ca-ca92-439c-a2e5-3ea9981ff596": 1,
+        "700bf5e2-a6ef-4a9a-8530-5d3879934357": 1,
+        "b317dee9-2e0c-499c-842a-aaeddd0d2255": 0,
+        "def4897e-3077-49de-82fc-095ec5f227f3": 0,
+        "f5d4b068-3f63-4cc2-ba6a-2d793a0db2c9": 0,
+        "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b": 1,
+        "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6": 0
+      },
+      "text": "Veloverkehr und Radwege in der Schweiz"
+    },
+    {
+      "id": "MOB-05",
+      "judgments": {
+        "0c8b2a1e-9ccc-43aa-8b6c-345c2e17fc76": 2,
+        "3a8e485f-b184-48f3-9d60-fda4a7d1388f": 0,
+        "6fed3166-9b1e-4ed0-9267-db5290f981ff": 0,
+        "7b3d08ac-8071-4c44-b0fe-7941262b16bb": 0,
+        "95e400ea-5ef8-49fb-9224-751db42ff0a8": 0,
+        "a4ee794f-b4fb-4e50-a23a-4e911419bb02": 0,
+        "d83130c1-9646-4484-8c1b-a94d43a0af30": 0,
+        "def4897e-3077-49de-82fc-095ec5f227f3": 0,
+        "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b": 0,
+        "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6": 0
+      },
+      "text": "Parkplätze und Parkhäuser Echtzeitdaten"
+    },
+    {
+      "id": "XD-01",
+      "judgments": {
+        "3a8e485f-b184-48f3-9d60-fda4a7d1388f": 1,
+        "3f8295e7-6758-44a9-b1b5-6cabfa5241e5": 0,
+        "700bf5e2-a6ef-4a9a-8530-5d3879934357": 2,
+        "7b3d08ac-8071-4c44-b0fe-7941262b16bb": 0,
+        "a4ee794f-b4fb-4e50-a23a-4e911419bb02": 1,
+        "d83130c1-9646-4484-8c1b-a94d43a0af30": 0,
+        "def4897e-3077-49de-82fc-095ec5f227f3": 0,
+        "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b": 1,
+        "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b": 2,
+        "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6": 0
+      },
+      "text": "Bevölkerungsentwicklung und Demografie Schweiz"
+    },
+    {
+      "id": "XD-02",
+      "judgments": {
+        "021a4e78-c1fc-4c11-9684-59905ed5bf58": 0,
+        "091ce6b2-03d0-4eb0-bc0e-cd3f9ff63bd1": 0,
+        "3a8e485f-b184-48f3-9d60-fda4a7d1388f": 0,
+        "3f8295e7-6758-44a9-b1b5-6cabfa5241e5": 0,
+        "3f99d1be-0802-4bd7-bdd4-468cfb7bcf3b": 1,
+        "4c8a5346-b06f-465d-a0d9-0ae87520edc6": 0,
+        "5ad6ebdc-5ca5-4396-aed0-173106afc9e1": 0,
+        "66424ce7-5876-48d2-b376-77dce51b7ad5": 1,
+        "6bb05375-5392-442d-972c-d98a0bef8bed": 0,
+        "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b": 0
+      },
+      "text": "Energieverbrauch nach Kantonen"
+    },
+    {
+      "id": "XD-03",
+      "judgments": {
+        "3a8e485f-b184-48f3-9d60-fda4a7d1388f": 2,
+        "6fed3166-9b1e-4ed0-9267-db5290f981ff": 1,
+        "7b3d08ac-8071-4c44-b0fe-7941262b16bb": 1,
+        "95e400ea-5ef8-49fb-9224-751db42ff0a8": 1,
+        "a4ee794f-b4fb-4e50-a23a-4e911419bb02": 2,
+        "d83130c1-9646-4484-8c1b-a94d43a0af30": 1,
+        "def4897e-3077-49de-82fc-095ec5f227f3": 1,
+        "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b": 1,
+        "f571145a-3283-4523-86da-bcb070c33ee3": 1,
+        "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6": 1
+      },
+      "text": "Bildungsstatistik Schulen und Universitäten"
+    },
+    {
+      "id": "XD-04",
+      "judgments": {
+        "3a8e485f-b184-48f3-9d60-fda4a7d1388f": 0,
+        "6fed3166-9b1e-4ed0-9267-db5290f981ff": 0,
+        "7b3d08ac-8071-4c44-b0fe-7941262b16bb": 0,
+        "95e400ea-5ef8-49fb-9224-751db42ff0a8": 0,
+        "a4ee794f-b4fb-4e50-a23a-4e911419bb02": 0,
+        "d83130c1-9646-4484-8c1b-a94d43a0af30": 0,
+        "def4897e-3077-49de-82fc-095ec5f227f3": 0,
+        "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b": 0,
+        "f571145a-3283-4523-86da-bcb070c33ee3": 0,
+        "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6": 0
+      },
+      "text": "Gesundheitsversorgung und Spitäler"
+    },
+    {
+      "id": "XD-05",
+      "judgments": {
+        "091ce6b2-03d0-4eb0-bc0e-cd3f9ff63bd1": 0,
+        "3a8e485f-b184-48f3-9d60-fda4a7d1388f": 0,
+        "3d000898-121d-4c47-b620-eedeaa5b4f16": 1,
+        "3f8295e7-6758-44a9-b1b5-6cabfa5241e5": 0,
+        "84e62174-be5d-44c3-b308-7a6de51afd45": 2,
+        "a4ee794f-b4fb-4e50-a23a-4e911419bb02": 0,
+        "def4897e-3077-49de-82fc-095ec5f227f3": 0,
+        "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b": 0,
+        "f5d4b068-3f63-4cc2-ba6a-2d793a0db2c9": 0,
+        "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6": 0
+      },
+      "text": "Wirtschaftsstatistik und BIP nach Region"
+    }
+  ],
+  "status": "inherited_unverified"
+}

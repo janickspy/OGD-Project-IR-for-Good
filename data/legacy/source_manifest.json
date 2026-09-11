@@ -1,0 +1,16 @@
+{
+  "source_repository": "https://github.com/Deep0901/Master_thesis_project",
+  "commit": "307d454248182cf4221a15d5853ae337da7c7798",
+  "credit": "Deep Shukla: predecessor thesis, collected metadata and inherited relevance judgments. Original publishers retain their data rights.",
+  "warning": "Historical judgment provenance is not independently verified. Published source declares 3-to-2 collapse; no new conversion or annotation performed.",
+  "files": {
+    "corpus": {
+      "path": "data/raw/ogd_metadata_20260306_183841.json",
+      "sha256": "a827392f6c788749a71ba3e19103f126e6bafb47ee07329f0301950bc15edfe1"
+    },
+    "qrels": {
+      "path": "evaluation/ground_truth_final.json",
+      "sha256": "4b8bb8be954061005715a38ce3b49b624f5a2fdc9efe880b16260122aeab6be6"
+    }
+  }
+}

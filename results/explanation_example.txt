@@ -1,0 +1,53 @@
+Verkehrsunfälle Statistik Schweiz
+
+Dataset: Statistisches Jahrbuch der Schweiz 2005  Annuaire statistique de la Suisse 2005
+Reference date: 2026-03-06T23:59:59Z
+Metadata modified: 2026-03-06T13:15:18.431498 (0.4 days before reference).
+Resource count: 3 (download availability is not verified).
+Matched 'schweiz' in description, title.
+Matched 'statistik' in description.
+Mamdani centroid: 0.679914; linear score: 0.754466.
+Hybrid = 0.65 × centroid + 0.35 × linear = 0.706007 before lexical gate.
+Lexical gate: passed.
+R052: similarity=medium AND completeness=high AND freshness=high AND resources=medium -> good; weight=1.000, firing=0.750000.
+R043: similarity=medium AND completeness=medium AND freshness=high AND resources=medium -> moderate; weight=1.000, firing=0.250000.
+R044: similarity=medium AND completeness=medium AND freshness=high AND resources=high -> moderate; weight=1.000, firing=0.156259.
+R053: similarity=medium AND completeness=high AND freshness=high AND resources=high -> good; weight=1.000, firing=0.156259.
+R070: similarity=high AND completeness=medium AND freshness=high AND resources=medium -> good; weight=1.000, firing=0.130317.
+R071: similarity=high AND completeness=medium AND freshness=high AND resources=high -> good; weight=1.000, firing=0.130317.
+R079: similarity=high AND completeness=high AND freshness=high AND resources=medium -> excellent; weight=1.000, firing=0.130317.
+R080: similarity=high AND completeness=high AND freshness=high AND resources=high -> excellent; weight=1.000, firing=0.130317.
+R040: similarity=medium AND completeness=medium AND freshness=medium AND resources=medium -> moderate; weight=1.000, firing=0.000850.
+R041: similarity=medium AND completeness=medium AND freshness=medium AND resources=high -> moderate; weight=1.000, firing=0.000850.
+R049: similarity=medium AND completeness=high AND freshness=medium AND resources=medium -> moderate; weight=1.000, firing=0.000850.
+R050: similarity=medium AND completeness=high AND freshness=medium AND resources=high -> good; weight=1.000, firing=0.000850.
+R067: similarity=high AND completeness=medium AND freshness=medium AND resources=medium -> good; weight=1.000, firing=0.000850.
+R068: similarity=high AND completeness=medium AND freshness=medium AND resources=high -> good; weight=1.000, firing=0.000850.
+R076: similarity=high AND completeness=high AND freshness=medium AND resources=medium -> good; weight=1.000, firing=0.000850.
+R077: similarity=high AND completeness=high AND freshness=medium AND resources=high -> excellent; weight=1.000, firing=0.000850.
+
+Dataset: Anzahl Beschäftigte nach Wirtschaftszweigen nach Gemeinden
+Reference date: 2026-03-06T23:59:59Z
+Metadata modified: 2026-03-06T13:21:40.707841 (0.4 days before reference).
+Resource count: 9 (download availability is not verified).
+Matched 'schweiz' in description.
+Matched 'statistik' in description.
+Mamdani centroid: 0.679828; linear score: 0.849677.
+Hybrid = 0.65 × centroid + 0.35 × linear = 0.739275 before lexical gate.
+Lexical gate: passed.
+R053: similarity=medium AND completeness=high AND freshness=high AND resources=high -> good; weight=1.000, firing=0.750000.
+R044: similarity=medium AND completeness=medium AND freshness=high AND resources=high -> moderate; weight=1.000, firing=0.250000.
+R071: similarity=high AND completeness=medium AND freshness=high AND resources=high -> good; weight=1.000, firing=0.127754.
+R080: similarity=high AND completeness=high AND freshness=high AND resources=high -> excellent; weight=1.000, firing=0.127754.
+R043: similarity=medium AND completeness=medium AND freshness=high AND resources=medium -> moderate; weight=1.000, firing=0.079495.
+R052: similarity=medium AND completeness=high AND freshness=high AND resources=medium -> good; weight=1.000, firing=0.079495.
+R070: similarity=high AND completeness=medium AND freshness=high AND resources=medium -> good; weight=1.000, firing=0.079495.
+R079: similarity=high AND completeness=high AND freshness=high AND resources=medium -> excellent; weight=1.000, firing=0.079495.
+R040: similarity=medium AND completeness=medium AND freshness=medium AND resources=medium -> moderate; weight=1.000, firing=0.000842.
+R041: similarity=medium AND completeness=medium AND freshness=medium AND resources=high -> moderate; weight=1.000, firing=0.000842.
+R049: similarity=medium AND completeness=high AND freshness=medium AND resources=medium -> moderate; weight=1.000, firing=0.000842.
+R050: similarity=medium AND completeness=high AND freshness=medium AND resources=high -> good; weight=1.000, firing=0.000842.
+R067: similarity=high AND completeness=medium AND freshness=medium AND resources=medium -> good; weight=1.000, firing=0.000842.
+R068: similarity=high AND completeness=medium AND freshness=medium AND resources=high -> good; weight=1.000, firing=0.000842.
+R076: similarity=high AND completeness=high AND freshness=medium AND resources=medium -> good; weight=1.000, firing=0.000842.
+R077: similarity=high AND completeness=high AND freshness=medium AND resources=high -> excellent; weight=1.000, firing=0.000842.

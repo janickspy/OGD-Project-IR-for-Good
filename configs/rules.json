@@ -1,0 +1,893 @@
+[
+  {
+    "id": "R000",
+    "if": {
+      "completeness": "low",
+      "freshness": "low",
+      "resources": "low",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R001",
+    "if": {
+      "completeness": "low",
+      "freshness": "low",
+      "resources": "medium",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R002",
+    "if": {
+      "completeness": "low",
+      "freshness": "low",
+      "resources": "high",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R003",
+    "if": {
+      "completeness": "low",
+      "freshness": "medium",
+      "resources": "low",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R004",
+    "if": {
+      "completeness": "low",
+      "freshness": "medium",
+      "resources": "medium",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R005",
+    "if": {
+      "completeness": "low",
+      "freshness": "medium",
+      "resources": "high",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R006",
+    "if": {
+      "completeness": "low",
+      "freshness": "high",
+      "resources": "low",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R007",
+    "if": {
+      "completeness": "low",
+      "freshness": "high",
+      "resources": "medium",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R008",
+    "if": {
+      "completeness": "low",
+      "freshness": "high",
+      "resources": "high",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R009",
+    "if": {
+      "completeness": "medium",
+      "freshness": "low",
+      "resources": "low",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R010",
+    "if": {
+      "completeness": "medium",
+      "freshness": "low",
+      "resources": "medium",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R011",
+    "if": {
+      "completeness": "medium",
+      "freshness": "low",
+      "resources": "high",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R012",
+    "if": {
+      "completeness": "medium",
+      "freshness": "medium",
+      "resources": "low",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R013",
+    "if": {
+      "completeness": "medium",
+      "freshness": "medium",
+      "resources": "medium",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R014",
+    "if": {
+      "completeness": "medium",
+      "freshness": "medium",
+      "resources": "high",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R015",
+    "if": {
+      "completeness": "medium",
+      "freshness": "high",
+      "resources": "low",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R016",
+    "if": {
+      "completeness": "medium",
+      "freshness": "high",
+      "resources": "medium",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R017",
+    "if": {
+      "completeness": "medium",
+      "freshness": "high",
+      "resources": "high",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R018",
+    "if": {
+      "completeness": "high",
+      "freshness": "low",
+      "resources": "low",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R019",
+    "if": {
+      "completeness": "high",
+      "freshness": "low",
+      "resources": "medium",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R020",
+    "if": {
+      "completeness": "high",
+      "freshness": "low",
+      "resources": "high",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R021",
+    "if": {
+      "completeness": "high",
+      "freshness": "medium",
+      "resources": "low",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R022",
+    "if": {
+      "completeness": "high",
+      "freshness": "medium",
+      "resources": "medium",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R023",
+    "if": {
+      "completeness": "high",
+      "freshness": "medium",
+      "resources": "high",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R024",
+    "if": {
+      "completeness": "high",
+      "freshness": "high",
+      "resources": "low",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R025",
+    "if": {
+      "completeness": "high",
+      "freshness": "high",
+      "resources": "medium",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R026",
+    "if": {
+      "completeness": "high",
+      "freshness": "high",
+      "resources": "high",
+      "similarity": "low"
+    },
+    "then": "very_low",
+    "weight": 1.0
+  },
+  {
+    "id": "R027",
+    "if": {
+      "completeness": "low",
+      "freshness": "low",
+      "resources": "low",
+      "similarity": "medium"
+    },
+    "then": "low",
+    "weight": 1.0
+  },
+  {
+    "id": "R028",
+    "if": {
+      "completeness": "low",
+      "freshness": "low",
+      "resources": "medium",
+      "similarity": "medium"
+    },
+    "then": "low",
+    "weight": 1.0
+  },
+  {
+    "id": "R029",
+    "if": {
+      "completeness": "low",
+      "freshness": "low",
+      "resources": "high",
+      "similarity": "medium"
+    },
+    "then": "low",
+    "weight": 1.0
+  },
+  {
+    "id": "R030",
+    "if": {
+      "completeness": "low",
+      "freshness": "medium",
+      "resources": "low",
+      "similarity": "medium"
+    },
+    "then": "low",
+    "weight": 1.0
+  },
+  {
+    "id": "R031",
+    "if": {
+      "completeness": "low",
+      "freshness": "medium",
+      "resources": "medium",
+      "similarity": "medium"
+    },
+    "then": "low",
+    "weight": 1.0
+  },
+  {
+    "id": "R032",
+    "if": {
+      "completeness": "low",
+      "freshness": "medium",
+      "resources": "high",
+      "similarity": "medium"
+    },
+    "then": "low",
+    "weight": 1.0
+  },
+  {
+    "id": "R033",
+    "if": {
+      "completeness": "low",
+      "freshness": "high",
+      "resources": "low",
+      "similarity": "medium"
+    },
+    "then": "low",
+    "weight": 1.0
+  },
+  {
+    "id": "R034",
+    "if": {
+      "completeness": "low",
+      "freshness": "high",
+      "resources": "medium",
+      "similarity": "medium"
+    },
+    "then": "low",
+    "weight": 1.0
+  },
+  {
+    "id": "R035",
+    "if": {
+      "completeness": "low",
+      "freshness": "high",
+      "resources": "high",
+      "similarity": "medium"
+    },
+    "then": "low",
+    "weight": 1.0
+  },
+  {
+    "id": "R036",
+    "if": {
+      "completeness": "medium",
+      "freshness": "low",
+      "resources": "low",
+      "similarity": "medium"
+    },
+    "then": "low",
+    "weight": 1.0
+  },
+  {
+    "id": "R037",
+    "if": {
+      "completeness": "medium",
+      "freshness": "low",
+      "resources": "medium",
+      "similarity": "medium"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R038",
+    "if": {
+      "completeness": "medium",
+      "freshness": "low",
+      "resources": "high",
+      "similarity": "medium"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R039",
+    "if": {
+      "completeness": "medium",
+      "freshness": "medium",
+      "resources": "low",
+      "similarity": "medium"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R040",
+    "if": {
+      "completeness": "medium",
+      "freshness": "medium",
+      "resources": "medium",
+      "similarity": "medium"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R041",
+    "if": {
+      "completeness": "medium",
+      "freshness": "medium",
+      "resources": "high",
+      "similarity": "medium"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R042",
+    "if": {
+      "completeness": "medium",
+      "freshness": "high",
+      "resources": "low",
+      "similarity": "medium"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R043",
+    "if": {
+      "completeness": "medium",
+      "freshness": "high",
+      "resources": "medium",
+      "similarity": "medium"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R044",
+    "if": {
+      "completeness": "medium",
+      "freshness": "high",
+      "resources": "high",
+      "similarity": "medium"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R045",
+    "if": {
+      "completeness": "high",
+      "freshness": "low",
+      "resources": "low",
+      "similarity": "medium"
+    },
+    "then": "low",
+    "weight": 1.0
+  },
+  {
+    "id": "R046",
+    "if": {
+      "completeness": "high",
+      "freshness": "low",
+      "resources": "medium",
+      "similarity": "medium"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R047",
+    "if": {
+      "completeness": "high",
+      "freshness": "low",
+      "resources": "high",
+      "similarity": "medium"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R048",
+    "if": {
+      "completeness": "high",
+      "freshness": "medium",
+      "resources": "low",
+      "similarity": "medium"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R049",
+    "if": {
+      "completeness": "high",
+      "freshness": "medium",
+      "resources": "medium",
+      "similarity": "medium"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R050",
+    "if": {
+      "completeness": "high",
+      "freshness": "medium",
+      "resources": "high",
+      "similarity": "medium"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R051",
+    "if": {
+      "completeness": "high",
+      "freshness": "high",
+      "resources": "low",
+      "similarity": "medium"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R052",
+    "if": {
+      "completeness": "high",
+      "freshness": "high",
+      "resources": "medium",
+      "similarity": "medium"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R053",
+    "if": {
+      "completeness": "high",
+      "freshness": "high",
+      "resources": "high",
+      "similarity": "medium"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R054",
+    "if": {
+      "completeness": "low",
+      "freshness": "low",
+      "resources": "low",
+      "similarity": "high"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R055",
+    "if": {
+      "completeness": "low",
+      "freshness": "low",
+      "resources": "medium",
+      "similarity": "high"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R056",
+    "if": {
+      "completeness": "low",
+      "freshness": "low",
+      "resources": "high",
+      "similarity": "high"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R057",
+    "if": {
+      "completeness": "low",
+      "freshness": "medium",
+      "resources": "low",
+      "similarity": "high"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R058",
+    "if": {
+      "completeness": "low",
+      "freshness": "medium",
+      "resources": "medium",
+      "similarity": "high"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R059",
+    "if": {
+      "completeness": "low",
+      "freshness": "medium",
+      "resources": "high",
+      "similarity": "high"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R060",
+    "if": {
+      "completeness": "low",
+      "freshness": "high",
+      "resources": "low",
+      "similarity": "high"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R061",
+    "if": {
+      "completeness": "low",
+      "freshness": "high",
+      "resources": "medium",
+      "similarity": "high"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R062",
+    "if": {
+      "completeness": "low",
+      "freshness": "high",
+      "resources": "high",
+      "similarity": "high"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R063",
+    "if": {
+      "completeness": "medium",
+      "freshness": "low",
+      "resources": "low",
+      "similarity": "high"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R064",
+    "if": {
+      "completeness": "medium",
+      "freshness": "low",
+      "resources": "medium",
+      "similarity": "high"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R065",
+    "if": {
+      "completeness": "medium",
+      "freshness": "low",
+      "resources": "high",
+      "similarity": "high"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R066",
+    "if": {
+      "completeness": "medium",
+      "freshness": "medium",
+      "resources": "low",
+      "similarity": "high"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R067",
+    "if": {
+      "completeness": "medium",
+      "freshness": "medium",
+      "resources": "medium",
+      "similarity": "high"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R068",
+    "if": {
+      "completeness": "medium",
+      "freshness": "medium",
+      "resources": "high",
+      "similarity": "high"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R069",
+    "if": {
+      "completeness": "medium",
+      "freshness": "high",
+      "resources": "low",
+      "similarity": "high"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R070",
+    "if": {
+      "completeness": "medium",
+      "freshness": "high",
+      "resources": "medium",
+      "similarity": "high"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R071",
+    "if": {
+      "completeness": "medium",
+      "freshness": "high",
+      "resources": "high",
+      "similarity": "high"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R072",
+    "if": {
+      "completeness": "high",
+      "freshness": "low",
+      "resources": "low",
+      "similarity": "high"
+    },
+    "then": "moderate",
+    "weight": 1.0
+  },
+  {
+    "id": "R073",
+    "if": {
+      "completeness": "high",
+      "freshness": "low",
+      "resources": "medium",
+      "similarity": "high"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R074",
+    "if": {
+      "completeness": "high",
+      "freshness": "low",
+      "resources": "high",
+      "similarity": "high"
+    },
+    "then": "excellent",
+    "weight": 1.0
+  },
+  {
+    "id": "R075",
+    "if": {
+      "completeness": "high",
+      "freshness": "medium",
+      "resources": "low",
+      "similarity": "high"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R076",
+    "if": {
+      "completeness": "high",
+      "freshness": "medium",
+      "resources": "medium",
+      "similarity": "high"
+    },
+    "then": "good",
+    "weight": 1.0
+  },
+  {
+    "id": "R077",
+    "if": {
+      "completeness": "high",
+      "freshness": "medium",
+      "resources": "high",
+      "similarity": "high"
+    },
+    "then": "excellent",
+    "weight": 1.0
+  },
+  {
+    "id": "R078",
+    "if": {
+      "completeness": "high",
+      "freshness": "high",
+      "resources": "low",
+      "similarity": "high"
+    },
+    "then": "excellent",
+    "weight": 1.0
+  },
+  {
+    "id": "R079",
+    "if": {
+      "completeness": "high",
+      "freshness": "high",
+      "resources": "medium",
+      "similarity": "high"
+    },
+    "then": "excellent",
+    "weight": 1.0
+  },
+  {
+    "id": "R080",
+    "if": {
+      "completeness": "high",
+      "freshness": "high",
+      "resources": "high",
+      "similarity": "high"
+    },
+    "then": "excellent",
+    "weight": 1.0
+  }
+]
