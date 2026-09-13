@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite this software separately from the predecessor thesis and its data."
+message: "Citation metadata for this software."
 title: "OGD Project: Transparent Ranking for IR for Good"
 type: software
 authors:
   - family-names: Spycher
     given-names: Janick
-version: 0.1.0
+version: 0.2.0
 license: MIT
 repository-code: "https://github.com/janickspy/OGD-Project-IR-for-Good"

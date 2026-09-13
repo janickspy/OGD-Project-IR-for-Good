@@ -1,8 +1,14 @@
-.PHONY: test research
+.PHONY: test research app semantic-research
 
 test:
-	PYTHONPATH=src python3 -m unittest discover -s tests -v
+	python3 -m pytest -q
+
+app:
+	python3 -m streamlit run app.py
 
 research:
 	PYTHONPATH=src python3 scripts/prepare_legacy.py
 	PYTHONPATH=src python3 scripts/run_research.py
+
+semantic-research:
+	python3 scripts/run_semantic_research.py

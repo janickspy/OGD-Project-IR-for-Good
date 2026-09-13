@@ -7,6 +7,7 @@ from ogd_ir.io import read_json,write_json
 from ogd_ir.model import Corpus
 from ogd_ir.config import default_config
 from ogd_ir.ranking import rules
+from ogd_ir.catalog import catalog_entry,normalize_live
 ROOT=Path(__file__).resolve().parents[1]
 COMMIT='307d454248182cf4221a15d5853ae337da7c7798'
 SOURCES={'corpus':'data/raw/ogd_metadata_20260306_183841.json','qrels':'evaluation/ground_truth_final.json'}
@@ -22,6 +23,12 @@ def main():
             raise ValueError('Source checksum mismatch: '+key)
     corpus=Corpus.load(cache/'corpus.json')
     write_json(ROOT/'data/legacy/corpus.json',[asdict(d) for d in corpus.datasets])
+    write_json(ROOT/'data/legacy/catalog.json',{row['id']:catalog_entry(row) for row in read_json(cache/'corpus.json')})
+    v2=Corpus([normalize_live(row)[0] for row in read_json(cache/'corpus.json')])
+    write_json(ROOT/'data/legacy/corpus_v2.json',[asdict(d) for d in v2.datasets])
+    write_json(ROOT/'data/legacy/normalization_v2.json',{'normalization':'ckan_labels_v2','source':manifest,
+        'historical_v1_hash':corpus.hash,'corpus_v2_hash':v2.hash,'dataset_ids_unchanged':set(corpus.by_id)==set(v2.by_id),
+        'changes':'Index human tag/theme labels instead of UUID/state metadata; organization name as publisher; retain dataset portal URLs. The v1 corpus remains unchanged for historical reproducibility.'})
     raw=read_json(cache/'qrels.json')
     queries=[]
     for qid,q in sorted(raw.items()):

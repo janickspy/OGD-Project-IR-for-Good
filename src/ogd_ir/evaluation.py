@@ -41,25 +41,31 @@ def metrics(order, judgments):
     return dict(map10=ap/positives if positives else 0., p5=sum(g>0 for g in grades[:5])/5,
                 ndcg10=dcg/ideal if ideal else 0., mrr10=rr)
 
-def evaluate(ranker, data, *, allow_unverified=False, mode='judged_pool'):
+def evaluate(ranker, data, *, allow_unverified=False, mode='judged_pool', semantic=None):
     validate_judgments(data, ranker.corpus)
     if data['status'] != 'verified' and not allow_unverified:
         raise ValueError('Historical labels are unverified; explicitly opt into legacy reanalysis')
     if mode not in ('judged_pool', 'full_corpus'): raise ValueError('Unknown evaluation mode')
+    if semantic is not None and semantic.corpus.hash != ranker.corpus.hash:
+        raise ValueError('Semantic and lexical corpus hashes differ')
+    systems = (*SYSTEMS, 'semantic') if semantic is not None else SYSTEMS
     rows = []; runs = {}
     for q in data['queries']:
         traces = ranker.rank(q['text'], candidates=q['judgments'] if mode=='judged_pool' else None,
                              limit=len(ranker.corpus.datasets), include_zero=mode=='judged_pool')
         runs[q['id']] = {}
-        for system in SYSTEMS:
-            order = [t['dataset_id'] for t in sorted(traces,key=lambda t:(-t['scores'][system], t['dataset_id']))][:10]
+        for system in systems:
+            if system == 'semantic':
+                order = [t['dataset_id'] for t in semantic.rank(q['text'], candidates=q['judgments'] if mode=='judged_pool' else None, limit=10)]
+            else:
+                order = [t['dataset_id'] for t in sorted(traces,key=lambda t:(-t['scores'][system], t['dataset_id']))][:10]
             runs[q['id']][system] = order
             rows.append(dict(query_id=q['id'],system=system,positive_count=sum(g>0 for g in q['judgments'].values()),
                              **metrics(order, q['judgments'])))
     aggregates = {}
     for subset in ('all_queries','positive_queries'):
         aggregates[subset] = {}
-        for system in SYSTEMS:
+        for system in systems:
             selected = [r for r in rows if r['system']==system and (subset=='all_queries' or r['positive_count']>0)]
             aggregates[subset][system] = {'n':len(selected)}
             for metric in METRICS:
@@ -69,7 +75,7 @@ def evaluate(ranker, data, *, allow_unverified=False, mode='judged_pool'):
                 aggregates[subset][system][metric] = {'mean':float(vals.mean()) if len(vals) else None,'bootstrap95':ci}
     # One prespecified family: all six pairwise comparisons for nDCG@10, all queries.
     tests = []
-    for a,b in combinations(SYSTEMS,2):
+    for a,b in combinations(systems,2):
         va=np.array([r['ndcg10'] for r in rows if r['system']==a]); vb=np.array([r['ndcg10'] for r in rows if r['system']==b])
         delta=va-vb
         p=float(wilcoxon(delta, method='approx', zero_method='wilcox').pvalue) if np.any(delta) else 1.
@@ -82,5 +88,6 @@ def evaluate(ranker, data, *, allow_unverified=False, mode='judged_pool'):
             'config_hash':ranker.policy_hash,'corpus_hash':ranker.corpus.hash,'judgments_hash':digest(data),
             'metric_policy':'AP@10 denominator: all known positive judgments; binary grade>0; nDCG gain 2^grade-1; P@5 denominator 5; unjudged results rejected',
             'uncertainty':'2000 query bootstrap samples, seed 2026; descriptive conditional on this small judgment pool',
-            'tests_policy':'Six paired two-sided Wilcoxon normal approximations, zero differences removed; Holm family nDCG@10/all queries. Exploratory, not equivalence tests.',
+            'tests_policy':f'{len(tests)} paired two-sided Wilcoxon normal approximations, zero differences removed; Holm family nDCG@10/all queries. Exploratory, not equivalence tests.',
+            'systems':list(systems),'semantic':semantic.metadata if semantic is not None else None,
             'aggregates':aggregates,'paired_tests':tests,'per_query':rows,'runs':runs}

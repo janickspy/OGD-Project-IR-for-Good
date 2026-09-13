@@ -15,7 +15,7 @@ def digest(value):
     return hashlib.sha256(canonical_bytes(value)).hexdigest()
 
 
-def read_json(path):
+def parse_json(text):
     def unique(pairs):
         out = {}
         for key, value in pairs:
@@ -23,8 +23,12 @@ def read_json(path):
                 raise ValueError(f"Duplicate JSON key: {key}")
             out[key] = value
         return out
-    return json.loads(Path(path).read_text(encoding="utf-8"), object_pairs_hook=unique,
+    return json.loads(text, object_pairs_hook=unique,
                       parse_constant=lambda x: (_ for _ in ()).throw(ValueError(x)))
+
+
+def read_json(path):
+    return parse_json(Path(path).read_text(encoding="utf-8"))
 
 
 def write_json(path, value):

@@ -1,0 +1,30 @@
+{
+  "limits": [
+    "Live CKAN integration was not verified: the endpoint returned HTTP 403 during validation. Pagination, resume and failure handling were tested with API test doubles.",
+    "The optional OpenAI integration was not tested against the live service.",
+    "Interface workflows were tested with AppTest, not a graphical cross-browser inspection.",
+    "Historical relevance labels remain inherited_unverified. The bundled results contain no new participant observations or independent relevance assessments."
+  ],
+  "preservation": {
+    "dataset_ids": 500,
+    "judgments": 150,
+    "original_corpus_and_judgments_unchanged": true,
+    "queries": 15
+  },
+  "real_semantic_interface_smoke": "passed: MiniLM inference, query submission, semantic method selection and ten result cards through Streamlit AppTest",
+  "reanalyses": [
+    "legacy_reanalysis.json",
+    "semantic_reanalysis.json",
+    "application_reanalysis.json"
+  ],
+  "source_hash": "0cc062235e11ba5b02575ae1fdb2f3a8d246b6b6847d034da9e1332349fb9db5",
+  "tests": {
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "27",
+    "time": "5.492"
+  },
+  "validated_at": "2026-09-12T06:16:26.709477+00:00",
+  "version": "0.2.0"
+}
