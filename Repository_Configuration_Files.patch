@@ -1,0 +1,58 @@
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,11 @@
++.venv/
++__pycache__/
++*.py[cod]
++*.egg-info/
++.pytest_cache/
++.DS_Store
++data/local/
++.env
++.streamlit/secrets.toml
++build/
++dist/
+diff --git a/.streamlit/config.toml b/.streamlit/config.toml
+new file mode 100644
+--- /dev/null
++++ b/.streamlit/config.toml
+@@ -0,0 +1,13 @@
++[theme]
++primaryColor = "#116A70"
++backgroundColor = "#FFFFFF"
++secondaryBackgroundColor = "#F2F5F5"
++textColor = "#183136"
++font = "sans serif"
++
++[server]
++address = "127.0.0.1"
++headless = true
++
++[browser]
++gatherUsageStats = false
+diff --git a/.github/workflows/tests.yml b/.github/workflows/tests.yml
+new file mode 100644
+--- /dev/null
++++ b/.github/workflows/tests.yml
+@@ -0,0 +1,19 @@
++name: Application checks
++on: [push, pull_request]
++permissions:
++  contents: read
++jobs:
++  test:
++    runs-on: ubuntu-latest
++    strategy:
++      matrix:
++        python: ['3.11', '3.12']
++    steps:
++      - uses: actions/checkout@v4
++      - uses: actions/setup-python@v5
++        with:
++          python-version: ${{ matrix.python }}
++          cache: pip
++      - run: python -m pip install -e '.[app,dev]'
++      - run: python -m pytest -q
++      - run: python scripts/run_research.py
