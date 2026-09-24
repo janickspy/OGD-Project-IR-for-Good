@@ -1,0 +1,177 @@
+{
+  "intervention": "One additional resource, other feature values held fixed",
+  "tested_pairs": 150,
+  "decreases": 8,
+  "examples": [
+    {
+      "query_id": "MOB-03",
+      "dataset_id": "1908a13b-73c5-40bc-8c01-9cfc8c853136",
+      "resources_before": 5,
+      "score_before": 0.5703682071096413,
+      "score_after": 0.5700476065494331,
+      "delta": -0.00032060056020821737
+    },
+    {
+      "query_id": "MOB-03",
+      "dataset_id": "2f73d61c-34c9-4c0f-98eb-c4eecb88b084",
+      "resources_before": 5,
+      "score_before": 0.5688344200311749,
+      "score_after": 0.5677582845474655,
+      "delta": -0.0010761354837094395
+    },
+    {
+      "query_id": "MOB-03",
+      "dataset_id": "3fa88fed-4af7-4cfd-8c01-7655811e5279",
+      "resources_before": 5,
+      "score_before": 0.5703684254762873,
+      "score_after": 0.5700478249160791,
+      "delta": -0.00032060056020821737
+    },
+    {
+      "query_id": "MOB-03",
+      "dataset_id": "700bf5e2-a6ef-4a9a-8530-5d3879934357",
+      "resources_before": 5,
+      "score_before": 0.5645363156322625,
+      "score_after": 0.5614872212884086,
+      "delta": -0.0030490943438539198
+    },
+    {
+      "query_id": "MOB-03",
+      "dataset_id": "9fa0c39c-c702-46aa-b380-8a3953d93e06",
+      "resources_before": 5,
+      "score_before": 0.5703685602973324,
+      "score_after": 0.5700479597371242,
+      "delta": -0.00032060056020821737
+    },
+    {
+      "query_id": "MOB-03",
+      "dataset_id": "bdcce409-c128-47f5-891f-7f33da2ae1a1",
+      "resources_before": 5,
+      "score_before": 0.5701619493721128,
+      "score_after": 0.5697382419857491,
+      "delta": -0.0004237073863637697
+    },
+    {
+      "query_id": "MOB-03",
+      "dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+      "resources_before": 5,
+      "score_before": 0.5623635216628597,
+      "score_after": 0.5583922532013814,
+      "delta": -0.003971268461478328
+    },
+    {
+      "query_id": "MOB-03",
+      "dataset_id": "ff2e4ea7-5ffb-4cdd-8d44-0ed0b5d3a8d8",
+      "resources_before": 5,
+      "score_before": 0.5703685211585499,
+      "score_after": 0.5700479205983415,
+      "delta": -0.0003206005602083284
+    }
+  ],
+  "figure": {
+    "query_id": "MOB-03",
+    "dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+    "title": "Statistisches Jahrbuch der Schweiz 2006 Statistical Yearbook of Switzerland 2006 Annuaire statistique de la Suisse 2006 Annuario statistico della Svizzera 2006",
+    "fixed_features": {
+      "similarity": 0.19698815109293125,
+      "completeness": 0.875,
+      "freshness": 0.9995751789231042,
+      "resources": 0.7472217363092141
+    },
+    "rows": [
+      {
+        "resources": 3,
+        "A": 0.5781296526357756,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.6624232456629527,
+        "hybrid": 0.5379716860482525
+      },
+      {
+        "resources": 4,
+        "A": 0.6711877414712396,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.6856877678718187,
+        "hybrid": 0.5461142688213556
+      },
+      {
+        "resources": 5,
+        "A": 0.7472217363092141,
+        "mamdani": 0.48572281286061597,
+        "linear": 0.7046962665813123,
+        "hybrid": 0.5623635216628597
+      },
+      {
+        "resources": 6,
+        "A": 0.8115075629572489,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.7207677232433211,
+        "hybrid": 0.5583922532013814
+      },
+      {
+        "resources": 7,
+        "A": 0.8671944789536634,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.7346894522424247,
+        "hybrid": 0.5632648583510677
+      },
+      {
+        "resources": 8,
+        "A": 0.9163138199826525,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.746969287499672,
+        "hybrid": 0.5675628006911042
+      },
+      {
+        "resources": 9,
+        "A": 0.9602525677891275,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.7579539744512906,
+        "hybrid": 0.5714074411241707
+      },
+      {
+        "resources": 10,
+        "A": 1.0,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.7678908325040088,
+        "hybrid": 0.574885341442622
+      },
+      {
+        "resources": 11,
+        "A": 1.0,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.7678908325040088,
+        "hybrid": 0.574885341442622
+      },
+      {
+        "resources": 12,
+        "A": 1.0,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.7678908325040088,
+        "hybrid": 0.574885341442622
+      },
+      {
+        "resources": 13,
+        "A": 1.0,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.7678908325040088,
+        "hybrid": 0.574885341442622
+      },
+      {
+        "resources": 14,
+        "A": 1.0,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.7678908325040088,
+        "hybrid": 0.574885341442622
+      },
+      {
+        "resources": 15,
+        "A": 1.0,
+        "mamdani": 0.47095930779418316,
+        "linear": 0.7678908325040088,
+        "hybrid": 0.574885341442622
+      }
+    ]
+  },
+  "config_hash": "f608008928603527d4ed19157e5f229f58b5f2a5a94365c4548102dd8c97e189",
+  "corpus_hash": "7adc2298b65d200004a3beb1cf55e22f873487b1f2069bb675af92bc41c9ee09"
+}

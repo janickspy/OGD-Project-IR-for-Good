@@ -1,0 +1,777 @@
+[
+  {
+    "item": "iefeb0e05",
+    "grade": 0,
+    "reason": "Employment counts by economic sector and municipality; no environmental content."
+  },
+  {
+    "item": "i9ae8b730",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "id12c9aab",
+    "grade": 0,
+    "reason": "Parking space occupancy data; unrelated to the topic."
+  },
+  {
+    "item": "i15141638",
+    "grade": 2,
+    "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+    "item": "i20d83d34",
+    "grade": 0,
+    "reason": "COVID-19 case statistics; unrelated to the topic."
+  },
+  {
+    "item": "id72c0dfb",
+    "grade": 0,
+    "reason": "Motor vehicle traffic counts; no air pollutant or emissions data indicated."
+  },
+  {
+    "item": "i394a72af",
+    "grade": 2,
+    "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+    "item": "i1b3cd62d",
+    "grade": 0,
+    "reason": "COVID-19 case statistics; unrelated to the topic."
+  },
+  {
+    "item": "id313a5ba",
+    "grade": 1,
+    "reason": "Weather station data (temperature, precipitation); a neighbouring environmental subject but contains no air pollutant measurements."
+  },
+  {
+    "item": "id66270bd",
+    "grade": 2,
+    "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+    "item": "i99c67d1d",
+    "grade": 0,
+    "reason": "Archaeological find reports in Thurgau; unrelated to the topic."
+  },
+  {
+    "item": "i22f451f2",
+    "grade": 2,
+    "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+    "item": "i12d1adaf",
+    "grade": 0,
+    "reason": "School community financial indicators; unrelated to the topic."
+  },
+  {
+    "item": "i8e756a11",
+    "grade": 2,
+    "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+    "item": "i174925a7",
+    "grade": 0,
+    "reason": "School community financial indicators; unrelated to the topic."
+  },
+  {
+    "item": "ic73094aa",
+    "grade": 0,
+    "reason": "COVID-19 case statistics; unrelated to the topic."
+  },
+  {
+    "item": "i4d8b363a",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "if3fbed4e",
+    "grade": 1,
+    "reason": "Weather station data (temperature, precipitation); a neighbouring environmental subject but contains no air pollutant measurements."
+  },
+  {
+    "item": "i22889f70",
+    "grade": 0,
+    "reason": "List of current cantonal parliament members; unrelated to the topic."
+  },
+  {
+    "item": "i92eb7793",
+    "grade": 0,
+    "reason": "Municipal fiscal equalization payments; unrelated to the topic."
+  },
+  {
+    "item": "ice72757f",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+    "item": "ia148c604",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i68ee474a",
+    "grade": 1,
+    "reason": "Weather station data (temperature, precipitation); a neighbouring environmental subject but contains no air pollutant measurements."
+  },
+  {
+    "item": "i640f75a0",
+    "grade": 0,
+    "reason": "Motor vehicle traffic counts; no air pollutant or emissions data indicated."
+  },
+  {
+    "item": "i8eb72f35",
+    "grade": 2,
+    "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+    "item": "i89fc65b7",
+    "grade": 0,
+    "reason": "School community financial indicators; unrelated to the topic."
+  },
+  {
+    "item": "i32c2eb36",
+    "grade": 0,
+    "reason": "School community financial indicators; unrelated to the topic."
+  },
+  {
+    "item": "i1c6e1d13",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+    "item": "i5d877d63",
+    "grade": 2,
+    "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+    "item": "ie57a0043",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i8daf82f5",
+    "grade": 0,
+    "reason": "Parking space occupancy data; unrelated to the topic."
+  },
+  {
+    "item": "i64207b39",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ia9f05259",
+    "grade": 0,
+    "reason": "Motor vehicle traffic counts; no air pollutant or emissions data indicated."
+  },
+  {
+    "item": "i583ba8c7",
+    "grade": 0,
+    "reason": "Youth sports programme participation figures; unrelated to the topic."
+  },
+  {
+    "item": "i0465aa61",
+    "grade": 0,
+    "reason": "Directory of localities with population counts; unrelated to the topic."
+  },
+  {
+    "item": "i7ed51f48",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i025ca98b",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i10aebba1",
+    "grade": 0,
+    "reason": "Archaeological find reports in Thurgau; unrelated to the topic."
+  },
+  {
+    "item": "id2a6486a",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i4454d9a2",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i119e0e5c",
+    "grade": 0,
+    "reason": "Aircraft noise monitoring data; addresses noise, not this topic."
+  },
+  {
+    "item": "i21e97723",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+    "item": "i63295cb7",
+    "grade": 0,
+    "reason": "Record of municipal boundary and name changes; unrelated to the topic."
+  },
+  {
+    "item": "ie8506c90",
+    "grade": 0,
+    "reason": "Chemical water quality data; no species, biodiversity, climate or emissions content indicated."
+  },
+  {
+    "item": "i45bea0bb",
+    "grade": 0,
+    "reason": "Historical photograph collection of Swiss buildings; unrelated to the topic."
+  },
+  {
+    "item": "ia95e97aa",
+    "grade": 0,
+    "reason": "Employment counts by economic sector and municipality; no environmental content."
+  },
+  {
+    "item": "icaf73775",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+    "item": "i2b2e6ff3",
+    "grade": 0,
+    "reason": "Building land price statistics; unrelated to the topic."
+  },
+  {
+    "item": "i55f8a285",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "iee6680f9",
+    "grade": 0,
+    "reason": "Year-2000 census of buildings and dwellings; unrelated to the topic."
+  },
+  {
+    "item": "i6d543246",
+    "grade": 0,
+    "reason": "Year-2000 census by language, religion and nationality; unrelated to the topic."
+  },
+  {
+    "item": "i39cd9df3",
+    "grade": 0,
+    "reason": "Motor vehicle traffic counts; no air pollutant or emissions data indicated."
+  },
+  {
+    "item": "i8b3dd368",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ifdc32fdd",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ie8f57ccc",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i069dc852",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i89b10327",
+    "grade": 0,
+    "reason": "Historical photograph collection of Swiss buildings; unrelated to the topic."
+  },
+  {
+    "item": "iaa168857",
+    "grade": 0,
+    "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+    "item": "ie5431434",
+    "grade": 0,
+    "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+    "item": "ifb9c3732",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i3b28593c",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "iad476ae0",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i8824bebd",
+    "grade": 0,
+    "reason": "Aircraft noise monitoring data; addresses noise, not this topic."
+  },
+  {
+    "item": "i88af3fa4",
+    "grade": 0,
+    "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+    "item": "ie9ca5dfd",
+    "grade": 0,
+    "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+    "item": "i727fb783",
+    "grade": 0,
+    "reason": "Archaeological find reports in Thurgau; unrelated to the topic."
+  },
+  {
+    "item": "i0ce88a4d",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i529c1791",
+    "grade": 0,
+    "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+    "item": "i2e591abf",
+    "grade": 0,
+    "reason": "Building land price statistics; unrelated to the topic."
+  },
+  {
+    "item": "i0fc5313d",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i8d1d5a71",
+    "grade": 2,
+    "reason": "Reports chemical water quality measurements for Lake Constance and the Thur and Murg rivers, directly matching the water quality need."
+  },
+  {
+    "item": "i3ea1d807",
+    "grade": 0,
+    "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+    "item": "i5d1c0f56",
+    "grade": 0,
+    "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+    "item": "ie9f1a100",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+    "item": "if5ad0301",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+    "item": "i3ccb7520",
+    "grade": 0,
+    "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+    "item": "ieb5cdeb8",
+    "grade": 0,
+    "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+    "item": "if679198d",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i35386db5",
+    "grade": 0,
+    "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+    "item": "i4800b31b",
+    "grade": 0,
+    "reason": "Employment counts by economic sector and municipality; no environmental content."
+  },
+  {
+    "item": "i23e9395f",
+    "grade": 0,
+    "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+    "item": "ia0485fc6",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ib03c018c",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i2803b89d",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i457f3ed0",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i7d5b1c00",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ida9cea54",
+    "grade": 0,
+    "reason": "Record of municipal boundary and name changes; unrelated to the topic."
+  },
+  {
+    "item": "i8f4f502a",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ia7228c40",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ia55cd0dc",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "icf27cc35",
+    "grade": 0,
+    "reason": "Directory of localities with population counts; unrelated to the topic."
+  },
+  {
+    "item": "i2530229e",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "icc75f8ad",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i40d301e7",
+    "grade": 0,
+    "reason": "Archaeological find reports in Thurgau; unrelated to the topic."
+  },
+  {
+    "item": "if06bdbdb",
+    "grade": 0,
+    "reason": "Employment counts by economic sector and municipality; no environmental content."
+  },
+  {
+    "item": "i2a90140b",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i0fe1ed18",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i3c36c4dd",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i26f1a15f",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+    "item": "i689e5147",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i7c05cba0",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i6d223007",
+    "grade": 0,
+    "reason": "Youth sports programme participation figures; unrelated to the topic."
+  },
+  {
+    "item": "i3294580b",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i9d63020d",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i990f954e",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+    "item": "i54321c97",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "iea33923d",
+    "grade": 0,
+    "reason": "Historical photograph collection of Swiss buildings; unrelated to the topic."
+  },
+  {
+    "item": "i49d3a0fd",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "iac3e4b9e",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i4f54ba73",
+    "grade": 0,
+    "reason": "Year-2000 census of employment and education; unrelated to the topic."
+  },
+  {
+    "item": "iab5aeba7",
+    "grade": 0,
+    "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+    "item": "i457c63a4",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ieaed2dcf",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ib328d29a",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ifcf3fcd0",
+    "grade": 0,
+    "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+    "item": "if6d9ec92",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i6ed837b6",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ib2586e31",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "iadb4639a",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i7424054c",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i49575234",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i91e4471a",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i92a147c1",
+    "grade": 0,
+    "reason": "Archaeological find reports in Thurgau; unrelated to the topic."
+  },
+  {
+    "item": "iecd6110c",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+    "item": "ib64e65b9",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ia215a142",
+    "grade": 0,
+    "reason": "Chemical water quality data; no species, biodiversity, climate or emissions content indicated."
+  },
+  {
+    "item": "i7661ea99",
+    "grade": 0,
+    "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+    "item": "i7b32f4e0",
+    "grade": 0,
+    "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+    "item": "id49fb98d",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "if4653f16",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i527a460d",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i0a1c7e55",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i7d30d32b",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ide42c17f",
+    "grade": 0,
+    "reason": "Year-2000 census of buildings and dwellings; unrelated to the topic."
+  },
+  {
+    "item": "i12a3b5b3",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "iaab67df6",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i6d3c6ced",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ibd4bd4d3",
+    "grade": 0,
+    "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+    "item": "ifdc0b1fc",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i529f77b8",
+    "grade": 0,
+    "reason": "Directory of localities with population counts; unrelated to the topic."
+  },
+  {
+    "item": "i65a52731",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+    "item": "ic55ad5d2",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i03417db8",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i15d717b6",
+    "grade": 0,
+    "reason": "Commercial register of registered companies; unrelated to the topic."
+  },
+  {
+    "item": "i737710d1",
+    "grade": 0,
+    "reason": "Youth sports programme participation figures; unrelated to the topic."
+  },
+  {
+    "item": "i214a2943",
+    "grade": 0,
+    "reason": "Employment counts by economic sector and municipality; no environmental content."
+  },
+  {
+    "item": "ie2f95b7e",
+    "grade": 0,
+    "reason": "Record of municipal boundary and name changes; unrelated to the topic."
+  },
+  {
+    "item": "i7e992af0",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i09991f54",
+    "grade": 0,
+    "reason": "Year-2000 census of employment and education; unrelated to the topic."
+  },
+  {
+    "item": "ic63cae26",
+    "grade": 0,
+    "reason": "Historical photograph collection of Swiss buildings; unrelated to the topic."
+  },
+  {
+    "item": "ice74cfa6",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ib1a16fbe",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "ibd8b07fb",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i145fb6e2",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+    "item": "i077088c7",
+    "grade": 0,
+    "reason": "Parking space occupancy data; unrelated to the topic."
+  }
+]

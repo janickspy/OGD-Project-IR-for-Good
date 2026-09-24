@@ -1,0 +1,7 @@
+{
+  "traces": 150,
+  "max_strength_error": 0.0,
+  "max_centroid_error_from_recorded_rules": 0.0,
+  "max_hybrid_error": 0.0,
+  "semantic_pooled_orders_reproduced": "15/15"
+}

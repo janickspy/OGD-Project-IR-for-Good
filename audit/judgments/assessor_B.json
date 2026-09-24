@@ -1,0 +1,3172 @@
+{
+ "assessor": "B",
+ "assessor_type": "large language model",
+ "model": "Claude Sonnet 5 (Anthropic)",
+ "model_id": "claude-sonnet-5",
+ "date": "2026-09-23",
+ "scale": "0 = not relevant, 1 = marginally relevant, 2 = relevant (see guideline.md)",
+ "guideline": "audit/judgments/guideline.md",
+ "input": "Topic query and information need, and the catalogue metadata rendered by audit/build_judgment_pool.py. No system names, ranks, scores or existing labels were shown.",
+ "procedure": "Three batches by topic domain (ENV, MOB, XD), each judged in a separate session in which the assessor was instructed to read only the guideline and its batch file (batch_B_*.md) and to use no other files or web sources; item order shuffled within each topic (seed 2203). Run as tool-using agents; sampling parameters were not set explicitly.",
+ "pairs": 451,
+ "judgments": [
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "02cd7112-5173-4604-b1b4-de5807d610ba",
+   "item": "id72c0dfb",
+   "grade": 0,
+   "reason": "Motor vehicle traffic counts; no air pollutant or emissions data indicated."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "0a4e1c99-9944-4a15-93b6-a2798b3daa87",
+   "item": "i68ee474a",
+   "grade": 1,
+   "reason": "Weather station data (temperature, precipitation); a neighbouring environmental subject but contains no air pollutant measurements."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "0c8b2a1e-9ccc-43aa-8b6c-345c2e17fc76",
+   "item": "id12c9aab",
+   "grade": 0,
+   "reason": "Parking space occupancy data; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "181395a8-080e-47b1-ac16-5105f3676145",
+   "item": "i22889f70",
+   "grade": 0,
+   "reason": "List of current cantonal parliament members; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "38298bea-afbd-4366-ba58-288a68ffff33",
+   "item": "i92eb7793",
+   "grade": 0,
+   "reason": "Municipal fiscal equalization payments; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "3bb70e80-411a-49f8-b526-063d204a0347",
+   "item": "i22f451f2",
+   "grade": 2,
+   "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "3bbc26a7-91b1-4cbf-bcf8-7ce9f20bc71f",
+   "item": "id66270bd",
+   "grade": 2,
+   "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "4c8a5346-b06f-465d-a0d9-0ae87520edc6",
+   "item": "ic73094aa",
+   "grade": 0,
+   "reason": "COVID-19 case statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "553e4c63-bafb-4a4c-b2f6-efcc5600cb06",
+   "item": "i8e756a11",
+   "grade": 2,
+   "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "59b3d25c-ad8d-4cdb-be67-deb1325499a3",
+   "item": "i89fc65b7",
+   "grade": 0,
+   "reason": "School community financial indicators; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+   "item": "iefeb0e05",
+   "grade": 0,
+   "reason": "Employment counts by economic sector and municipality; no environmental content."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "5e6e0d57-df6a-41c1-94d3-de8597e1603e",
+   "item": "id313a5ba",
+   "grade": 1,
+   "reason": "Weather station data (temperature, precipitation); a neighbouring environmental subject but contains no air pollutant measurements."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "673777ca-ca92-439c-a2e5-3ea9981ff596",
+   "item": "i640f75a0",
+   "grade": 0,
+   "reason": "Motor vehicle traffic counts; no air pollutant or emissions data indicated."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "700bf5e2-a6ef-4a9a-8530-5d3879934357",
+   "item": "i9ae8b730",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "74036f9a-f906-4c44-91cb-03e45e241514",
+   "item": "i12d1adaf",
+   "grade": 0,
+   "reason": "School community financial indicators; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "81e3b6f6-773a-42df-9e6a-1d566de250c3",
+   "item": "i394a72af",
+   "grade": 2,
+   "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "93e2578b-4c56-44d1-bf13-3d74b5f7fdc5",
+   "item": "i32c2eb36",
+   "grade": 0,
+   "reason": "School community financial indicators; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "98310e8a-e93e-4aa9-825e-b2b7c7d600f7",
+   "item": "i5d877d63",
+   "grade": 2,
+   "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "9f2dfb35-285b-463a-9f7b-bf43a23a25c7",
+   "item": "i20d83d34",
+   "grade": 0,
+   "reason": "COVID-19 case statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "a8131cb3-7033-4983-ba59-c3d8fdd846b2",
+   "item": "i1b3cd62d",
+   "grade": 0,
+   "reason": "COVID-19 case statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "b67a9abf-3cb2-4756-a965-9dc5b99e836d",
+   "item": "i174925a7",
+   "grade": 0,
+   "reason": "School community financial indicators; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "c3dcb648-954a-4961-9e15-84518226736b",
+   "item": "i99c67d1d",
+   "grade": 0,
+   "reason": "Archaeological find reports in Thurgau; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "c9d4d947-a839-4ea9-96eb-864d530fe24c",
+   "item": "ia148c604",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "da47a8d2-3b59-4c2d-a842-5e5129c22361",
+   "item": "i8eb72f35",
+   "grade": 2,
+   "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "i1c6e1d13",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "ed8535f8-166f-4e79-acaa-fffc4c06ff91",
+   "item": "i15141638",
+   "grade": 2,
+   "reason": "Directly reports air pollutant measurements (NO2, PM10, O3) for a Swiss monitoring station, matching the air quality information need."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+   "item": "i4d8b363a",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "fcede821-522c-44a0-8d55-42ca754c6677",
+   "item": "if3fbed4e",
+   "grade": 1,
+   "reason": "Weather station data (temperature, precipitation); a neighbouring environmental subject but contains no air pollutant measurements."
+  },
+  {
+   "query_id": "ENV-01",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "ice72757f",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "02cd7112-5173-4604-b1b4-de5807d610ba",
+   "item": "ia9f05259",
+   "grade": 0,
+   "reason": "Motor vehicle traffic counts; no air pollutant or emissions data indicated."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "15a5ab3e-e6f4-4576-a8b5-6027b7f5df4c",
+   "item": "i0465aa61",
+   "grade": 0,
+   "reason": "Directory of localities with population counts; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "1908a13b-73c5-40bc-8c01-9cfc8c853136",
+   "item": "i8b3dd368",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "2f73d61c-34c9-4c0f-98eb-c4eecb88b084",
+   "item": "i64207b39",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "3f8295e7-6758-44a9-b1b5-6cabfa5241e5",
+   "item": "i45bea0bb",
+   "grade": 0,
+   "reason": "Historical photograph collection of Swiss buildings; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "3fa88fed-4af7-4cfd-8c01-7655811e5279",
+   "item": "i55f8a285",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+   "item": "ia95e97aa",
+   "grade": 0,
+   "reason": "Employment counts by economic sector and municipality; no environmental content."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "673777ca-ca92-439c-a2e5-3ea9981ff596",
+   "item": "i39cd9df3",
+   "grade": 0,
+   "reason": "Motor vehicle traffic counts; no air pollutant or emissions data indicated."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "700bf5e2-a6ef-4a9a-8530-5d3879934357",
+   "item": "i025ca98b",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "7b3d08ac-8071-4c44-b0fe-7941262b16bb",
+   "item": "i583ba8c7",
+   "grade": 0,
+   "reason": "Youth sports programme participation figures; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "86b02b11-1860-422c-b734-916b7cd15ed2",
+   "item": "i8daf82f5",
+   "grade": 0,
+   "reason": "Parking space occupancy data; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "9fa0c39c-c702-46aa-b380-8a3953d93e06",
+   "item": "ie57a0043",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "ad8aa304-fc02-4139-aa90-67ea479430f7",
+   "item": "iee6680f9",
+   "grade": 0,
+   "reason": "Year-2000 census of buildings and dwellings; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "b317dee9-2e0c-499c-842a-aaeddd0d2255",
+   "item": "i2b2e6ff3",
+   "grade": 0,
+   "reason": "Building land price statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "bdcce409-c128-47f5-891f-7f33da2ae1a1",
+   "item": "i7ed51f48",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "c3dcb648-954a-4961-9e15-84518226736b",
+   "item": "i10aebba1",
+   "grade": 0,
+   "reason": "Archaeological find reports in Thurgau; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "d6c51cda-1861-4aab-b72b-103311cc2bb9",
+   "item": "i63295cb7",
+   "grade": 0,
+   "reason": "Record of municipal boundary and name changes; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "icaf73775",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "f5d4b068-3f63-4cc2-ba6a-2d793a0db2c9",
+   "item": "i119e0e5c",
+   "grade": 0,
+   "reason": "Aircraft noise monitoring data; addresses noise, not this topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "f8b84e99-95df-4b13-b19f-1d159244c9da",
+   "item": "ie8506c90",
+   "grade": 0,
+   "reason": "Chemical water quality data; no species, biodiversity, climate or emissions content indicated."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+   "item": "id2a6486a",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "fcf2f645-6217-4c92-a4e4-08881e21302b",
+   "item": "i6d543246",
+   "grade": 0,
+   "reason": "Year-2000 census by language, religion and nationality; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "i21e97723",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-02",
+   "dataset_id": "ff2e4ea7-5ffb-4cdd-8d44-0ed0b5d3a8d8",
+   "item": "i4454d9a2",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "1908a13b-73c5-40bc-8c01-9cfc8c853136",
+   "item": "ie8f57ccc",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "2f73d61c-34c9-4c0f-98eb-c4eecb88b084",
+   "item": "i3b28593c",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "3a8e485f-b184-48f3-9d60-fda4a7d1388f",
+   "item": "i529c1791",
+   "grade": 0,
+   "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "3bb70e80-411a-49f8-b526-063d204a0347",
+   "item": "i3ccb7520",
+   "grade": 0,
+   "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "3bbc26a7-91b1-4cbf-bcf8-7ce9f20bc71f",
+   "item": "i88af3fa4",
+   "grade": 0,
+   "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "3f8295e7-6758-44a9-b1b5-6cabfa5241e5",
+   "item": "i89b10327",
+   "grade": 0,
+   "reason": "Historical photograph collection of Swiss buildings; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "3fa88fed-4af7-4cfd-8c01-7655811e5279",
+   "item": "i069dc852",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "553e4c63-bafb-4a4c-b2f6-efcc5600cb06",
+   "item": "ieb5cdeb8",
+   "grade": 0,
+   "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+   "item": "i4800b31b",
+   "grade": 0,
+   "reason": "Employment counts by economic sector and municipality; no environmental content."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "700bf5e2-a6ef-4a9a-8530-5d3879934357",
+   "item": "ifb9c3732",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "81e3b6f6-773a-42df-9e6a-1d566de250c3",
+   "item": "ie9ca5dfd",
+   "grade": 0,
+   "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "98310e8a-e93e-4aa9-825e-b2b7c7d600f7",
+   "item": "iaa168857",
+   "grade": 0,
+   "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "9fa0c39c-c702-46aa-b380-8a3953d93e06",
+   "item": "if679198d",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "a4ee794f-b4fb-4e50-a23a-4e911419bb02",
+   "item": "i3ea1d807",
+   "grade": 0,
+   "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "b317dee9-2e0c-499c-842a-aaeddd0d2255",
+   "item": "i2e591abf",
+   "grade": 0,
+   "reason": "Building land price statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "bdcce409-c128-47f5-891f-7f33da2ae1a1",
+   "item": "iad476ae0",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "c3dcb648-954a-4961-9e15-84518226736b",
+   "item": "i727fb783",
+   "grade": 0,
+   "reason": "Archaeological find reports in Thurgau; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "c9d4d947-a839-4ea9-96eb-864d530fe24c",
+   "item": "ifdc32fdd",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "da47a8d2-3b59-4c2d-a842-5e5129c22361",
+   "item": "ie5431434",
+   "grade": 0,
+   "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "if5ad0301",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b",
+   "item": "i5d1c0f56",
+   "grade": 0,
+   "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "ed8535f8-166f-4e79-acaa-fffc4c06ff91",
+   "item": "i35386db5",
+   "grade": 0,
+   "reason": "Air pollutant measurement dataset; addresses air quality, not water quality."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "f5d4b068-3f63-4cc2-ba6a-2d793a0db2c9",
+   "item": "i8824bebd",
+   "grade": 0,
+   "reason": "Aircraft noise monitoring data; addresses noise, not this topic."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "f8b84e99-95df-4b13-b19f-1d159244c9da",
+   "item": "i8d1d5a71",
+   "grade": 2,
+   "reason": "Reports chemical water quality measurements for Lake Constance and the Thur and Murg rivers, directly matching the water quality need."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+   "item": "i0ce88a4d",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "ie9f1a100",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-03",
+   "dataset_id": "ff2e4ea7-5ffb-4cdd-8d44-0ed0b5d3a8d8",
+   "item": "i0fc5313d",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "02d6cd0d-9e7e-4928-9851-9c11d3a93eec",
+   "item": "ia0485fc6",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "06703fee-1f6a-438a-9290-bbb5ac6d3a25",
+   "item": "i54321c97",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "0696e2f6-b74a-4827-aff4-67fcb2ef101f",
+   "item": "i3294580b",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "089d90e4-0160-48cf-b687-8da5d77ff1e5",
+   "item": "ieaed2dcf",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "0e7e340f-9aab-4d14-a8e9-f490798ed5cb",
+   "item": "i2a90140b",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "149de817-9d5f-47d4-aaf1-d9c153d661ba",
+   "item": "ib03c018c",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "15a5ab3e-e6f4-4576-a8b5-6027b7f5df4c",
+   "item": "icf27cc35",
+   "grade": 0,
+   "reason": "Directory of localities with population counts; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "161fda23-a9a9-4874-9610-4f74a5421bb7",
+   "item": "i7d5b1c00",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "17d8850a-ad96-4b60-8830-8dcb7e9e1ec2",
+   "item": "if6d9ec92",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "18506a14-32a1-4ce2-8669-b2872d9e58a5",
+   "item": "i8f4f502a",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "1908a13b-73c5-40bc-8c01-9cfc8c853136",
+   "item": "i457c63a4",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "19b1461c-32c1-473a-9048-1508f2c3ddd7",
+   "item": "i0fe1ed18",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "2b09ad0d-6401-49a9-a110-1ebc72197bed",
+   "item": "i7c05cba0",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "3a8e485f-b184-48f3-9d60-fda4a7d1388f",
+   "item": "i23e9395f",
+   "grade": 0,
+   "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "3f8295e7-6758-44a9-b1b5-6cabfa5241e5",
+   "item": "iea33923d",
+   "grade": 0,
+   "reason": "Historical photograph collection of Swiss buildings; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "3fa88fed-4af7-4cfd-8c01-7655811e5279",
+   "item": "ia7228c40",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+   "item": "if06bdbdb",
+   "grade": 0,
+   "reason": "Employment counts by economic sector and municipality; no environmental content."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "6aa1195e-6d71-43d1-8178-02922a10cc3d",
+   "item": "ib328d29a",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "6b3a4480-86dd-4dfa-9c01-c399117221eb",
+   "item": "i49d3a0fd",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "700bf5e2-a6ef-4a9a-8530-5d3879934357",
+   "item": "i3c36c4dd",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "722a1ce0-820a-4e66-b083-5ae855a6b7a0",
+   "item": "i457f3ed0",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "7b3d08ac-8071-4c44-b0fe-7941262b16bb",
+   "item": "i6d223007",
+   "grade": 0,
+   "reason": "Youth sports programme participation figures; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "9a71727c-59c1-473a-a7b3-afb7d8d9381b",
+   "item": "iac3e4b9e",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "9fa0c39c-c702-46aa-b380-8a3953d93e06",
+   "item": "i2803b89d",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "a4ee794f-b4fb-4e50-a23a-4e911419bb02",
+   "item": "ifcf3fcd0",
+   "grade": 0,
+   "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "bdcce409-c128-47f5-891f-7f33da2ae1a1",
+   "item": "i9d63020d",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "c3dcb648-954a-4961-9e15-84518226736b",
+   "item": "i40d301e7",
+   "grade": 0,
+   "reason": "Archaeological find reports in Thurgau; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "c9d4d947-a839-4ea9-96eb-864d530fe24c",
+   "item": "i2530229e",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "d6c51cda-1861-4aab-b72b-103311cc2bb9",
+   "item": "ida9cea54",
+   "grade": 0,
+   "reason": "Record of municipal boundary and name changes; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "d83130c1-9646-4484-8c1b-a94d43a0af30",
+   "item": "i4f54ba73",
+   "grade": 0,
+   "reason": "Year-2000 census of employment and education; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "i26f1a15f",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b",
+   "item": "iab5aeba7",
+   "grade": 0,
+   "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "f92c9ee5-959f-4150-bfe3-024783e96566",
+   "item": "ia55cd0dc",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+   "item": "icc75f8ad",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "i990f954e",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-04",
+   "dataset_id": "ff2e4ea7-5ffb-4cdd-8d44-0ed0b5d3a8d8",
+   "item": "i689e5147",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "02d6cd0d-9e7e-4928-9851-9c11d3a93eec",
+   "item": "ifdc0b1fc",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "06703fee-1f6a-438a-9290-bbb5ac6d3a25",
+   "item": "i6d3c6ced",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "0696e2f6-b74a-4827-aff4-67fcb2ef101f",
+   "item": "i12a3b5b3",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "089d90e4-0160-48cf-b687-8da5d77ff1e5",
+   "item": "i527a460d",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "0e7e340f-9aab-4d14-a8e9-f490798ed5cb",
+   "item": "iaab67df6",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "149de817-9d5f-47d4-aaf1-d9c153d661ba",
+   "item": "ic55ad5d2",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "15a5ab3e-e6f4-4576-a8b5-6027b7f5df4c",
+   "item": "i529f77b8",
+   "grade": 0,
+   "reason": "Directory of localities with population counts; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "161fda23-a9a9-4874-9610-4f74a5421bb7",
+   "item": "i7d30d32b",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "17d8850a-ad96-4b60-8830-8dcb7e9e1ec2",
+   "item": "ib1a16fbe",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "18506a14-32a1-4ce2-8669-b2872d9e58a5",
+   "item": "i6ed837b6",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "1908a13b-73c5-40bc-8c01-9cfc8c853136",
+   "item": "i7424054c",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "19b1461c-32c1-473a-9048-1508f2c3ddd7",
+   "item": "if4653f16",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "2b09ad0d-6401-49a9-a110-1ebc72197bed",
+   "item": "i49575234",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "2f73d61c-34c9-4c0f-98eb-c4eecb88b084",
+   "item": "i91e4471a",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "3a8e485f-b184-48f3-9d60-fda4a7d1388f",
+   "item": "i7661ea99",
+   "grade": 0,
+   "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "3f8295e7-6758-44a9-b1b5-6cabfa5241e5",
+   "item": "ic63cae26",
+   "grade": 0,
+   "reason": "Historical photograph collection of Swiss buildings; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "3fa88fed-4af7-4cfd-8c01-7655811e5279",
+   "item": "i7e992af0",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+   "item": "i214a2943",
+   "grade": 0,
+   "reason": "Employment counts by economic sector and municipality; no environmental content."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "6b3a4480-86dd-4dfa-9c01-c399117221eb",
+   "item": "i145fb6e2",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "700bf5e2-a6ef-4a9a-8530-5d3879934357",
+   "item": "ib64e65b9",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "7b3d08ac-8071-4c44-b0fe-7941262b16bb",
+   "item": "i737710d1",
+   "grade": 0,
+   "reason": "Youth sports programme participation figures; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "86b02b11-1860-422c-b734-916b7cd15ed2",
+   "item": "i077088c7",
+   "grade": 0,
+   "reason": "Parking space occupancy data; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "87182a41-abc1-4963-8e10-e4665bce2397",
+   "item": "i15d717b6",
+   "grade": 0,
+   "reason": "Commercial register of registered companies; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "9a71727c-59c1-473a-a7b3-afb7d8d9381b",
+   "item": "i03417db8",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "9fa0c39c-c702-46aa-b380-8a3953d93e06",
+   "item": "ibd8b07fb",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "a4ee794f-b4fb-4e50-a23a-4e911419bb02",
+   "item": "i7b32f4e0",
+   "grade": 0,
+   "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "ad8aa304-fc02-4139-aa90-67ea479430f7",
+   "item": "ide42c17f",
+   "grade": 0,
+   "reason": "Year-2000 census of buildings and dwellings; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "bdcce409-c128-47f5-891f-7f33da2ae1a1",
+   "item": "ice74cfa6",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "c3dcb648-954a-4961-9e15-84518226736b",
+   "item": "i92a147c1",
+   "grade": 0,
+   "reason": "Archaeological find reports in Thurgau; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "c9d4d947-a839-4ea9-96eb-864d530fe24c",
+   "item": "iadb4639a",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "d6c51cda-1861-4aab-b72b-103311cc2bb9",
+   "item": "ie2f95b7e",
+   "grade": 0,
+   "reason": "Record of municipal boundary and name changes; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "d83130c1-9646-4484-8c1b-a94d43a0af30",
+   "item": "i09991f54",
+   "grade": 0,
+   "reason": "Year-2000 census of employment and education; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "iecd6110c",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b",
+   "item": "ibd4bd4d3",
+   "grade": 0,
+   "reason": "School enrolment figures by nationality or first language; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "f8b84e99-95df-4b13-b19f-1d159244c9da",
+   "item": "ia215a142",
+   "grade": 0,
+   "reason": "Chemical water quality data; no species, biodiversity, climate or emissions content indicated."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "f92c9ee5-959f-4150-bfe3-024783e96566",
+   "item": "i0a1c7e55",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+   "item": "id49fb98d",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "i65a52731",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to the topic."
+  },
+  {
+   "query_id": "ENV-05",
+   "dataset_id": "ff2e4ea7-5ffb-4cdd-8d44-0ed0b5d3a8d8",
+   "item": "ib2586e31",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook covering many domains; environment is only a minor part of this broad compilation."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "02cd7112-5173-4604-b1b4-de5807d610ba",
+   "item": "ib61bc8f0",
+   "grade": 0,
+   "reason": "Counts motorized private car traffic, the opposite of public transport."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "0c8b2a1e-9ccc-43aa-8b6c-345c2e17fc76",
+   "item": "i662c41a9",
+   "grade": 0,
+   "reason": "Real-time parking occupancy for Frauenfeld; unrelated to public transport timetables."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "30e64f27-0102-4bd3-807b-93b7901eee1a",
+   "item": "ic1a8c64b",
+   "grade": 0,
+   "reason": "Business establishment/employment counts by canton; unrelated to public transport."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "32272eb7-a9cd-4df9-b7c1-b5d14d12af65",
+   "item": "i91297e66",
+   "grade": 0,
+   "reason": "Households and families census data; unrelated to public transport."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "3f8295e7-6758-44a9-b1b5-6cabfa5241e5",
+   "item": "i8ff547dc",
+   "grade": 0,
+   "reason": "Historic photo archive of Swiss buildings; unrelated to public transport."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "40440834-1dcc-4c8e-9132-c35197b55aaa",
+   "item": "i4ffdb1d8",
+   "grade": 0,
+   "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "673777ca-ca92-439c-a2e5-3ea9981ff596",
+   "item": "i03d79035",
+   "grade": 0,
+   "reason": "Counts motorized private car traffic by class; not public transport."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "7a0060e8-3b81-4fbb-886e-a7222ec242e2",
+   "item": "i87197701",
+   "grade": 0,
+   "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "86b02b11-1860-422c-b734-916b7cd15ed2",
+   "item": "idd03f3ec",
+   "grade": 0,
+   "reason": "Parking occupancy data for Frauenfeld; unrelated to public transport timetables."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "8b6c03bf-63a8-486a-8172-5b46ac33858e",
+   "item": "i3b56053e",
+   "grade": 0,
+   "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "8f6093c8-8ab5-40a0-8346-5c36f9f12dbd",
+   "item": "i34282cc9",
+   "grade": 0,
+   "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "902609d6-12a2-4fa8-ae30-bc2843c8d460",
+   "item": "i6c5f1a19",
+   "grade": 0,
+   "reason": "Business establishment/employment counts by canton; unrelated to public transport."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "914ea772-626f-4e4d-ae75-c2cfb650bfaa",
+   "item": "ic3c6f63a",
+   "grade": 0,
+   "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "9f499a83-a216-4a96-870d-c65a0ee35241",
+   "item": "ib4abdc71",
+   "grade": 0,
+   "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "ad8aa304-fc02-4139-aa90-67ea479430f7",
+   "item": "i5373e37a",
+   "grade": 0,
+   "reason": "Housing/building census data for Zurich; unrelated to public transport."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "c90862c4-4ca4-4256-bf2e-8e1b94b0c40f",
+   "item": "i423476e9",
+   "grade": 0,
+   "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "c9d20e5c-0502-4c43-aa95-f05996ba6410",
+   "item": "i199bbc52",
+   "grade": 0,
+   "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "c9d4d947-a839-4ea9-96eb-864d530fe24c",
+   "item": "i2ad5d22f",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; public transport is at most a minor chapter here."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "db0d4122-5ee2-4569-8d7d-847d42d05dd1",
+   "item": "i9af08131",
+   "grade": 2,
+   "reason": "Public regional transport line data for Thurgau, incl. schedule-km and trip counts."
+  },
+  {
+   "query_id": "MOB-01",
+   "dataset_id": "ea5fb036-be04-42b0-befb-e456a806d5bc",
+   "item": "ib97ea136",
+   "grade": 0,
+   "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "02cd7112-5173-4604-b1b4-de5807d610ba",
+   "item": "i156037db",
+   "grade": 1,
+   "reason": "Road traffic volume counts, a neighbouring subject, but no accident data shown."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "03a2c6e0-8440-4c95-bb86-fa5fa218637c",
+   "item": "i83e837fb",
+   "grade": 0,
+   "reason": "Notary certification counts; unrelated to traffic accidents."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "15a5ab3e-e6f4-4576-a8b5-6027b7f5df4c",
+   "item": "ie0ecccc6",
+   "grade": 0,
+   "reason": "Settlement/population register for Thurgau; unrelated to traffic accidents."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "1908a13b-73c5-40bc-8c01-9cfc8c853136",
+   "item": "i7992546d",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "2f73d61c-34c9-4c0f-98eb-c4eecb88b084",
+   "item": "ic794189a",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "3fa88fed-4af7-4cfd-8c01-7655811e5279",
+   "item": "i7c639302",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+   "item": "i20e312ca",
+   "grade": 0,
+   "reason": "Employment counts by economic sector; unrelated to traffic accidents."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "700bf5e2-a6ef-4a9a-8530-5d3879934357",
+   "item": "iacc7d4db",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "9fa0c39c-c702-46aa-b380-8a3953d93e06",
+   "item": "i57ea3bf2",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "bdcce409-c128-47f5-891f-7f33da2ae1a1",
+   "item": "i13780c51",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "c9d4d947-a839-4ea9-96eb-864d530fe24c",
+   "item": "ic5cf073e",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "d6c51cda-1861-4aab-b72b-103311cc2bb9",
+   "item": "i1cee6c6e",
+   "grade": 0,
+   "reason": "Municipality boundary/name changes; unrelated to traffic accidents."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "i5e707819",
+   "grade": 0,
+   "reason": "Public library statistics for Thurgau; unrelated to traffic accidents."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+   "item": "iece34e79",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "ia8d9bfec",
+   "grade": 0,
+   "reason": "Public library statistics for Thurgau; unrelated to traffic accidents."
+  },
+  {
+   "query_id": "MOB-02",
+   "dataset_id": "ff2e4ea7-5ffb-4cdd-8d44-0ed0b5d3a8d8",
+   "item": "i8aea68f0",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "02cd7112-5173-4604-b1b4-de5807d610ba",
+   "item": "i67189ea8",
+   "grade": 0,
+   "reason": "Motorized traffic counts; no fuel-type or charging-station data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "02d6cd0d-9e7e-4928-9851-9c11d3a93eec",
+   "item": "i48f6c5d4",
+   "grade": 0,
+   "reason": "1948 yearbook predates electromobility; no charging station data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "042fbed8-025a-40e9-ac0c-553bf7cce141",
+   "item": "i8941f55a",
+   "grade": 0,
+   "reason": "Building heating energy sources by canton; not about vehicle charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "06703fee-1f6a-438a-9290-bbb5ac6d3a25",
+   "item": "i0bf195b2",
+   "grade": 0,
+   "reason": "General statistics yearbook (no description); no indication of EV charging data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "0696e2f6-b74a-4827-aff4-67fcb2ef101f",
+   "item": "i24f8d7b2",
+   "grade": 0,
+   "reason": "1907 yearbook predates electromobility; no charging station data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "089d90e4-0160-48cf-b687-8da5d77ff1e5",
+   "item": "i3b15cc86",
+   "grade": 0,
+   "reason": "1964 yearbook predates electromobility; no charging station data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "0c8b2a1e-9ccc-43aa-8b6c-345c2e17fc76",
+   "item": "ib391f8b2",
+   "grade": 0,
+   "reason": "Car parking occupancy data; no mention of EV charging infrastructure."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "0e7e340f-9aab-4d14-a8e9-f490798ed5cb",
+   "item": "idf4ac616",
+   "grade": 0,
+   "reason": "1977 yearbook predates electromobility; no charging station data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "149de817-9d5f-47d4-aaf1-d9c153d661ba",
+   "item": "ib3d5c40e",
+   "grade": 0,
+   "reason": "1909 yearbook predates electromobility; no charging station data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "15a5ab3e-e6f4-4576-a8b5-6027b7f5df4c",
+   "item": "i30b9f3cf",
+   "grade": 0,
+   "reason": "Settlement register for Thurgau; unrelated to EV charging stations."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "161fda23-a9a9-4874-9610-4f74a5421bb7",
+   "item": "i5c38da45",
+   "grade": 0,
+   "reason": "1946 yearbook predates electromobility; no charging station data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "17d8850a-ad96-4b60-8830-8dcb7e9e1ec2",
+   "item": "i5cf8d44e",
+   "grade": 0,
+   "reason": "1997 yearbook (no description); no indication of EV charging data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "18506a14-32a1-4ce2-8669-b2872d9e58a5",
+   "item": "ie5ab8794",
+   "grade": 0,
+   "reason": "1961 yearbook predates electromobility; no charging station data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "1908a13b-73c5-40bc-8c01-9cfc8c853136",
+   "item": "id748b56e",
+   "grade": 0,
+   "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "19b1461c-32c1-473a-9048-1508f2c3ddd7",
+   "item": "i8cf1523f",
+   "grade": 0,
+   "reason": "1921 yearbook predates electromobility; no charging station data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "2f73d61c-34c9-4c0f-98eb-c4eecb88b084",
+   "item": "i1e414318",
+   "grade": 0,
+   "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "35869601-e3ab-4324-b3ad-c6116152c99b",
+   "item": "i70fe4970",
+   "grade": 0,
+   "reason": "Weather data at a noise-monitoring station; unrelated to EV charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "3f8295e7-6758-44a9-b1b5-6cabfa5241e5",
+   "item": "ie9c05593",
+   "grade": 0,
+   "reason": "Historic photo archive; unrelated to EV charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "3fa88fed-4af7-4cfd-8c01-7655811e5279",
+   "item": "i848a516a",
+   "grade": 0,
+   "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "4c5aced2-b08a-4dae-b157-44b84c19a311",
+   "item": "i909b443a",
+   "grade": 0,
+   "reason": "Building heating energy sources by canton; not about vehicle charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+   "item": "i7176665b",
+   "grade": 0,
+   "reason": "Employment counts by economic sector; unrelated to EV charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "673777ca-ca92-439c-a2e5-3ea9981ff596",
+   "item": "id61ebc7d",
+   "grade": 0,
+   "reason": "Vehicle-class traffic counts; no fuel-type or charging-station data."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "700bf5e2-a6ef-4a9a-8530-5d3879934357",
+   "item": "i9c7f5f15",
+   "grade": 0,
+   "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "7b3d08ac-8071-4c44-b0fe-7941262b16bb",
+   "item": "i566a4518",
+   "grade": 0,
+   "reason": "Youth sports program funding; unrelated to EV charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "7c21378e-e299-441b-8c97-7db19a546247",
+   "item": "if9f84cca",
+   "grade": 0,
+   "reason": "Building heating energy sources by canton; not about vehicle charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "86b02b11-1860-422c-b734-916b7cd15ed2",
+   "item": "i47180838",
+   "grade": 0,
+   "reason": "Car parking occupancy data; no mention of EV charging infrastructure."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "9fa0c39c-c702-46aa-b380-8a3953d93e06",
+   "item": "iafc1ce60",
+   "grade": 0,
+   "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "ad8aa304-fc02-4139-aa90-67ea479430f7",
+   "item": "iaf959be9",
+   "grade": 0,
+   "reason": "Housing/building census data; unrelated to EV charging stations."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "bdcce409-c128-47f5-891f-7f33da2ae1a1",
+   "item": "ia2d5088b",
+   "grade": 0,
+   "reason": "General statistics yearbook; no indication it lists charging stations."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "c3dcb648-954a-4961-9e15-84518226736b",
+   "item": "i7ed0e6db",
+   "grade": 0,
+   "reason": "Archaeological find reports; unrelated to EV charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "c9d4d947-a839-4ea9-96eb-864d530fe24c",
+   "item": "i50d627ff",
+   "grade": 0,
+   "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "d6c51cda-1861-4aab-b72b-103311cc2bb9",
+   "item": "i1f71e6f4",
+   "grade": 0,
+   "reason": "Municipality boundary changes; unrelated to EV charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "i58a73057",
+   "grade": 0,
+   "reason": "Public library statistics; unrelated to EV charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "f5d4b068-3f63-4cc2-ba6a-2d793a0db2c9",
+   "item": "ic5e16eda",
+   "grade": 0,
+   "reason": "Aircraft noise monitoring station data; unrelated to EV charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+   "item": "i230309cc",
+   "grade": 0,
+   "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "iaab46d7f",
+   "grade": 0,
+   "reason": "Public library statistics; unrelated to EV charging."
+  },
+  {
+   "query_id": "MOB-03",
+   "dataset_id": "ff2e4ea7-5ffb-4cdd-8d44-0ed0b5d3a8d8",
+   "item": "i790fbc87",
+   "grade": 0,
+   "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "02cd7112-5173-4604-b1b4-de5807d610ba",
+   "item": "i2e85fc57",
+   "grade": 0,
+   "reason": "Counts only motorized traffic, explicitly excluding bicycles."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "15a5ab3e-e6f4-4576-a8b5-6027b7f5df4c",
+   "item": "i0610cf15",
+   "grade": 0,
+   "reason": "Settlement register; unrelated to cycling infrastructure."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "1908a13b-73c5-40bc-8c01-9cfc8c853136",
+   "item": "i4f9bcbaf",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "2f73d61c-34c9-4c0f-98eb-c4eecb88b084",
+   "item": "i5d2ed19e",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "32272eb7-a9cd-4df9-b7c1-b5d14d12af65",
+   "item": "i59ca10fd",
+   "grade": 0,
+   "reason": "Households and families census; unrelated to cycling."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "3b62eecf-216d-496d-98c4-1cd6eb1f86e3",
+   "item": "i597abc98",
+   "grade": 0,
+   "reason": "Households and families census; unrelated to cycling."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "3f8295e7-6758-44a9-b1b5-6cabfa5241e5",
+   "item": "ifa298b59",
+   "grade": 0,
+   "reason": "Historic photo archive; unrelated to cycling."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "3fa88fed-4af7-4cfd-8c01-7655811e5279",
+   "item": "i51de406f",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "4885cfe6-100e-4c4d-831a-c0b904a7335b",
+   "item": "i941fda2f",
+   "grade": 0,
+   "reason": "Census employment/education data; no cycling or transport-mode data shown."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+   "item": "ia29e214e",
+   "grade": 0,
+   "reason": "Employment counts by economic sector; unrelated to cycling."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "673777ca-ca92-439c-a2e5-3ea9981ff596",
+   "item": "id68eb70d",
+   "grade": 0,
+   "reason": "Motorized vehicle-class traffic counts; excludes bicycles."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "700bf5e2-a6ef-4a9a-8530-5d3879934357",
+   "item": "i00198749",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "7b3d08ac-8071-4c44-b0fe-7941262b16bb",
+   "item": "iee401c23",
+   "grade": 0,
+   "reason": "Youth sports program funding; not bicycle traffic or infrastructure data."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "86b02b11-1860-422c-b734-916b7cd15ed2",
+   "item": "i4a33bcbd",
+   "grade": 0,
+   "reason": "Car parking occupancy data; unrelated to bicycles."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "8efe87c5-75fe-425c-b2fd-a79c65ad8e26",
+   "item": "i667ea60a",
+   "grade": 0,
+   "reason": "Housing/building census data; unrelated to bicycle traffic or paths."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "9fa0c39c-c702-46aa-b380-8a3953d93e06",
+   "item": "ia572e8f6",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "ad8aa304-fc02-4139-aa90-67ea479430f7",
+   "item": "i1dc54fcc",
+   "grade": 0,
+   "reason": "Housing/building census data; unrelated to bicycle traffic or paths."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "b317dee9-2e0c-499c-842a-aaeddd0d2255",
+   "item": "ia9cc9533",
+   "grade": 0,
+   "reason": "Land price data; unrelated to bicycle traffic or paths."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "bdcce409-c128-47f5-891f-7f33da2ae1a1",
+   "item": "i95598aa7",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "c3dcb648-954a-4961-9e15-84518226736b",
+   "item": "iec1e499d",
+   "grade": 0,
+   "reason": "Archaeological find reports; unrelated to cycling."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "d6c51cda-1861-4aab-b72b-103311cc2bb9",
+   "item": "id0abb4a3",
+   "grade": 0,
+   "reason": "Municipality boundary/name changes; unrelated to cycling."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "db0d4122-5ee2-4569-8d7d-847d42d05dd1",
+   "item": "i179ee753",
+   "grade": 0,
+   "reason": "Public transport line statistics (bus/train/boat); not about bicycles."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "ia5b56a61",
+   "grade": 0,
+   "reason": "Public library statistics; unrelated to cycling."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "f5d4b068-3f63-4cc2-ba6a-2d793a0db2c9",
+   "item": "i9404a6a7",
+   "grade": 0,
+   "reason": "Aircraft noise monitoring; unrelated to bicycle traffic or infrastructure."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "f8b84e99-95df-4b13-b19f-1d159244c9da",
+   "item": "iaa1f8fce",
+   "grade": 0,
+   "reason": "Water quality monitoring; unrelated to cycling."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+   "item": "i86eacaff",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "ieb3e1840",
+   "grade": 0,
+   "reason": "Public library statistics; unrelated to cycling."
+  },
+  {
+   "query_id": "MOB-04",
+   "dataset_id": "ff2e4ea7-5ffb-4cdd-8d44-0ed0b5d3a8d8",
+   "item": "i933fb9c7",
+   "grade": 1,
+   "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "02cd7112-5173-4604-b1b4-de5807d610ba",
+   "item": "i4700975c",
+   "grade": 0,
+   "reason": "Moving motorized-traffic counts; no parking availability data."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "0a4e1c99-9944-4a15-93b6-a2798b3daa87",
+   "item": "i69254d50",
+   "grade": 0,
+   "reason": "Daily weather station values; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "0c8667fa-764e-4fa8-805c-f17552fa222c",
+   "item": "ice06fc46",
+   "grade": 0,
+   "reason": "Vacant-apartment statistics; unrelated to vehicle parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "0c8b2a1e-9ccc-43aa-8b6c-345c2e17fc76",
+   "item": "i2abf0b0b",
+   "grade": 2,
+   "reason": "Real-time occupied/free counts for 5 public parking lots, updated every 5 minutes."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "0efc46b0-cf21-4224-8a51-5c5aeff80213",
+   "item": "i40ccc7e9",
+   "grade": 0,
+   "reason": "Domestic violence statistics; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "1a287864-5d97-4335-b462-f6fc64253496",
+   "item": "if8a10e41",
+   "grade": 0,
+   "reason": "Workplace/employment counts by canton; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "3a8e485f-b184-48f3-9d60-fda4a7d1388f",
+   "item": "idbbf2b5e",
+   "grade": 0,
+   "reason": "School enrollment by nationality; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "4543e725-0eb7-4174-a220-d6ec21753787",
+   "item": "if9e31805",
+   "grade": 0,
+   "reason": "Workplace/employment counts by canton; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "578b63e3-288e-4b56-a556-771b917a576b",
+   "item": "ie3f682d1",
+   "grade": 0,
+   "reason": "Agricultural crop and tree data; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "5e6e0d57-df6a-41c1-94d3-de8597e1603e",
+   "item": "if71c89cc",
+   "grade": 0,
+   "reason": "Daily weather station values; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "673777ca-ca92-439c-a2e5-3ea9981ff596",
+   "item": "if2a218d6",
+   "grade": 0,
+   "reason": "Moving-traffic vehicle counts by class; no parking availability data."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "6fed3166-9b1e-4ed0-9267-db5290f981ff",
+   "item": "id6d2dbd3",
+   "grade": 0,
+   "reason": "Census employment/education data; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "7b3d08ac-8071-4c44-b0fe-7941262b16bb",
+   "item": "i035e4e11",
+   "grade": 0,
+   "reason": "Youth sports program funding; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "84bbe644-2971-4140-a192-1b0f81040f54",
+   "item": "i03da320c",
+   "grade": 0,
+   "reason": "Index to 1891-1901 yearbook volumes; predates cars, no parking data."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "84e62174-be5d-44c3-b308-7a6de51afd45",
+   "item": "i2713ab38",
+   "grade": 0,
+   "reason": "Business unit/employment counts by canton; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "86b02b11-1860-422c-b734-916b7cd15ed2",
+   "item": "i6ec3071e",
+   "grade": 2,
+   "reason": "Hourly parking occupancy for 5 Frauenfeld lots, daily updated; on-topic though not live."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "87182a41-abc1-4963-8e10-e4665bce2397",
+   "item": "id386b74d",
+   "grade": 0,
+   "reason": "Commercial registry of companies; unrelated to parking availability."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "8ada5b44-5011-41dd-9df9-3932efe8c59a",
+   "item": "i2172d380",
+   "grade": 0,
+   "reason": "Urban housing-situation indicators; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "8b931b2e-0c44-4bc8-a258-6dd5e6cd90a7",
+   "item": "i70a4c4f2",
+   "grade": 0,
+   "reason": "Domestic violence statistics; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "95e400ea-5ef8-49fb-9224-751db42ff0a8",
+   "item": "ie2de1350",
+   "grade": 0,
+   "reason": "Census employment/education data; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "9e91bfe9-5ac1-43a2-b14b-f15c7d851a47",
+   "item": "ib4af2b37",
+   "grade": 0,
+   "reason": "Residential building stock counts; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "a4ee794f-b4fb-4e50-a23a-4e911419bb02",
+   "item": "i783458f2",
+   "grade": 0,
+   "reason": "School enrollment by first language; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "bc047f0d-1a4e-45ad-9a94-6aac58114fbc",
+   "item": "i06b3d639",
+   "grade": 0,
+   "reason": "Housing rent-class data; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "c0967ebe-b978-4008-9425-5c8e9ea6e581",
+   "item": "i6788a78c",
+   "grade": 0,
+   "reason": "Hydrological monitoring stations; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "c3dcb648-954a-4961-9e15-84518226736b",
+   "item": "i55022d79",
+   "grade": 0,
+   "reason": "Archaeological find reports; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "d5ab634a-b188-48dd-bc41-1f9995f730b2",
+   "item": "i420cdc55",
+   "grade": 0,
+   "reason": "Workplace/employment counts by municipality; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "d83130c1-9646-4484-8c1b-a94d43a0af30",
+   "item": "id9f7afc2",
+   "grade": 0,
+   "reason": "Census employment/education data; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "i8e871cd7",
+   "grade": 0,
+   "reason": "Public library statistics; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b",
+   "item": "ia990aee4",
+   "grade": 0,
+   "reason": "School enrollment by nationality; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "e4c00173-0494-4c57-b72e-0dd2d2c7358a",
+   "item": "if62a8d76",
+   "grade": 0,
+   "reason": "Housing unit counts by room number; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "f8b84e99-95df-4b13-b19f-1d159244c9da",
+   "item": "id65594bc",
+   "grade": 0,
+   "reason": "Water quality monitoring; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "fc51bb2d-e104-4875-bdbf-cd0d01c6bf20",
+   "item": "i43b01e6d",
+   "grade": 0,
+   "reason": "Workplace/employment counts by canton; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "fc5e0883-e090-4823-95cc-acfa26051ee9",
+   "item": "ie6c28bef",
+   "grade": 0,
+   "reason": "Directory of sports clubs; unrelated to parking."
+  },
+  {
+   "query_id": "MOB-05",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "ie7daacce",
+   "grade": 0,
+   "reason": "Public library statistics; unrelated to parking."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "02d6cd0d-9e7e-4928-9851-9c11d3a93eec",
+   "item": "i045793fc",
+   "grade": 1,
+   "reason": "General statistical yearbook (1948); population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "06703fee-1f6a-438a-9290-bbb5ac6d3a25",
+   "item": "i3a499ce3",
+   "grade": 1,
+   "reason": "General statistical yearbook (no description); population at most a minor part of such compilations."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "0696e2f6-b74a-4827-aff4-67fcb2ef101f",
+   "item": "i9de5dfd8",
+   "grade": 1,
+   "reason": "General statistical yearbook (1907); population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "089d90e4-0160-48cf-b687-8da5d77ff1e5",
+   "item": "i6eace3c8",
+   "grade": 1,
+   "reason": "General statistical yearbook (1964); population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "0e7e340f-9aab-4d14-a8e9-f490798ed5cb",
+   "item": "i3799b5b2",
+   "grade": 1,
+   "reason": "General statistical yearbook (1977); population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "149de817-9d5f-47d4-aaf1-d9c153d661ba",
+   "item": "i9a75b92a",
+   "grade": 1,
+   "reason": "General statistical yearbook (1909); population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "15a5ab3e-e6f4-4576-a8b5-6027b7f5df4c",
+   "item": "ie81e2270",
+   "grade": 2,
+   "reason": "Settlement directory including population figures per settlement from the cantonal population survey."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "161fda23-a9a9-4874-9610-4f74a5421bb7",
+   "item": "i24d06a82",
+   "grade": 1,
+   "reason": "General statistical yearbook (1946); population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "17d8850a-ad96-4b60-8830-8dcb7e9e1ec2",
+   "item": "i3a21a3db",
+   "grade": 1,
+   "reason": "General statistical yearbook (1997); population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "18506a14-32a1-4ce2-8669-b2872d9e58a5",
+   "item": "i2dc6464b",
+   "grade": 1,
+   "reason": "General statistical yearbook (1961); population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "1908a13b-73c5-40bc-8c01-9cfc8c853136",
+   "item": "i116fcf63",
+   "grade": 1,
+   "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "2b09ad0d-6401-49a9-a110-1ebc72197bed",
+   "item": "i73936e2b",
+   "grade": 1,
+   "reason": "General statistical yearbook covering many domains; population is only a minor part of the compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "2f73d61c-34c9-4c0f-98eb-c4eecb88b084",
+   "item": "iacc1e9df",
+   "grade": 1,
+   "reason": "General statistical yearbook covering population, society, economy; population a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "32272eb7-a9cd-4df9-b7c1-b5d14d12af65",
+   "item": "i38ebc1ee",
+   "grade": 2,
+   "reason": "Census 2000 data on households and families for a canton; core demographic content."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "3a8e485f-b184-48f3-9d60-fda4a7d1388f",
+   "item": "icd0f3e38",
+   "grade": 1,
+   "reason": "Student counts by nationality; education data with a demographic dimension, not general population statistics."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "3f8295e7-6758-44a9-b1b5-6cabfa5241e5",
+   "item": "i2c9d3512",
+   "grade": 0,
+   "reason": "Historical photo collection of Swiss buildings; no population or demographic data."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "3fa88fed-4af7-4cfd-8c01-7655811e5279",
+   "item": "i12111ac0",
+   "grade": 1,
+   "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "4a6c7694-f156-4081-b717-91d280bdcdc9",
+   "item": "i115f2c5c",
+   "grade": 2,
+   "reason": "Population development 1850-2000 by canton, district, municipality; directly matches the topic."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+   "item": "i8ac753db",
+   "grade": 0,
+   "reason": "Employee counts by economic sector and municipality; economic, not demographic, statistics."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "6b3a4480-86dd-4dfa-9c01-c399117221eb",
+   "item": "ib4da22ee",
+   "grade": 1,
+   "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "700bf5e2-a6ef-4a9a-8530-5d3879934357",
+   "item": "i06e9b678",
+   "grade": 1,
+   "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "7b3d08ac-8071-4c44-b0fe-7941262b16bb",
+   "item": "ib636636e",
+   "grade": 0,
+   "reason": "Youth sports program participation and funding data; unrelated to population/demographic statistics."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "9a71727c-59c1-473a-a7b3-afb7d8d9381b",
+   "item": "idc6c2822",
+   "grade": 1,
+   "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "9fa0c39c-c702-46aa-b380-8a3953d93e06",
+   "item": "i49df7aa9",
+   "grade": 1,
+   "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "a4ee794f-b4fb-4e50-a23a-4e911419bb02",
+   "item": "id39fa08e",
+   "grade": 1,
+   "reason": "Student counts by first language; education data with only a demographic side-aspect, not general population statistics."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "ad8aa304-fc02-4139-aa90-67ea479430f7",
+   "item": "ib1040da1",
+   "grade": 1,
+   "reason": "Census 2000 data on buildings, dwellings and housing conditions, not directly population/demographic counts."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "bdcce409-c128-47f5-891f-7f33da2ae1a1",
+   "item": "i239cd6c3",
+   "grade": 1,
+   "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "c3dcb648-954a-4961-9e15-84518226736b",
+   "item": "i5609b23e",
+   "grade": 0,
+   "reason": "Archaeological find reports; unrelated to population or demographic statistics."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "c9d4d947-a839-4ea9-96eb-864d530fe24c",
+   "item": "i074938fb",
+   "grade": 1,
+   "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "d6c51cda-1861-4aab-b72b-103311cc2bb9",
+   "item": "i5e0b762f",
+   "grade": 0,
+   "reason": "Records of municipality mergers/name changes, not population counts or demographic data."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "d83130c1-9646-4484-8c1b-a94d43a0af30",
+   "item": "ib38b8b39",
+   "grade": 0,
+   "reason": "Census data on employment and education/training, not population or demographic characteristics."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "i95e297ec",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to population or demographics."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b",
+   "item": "i299438d5",
+   "grade": 1,
+   "reason": "Student counts by nationality; education data with a demographic dimension, not general population statistics."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "f92c9ee5-959f-4150-bfe3-024783e96566",
+   "item": "i3d7113ba",
+   "grade": 1,
+   "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+   "item": "i78a75ecf",
+   "grade": 1,
+   "reason": "General statistical yearbook; population is a minor part of this broad compilation."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "fcf2f645-6217-4c92-a4e4-08881e21302b",
+   "item": "i3fee1d3c",
+   "grade": 2,
+   "reason": "Census 2000 resident population by language, religion, nationality for a canton; core demographic data."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "icd29ad61",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to population or demographics."
+  },
+  {
+   "query_id": "XD-01",
+   "dataset_id": "ff2e4ea7-5ffb-4cdd-8d44-0ed0b5d3a8d8",
+   "item": "i57c09aca",
+   "grade": 1,
+   "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "009a5c6b-92ea-4dc6-9946-3b444a77f3a3",
+   "item": "i17ea34f6",
+   "grade": 0,
+   "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "021a4e78-c1fc-4c11-9684-59905ed5bf58",
+   "item": "i5efbd161",
+   "grade": 0,
+   "reason": "Livestock counts by municipality; unrelated to energy consumption."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "042fbed8-025a-40e9-ac0c-553bf7cce141",
+   "item": "i7374e923",
+   "grade": 2,
+   "reason": "Buildings by canton with heating type and energy carrier for heating/hot water, 1990 and 2000."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "091ce6b2-03d0-4eb0-bc0e-cd3f9ff63bd1",
+   "item": "i43c2589c",
+   "grade": 0,
+   "reason": "Cantonal parliament motion counts by department/faction; unrelated to energy."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "108c4325-b33e-490d-95c9-520fe83d880b",
+   "item": "iac25dbd1",
+   "grade": 0,
+   "reason": "Consolidated cantonal government expenditures by function; not energy-specific."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "145437ca-ed3d-4132-9419-56dd47938c4b",
+   "item": "ia63718af",
+   "grade": 0,
+   "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "14a97607-6f21-4e5e-bc6b-119ee6d9d623",
+   "item": "i428cf40f",
+   "grade": 0,
+   "reason": "Commuter counts by municipality; unrelated to energy consumption."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "3a8e485f-b184-48f3-9d60-fda4a7d1388f",
+   "item": "ic1574f28",
+   "grade": 0,
+   "reason": "Student counts by nationality; unrelated to energy consumption."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "3c3d6d50-2a14-4c19-ab0f-0ad8339612a4",
+   "item": "i89f474f7",
+   "grade": 0,
+   "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "3f8295e7-6758-44a9-b1b5-6cabfa5241e5",
+   "item": "i9876e8a5",
+   "grade": 0,
+   "reason": "Historical photo collection of Swiss buildings; unrelated to energy."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "3f99d1be-0802-4bd7-bdd4-468cfb7bcf3b",
+   "item": "i069e6fa2",
+   "grade": 0,
+   "reason": "Counts of newly built residential buildings by category; no energy consumption data."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "4c5aced2-b08a-4dae-b157-44b84c19a311",
+   "item": "i272e9eaa",
+   "grade": 2,
+   "reason": "Buildings by canton with heating type and energy carrier used for heating/hot water, 2000."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "4c8a5346-b06f-465d-a0d9-0ae87520edc6",
+   "item": "i1d0e6795",
+   "grade": 0,
+   "reason": "COVID-19 case counts for a canton; unrelated to energy."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+   "item": "i2382c9af",
+   "grade": 0,
+   "reason": "Employee counts by economic sector and municipality; not energy consumption data."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "66424ce7-5876-48d2-b376-77dce51b7ad5",
+   "item": "i2c3ab594",
+   "grade": 0,
+   "reason": "Newly built dwellings by room count; no energy consumption data."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "673777ca-ca92-439c-a2e5-3ea9981ff596",
+   "item": "idcd38fd4",
+   "grade": 0,
+   "reason": "Traffic counts by vehicle class on cantonal roads; not energy consumption."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "6bb05375-5392-442d-972c-d98a0bef8bed",
+   "item": "ibb1e625e",
+   "grade": 0,
+   "reason": "Municipality-to-district mapping; unrelated to energy consumption."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "7c21378e-e299-441b-8c97-7db19a546247",
+   "item": "i81889435",
+   "grade": 2,
+   "reason": "Buildings by canton with heating type and energy carrier for heating/hot water, 1970-2000."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "86b02b11-1860-422c-b734-916b7cd15ed2",
+   "item": "ia71dfdcc",
+   "grade": 0,
+   "reason": "Parking occupancy data for a city; unrelated to energy."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "8ae04e8d-58c6-4ed4-91e0-17d8510a64e5",
+   "item": "i0957a757",
+   "grade": 0,
+   "reason": "Municipal waste tonnage by year; not energy consumption data."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "c0f3c739-58d7-40fd-a212-24ffc109e0e8",
+   "item": "i61ddc0c6",
+   "grade": 0,
+   "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "c9b72498-bb4e-4cf7-93b0-c38b16cdd6b6",
+   "item": "i7c58988b",
+   "grade": 0,
+   "reason": "National council election results by municipality; unrelated to energy."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "dd036b0e-9d19-4dc0-b80e-4f6357bc2890",
+   "item": "i86470508",
+   "grade": 0,
+   "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b",
+   "item": "i60c08b98",
+   "grade": 0,
+   "reason": "Student counts by nationality; unrelated to energy consumption."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "e4c00173-0494-4c57-b72e-0dd2d2c7358a",
+   "item": "iefc5aa98",
+   "grade": 0,
+   "reason": "Dwelling stock by room count and municipality; no energy consumption data."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "fb653927-aaff-4243-853d-20f543e88a43",
+   "item": "ia83134fd",
+   "grade": 0,
+   "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+   "query_id": "XD-02",
+   "dataset_id": "fec69906-1e02-4ae0-bb01-dc66f551b23c",
+   "item": "idf482656",
+   "grade": 0,
+   "reason": "State tax revenue and tax capacity by municipality; unrelated to energy."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "0a5059fe-33bf-44c2-88de-d0ccd71d8f7e",
+   "item": "ia42313e4",
+   "grade": 1,
+   "reason": "School district financial health overview; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "0d43e871-4c9f-444c-99f1-617cf6a1cc76",
+   "item": "if90fe78a",
+   "grade": 1,
+   "reason": "School district financial health overview; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "3a8e485f-b184-48f3-9d60-fda4a7d1388f",
+   "item": "i52bbf8eb",
+   "grade": 2,
+   "reason": "Public school student counts by municipality and nationality; core education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "4b7169bd-d769-4ca0-b11b-9b5b13ea158f",
+   "item": "i6387a045",
+   "grade": 1,
+   "reason": "School district financial health overview; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "597e7754-0628-4c00-98ab-4f0723b07221",
+   "item": "i8883ce8c",
+   "grade": 1,
+   "reason": "School district financial health overview (debt, equity); fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "59b3d25c-ad8d-4cdb-be67-deb1325499a3",
+   "item": "id01874f9",
+   "grade": 1,
+   "reason": "School district financial ratios; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "5afca485-23a3-4cf0-bcad-3bf38e477827",
+   "item": "i232a8be5",
+   "grade": 1,
+   "reason": "School district financial health overview; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "6f063751-4634-4aea-be48-fa81b6293224",
+   "item": "i848a511f",
+   "grade": 1,
+   "reason": "School district financial health overview; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "6fed3166-9b1e-4ed0-9267-db5290f981ff",
+   "item": "i363b85b7",
+   "grade": 1,
+   "reason": "Census data combining employment and education/training attainment for a canton."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "74036f9a-f906-4c44-91cb-03e45e241514",
+   "item": "i636238de",
+   "grade": 1,
+   "reason": "School district financial overview with selected ratios; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "76a75d97-80ad-46c9-9bad-0d92348eccef",
+   "item": "ie2b5f33e",
+   "grade": 2,
+   "reason": "Education expenditure of school districts, kindergarten through lower secondary; direct education statistic."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "7b3d08ac-8071-4c44-b0fe-7941262b16bb",
+   "item": "i3dadf923",
+   "grade": 0,
+   "reason": "Youth sports program participants and funding; not school/university education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "93e2578b-4c56-44d1-bf13-3d74b5f7fdc5",
+   "item": "ibddf11cd",
+   "grade": 1,
+   "reason": "School district financial ratios; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "95e400ea-5ef8-49fb-9224-751db42ff0a8",
+   "item": "i639fafcb",
+   "grade": 1,
+   "reason": "Census data combining employment and education/training attainment for a canton."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "a4ee794f-b4fb-4e50-a23a-4e911419bb02",
+   "item": "i7a541432",
+   "grade": 2,
+   "reason": "Public school student counts by municipality and first language; core education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "b12e9297-1749-4171-9674-b3b6d66cdbcc",
+   "item": "i34794535",
+   "grade": 1,
+   "reason": "School district financial ratios; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "b67a9abf-3cb2-4756-a965-9dc5b99e836d",
+   "item": "ic67e7b6e",
+   "grade": 1,
+   "reason": "School district financial ratios and their basis; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "cdbc3bfb-0155-4fcf-a731-af49d0542067",
+   "item": "i113ca520",
+   "grade": 1,
+   "reason": "School district financial ratios; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "d83130c1-9646-4484-8c1b-a94d43a0af30",
+   "item": "i5514a5d2",
+   "grade": 1,
+   "reason": "Census data combining employment and education/training attainment for a canton."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "i9d5da4e3",
+   "grade": 1,
+   "reason": "Public library statistics, explicitly excluding school libraries; neighbouring subject to education."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b",
+   "item": "i1cbc4aae",
+   "grade": 2,
+   "reason": "Public school student counts by nationality; core education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "eee32db3-93d5-412e-8795-70dcca1c4024",
+   "item": "i2d7fdec6",
+   "grade": 1,
+   "reason": "School district financial ratios; fiscal not education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "f571145a-3283-4523-86da-bcb070c33ee3",
+   "item": "i1a5e272f",
+   "grade": 1,
+   "reason": "Census data combining employment and education/training attainment, not school/university statistics specifically."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "fdb7898c-1970-4290-96db-350d66e13c78",
+   "item": "ic5db03ea",
+   "grade": 2,
+   "reason": "Secondary-level student counts by school type/requirement level; core education statistics."
+  },
+  {
+   "query_id": "XD-03",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "i406d233c",
+   "grade": 1,
+   "reason": "Public library statistics, excluding school libraries; neighbouring subject to education."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "02cd7112-5173-4604-b1b4-de5807d610ba",
+   "item": "i172ea922",
+   "grade": 0,
+   "reason": "Motor vehicle traffic counts on cantonal roads; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "0626a44b-b6b5-4733-9cfb-461a4eb38f9f",
+   "item": "i6016508a",
+   "grade": 0,
+   "reason": "Foster-child placement counts; child welfare data, not healthcare facilities/statistics."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "0a5059fe-33bf-44c2-88de-d0ccd71d8f7e",
+   "item": "id2c30697",
+   "grade": 0,
+   "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "0c8b2a1e-9ccc-43aa-8b6c-345c2e17fc76",
+   "item": "ifa2f2059",
+   "grade": 0,
+   "reason": "Real-time parking occupancy data; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "0d43e871-4c9f-444c-99f1-617cf6a1cc76",
+   "item": "i39125261",
+   "grade": 0,
+   "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "0efc46b0-cf21-4224-8a51-5c5aeff80213",
+   "item": "iabe49f73",
+   "grade": 0,
+   "reason": "Domestic violence victim counts by offence and gender; not healthcare facility data."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "1a287864-5d97-4335-b462-f6fc64253496",
+   "item": "ic8c2265a",
+   "grade": 0,
+   "reason": "Establishments/employees by canton and economic division; no health-specific data indicated."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "2a0d8d63-4356-437a-a369-fc0f38325c12",
+   "item": "i97b43975",
+   "grade": 0,
+   "reason": "Notary office case statistics; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "3a8e485f-b184-48f3-9d60-fda4a7d1388f",
+   "item": "i15a8ba26",
+   "grade": 0,
+   "reason": "Student counts by nationality; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "4543e725-0eb7-4174-a220-d6ec21753787",
+   "item": "i77cfcf04",
+   "grade": 0,
+   "reason": "Establishments/employees by canton and broad economic sector; no health-specific data indicated."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "4b7169bd-d769-4ca0-b11b-9b5b13ea158f",
+   "item": "i755fdb89",
+   "grade": 0,
+   "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "4c85c6da-1734-451f-aa02-a0b0a3a9bff1",
+   "item": "iadb9342f",
+   "grade": 0,
+   "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "578b63e3-288e-4b56-a556-771b917a576b",
+   "item": "i9b9f66d7",
+   "grade": 0,
+   "reason": "Agricultural crops and trees by municipality; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "597e7754-0628-4c00-98ab-4f0723b07221",
+   "item": "i83b6c6c9",
+   "grade": 0,
+   "reason": "School district financial health overview; unrelated to healthcare despite figurative wording."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "5afca485-23a3-4cf0-bcad-3bf38e477827",
+   "item": "i2fae2c11",
+   "grade": 0,
+   "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "673777ca-ca92-439c-a2e5-3ea9981ff596",
+   "item": "i6b4709ee",
+   "grade": 0,
+   "reason": "Motor vehicle traffic counts by vehicle class; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "6f063751-4634-4aea-be48-fa81b6293224",
+   "item": "i043018de",
+   "grade": 0,
+   "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "6fed3166-9b1e-4ed0-9267-db5290f981ff",
+   "item": "iaa497b04",
+   "grade": 0,
+   "reason": "Census data on employment and education/training; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "7b3d08ac-8071-4c44-b0fe-7941262b16bb",
+   "item": "i46363cf2",
+   "grade": 0,
+   "reason": "Youth sports program participants and funding; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "84bbe644-2971-4140-a192-1b0f81040f54",
+   "item": "ia372ec8c",
+   "grade": 0,
+   "reason": "Alphabetical index of old statistical yearbook volumes; not health data itself."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "84e62174-be5d-44c3-b308-7a6de51afd45",
+   "item": "ie58ee1a2",
+   "grade": 0,
+   "reason": "Institutional units/employees by canton and economic type; no health-specific data indicated."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "86b02b11-1860-422c-b734-916b7cd15ed2",
+   "item": "ic755d7ef",
+   "grade": 0,
+   "reason": "Parking occupancy data for a city; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "87182a41-abc1-4963-8e10-e4665bce2397",
+   "item": "i50990f5b",
+   "grade": 0,
+   "reason": "Commercial register of registered firms; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "8b931b2e-0c44-4bc8-a258-6dd5e6cd90a7",
+   "item": "ia8fdc297",
+   "grade": 0,
+   "reason": "Domestic violence victim counts by gender and relationship; not healthcare facility data."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "95e400ea-5ef8-49fb-9224-751db42ff0a8",
+   "item": "i2ab2a501",
+   "grade": 0,
+   "reason": "Census data on employment and education/training; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "9adaaba8-6538-491a-a4e3-3be5f75923bd",
+   "item": "i01d6be71",
+   "grade": 0,
+   "reason": "Resident population by occupation, sex, nationality; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "a4ee794f-b4fb-4e50-a23a-4e911419bb02",
+   "item": "iad1eafbe",
+   "grade": 0,
+   "reason": "Student counts by first language; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "bc047f0d-1a4e-45ad-9a94-6aac58114fbc",
+   "item": "ia1cd0bc7",
+   "grade": 0,
+   "reason": "Dwellings by room count and rent class; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "bdb3feb4-da3c-4924-bae6-fc10a2cf3fda",
+   "item": "i4f64cacb",
+   "grade": 0,
+   "reason": "Dwellings by room count and floor area class; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "c0967ebe-b978-4008-9425-5c8e9ea6e581",
+   "item": "i286536ef",
+   "grade": 0,
+   "reason": "Hydrometric measuring stations for rivers/lakes; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "c3dcb648-954a-4961-9e15-84518226736b",
+   "item": "i956e4239",
+   "grade": 0,
+   "reason": "Archaeological find reports; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "d5ab634a-b188-48dd-bc41-1f9995f730b2",
+   "item": "i3307164e",
+   "grade": 0,
+   "reason": "Establishments/employees by municipality and economic sector; no health-specific data indicated."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "d83130c1-9646-4484-8c1b-a94d43a0af30",
+   "item": "idbfab14d",
+   "grade": 0,
+   "reason": "Census data on employment and education/training; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "dd727396-846a-416c-ba25-b0d48b035bfd",
+   "item": "ib52d9568",
+   "grade": 2,
+   "reason": "City/agglomeration indicators on mortality rate and number of doctors; directly on healthcare provision."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "ief79076c",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b",
+   "item": "i9fff03fc",
+   "grade": 0,
+   "reason": "Student counts by nationality; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "e4c00173-0494-4c57-b72e-0dd2d2c7358a",
+   "item": "i9e7c9b5a",
+   "grade": 0,
+   "reason": "Dwelling stock by room count; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "f571145a-3283-4523-86da-bcb070c33ee3",
+   "item": "ida1b36de",
+   "grade": 0,
+   "reason": "Census data on employment and education/training; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "f8b84e99-95df-4b13-b19f-1d159244c9da",
+   "item": "id1a232ae",
+   "grade": 0,
+   "reason": "Water quality monitoring of lakes/rivers; not healthcare facilities or statistics."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "fc51bb2d-e104-4875-bdbf-cd0d01c6bf20",
+   "item": "i04d596e1",
+   "grade": 0,
+   "reason": "Establishments/employees by canton and economic type; no health-specific data indicated."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "fc5e0883-e090-4823-95cc-acfa26051ee9",
+   "item": "i4ae5465e",
+   "grade": 0,
+   "reason": "Directory of sports clubs; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-04",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "i43e8ac86",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to healthcare."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "091ce6b2-03d0-4eb0-bc0e-cd3f9ff63bd1",
+   "item": "iba7ab7e9",
+   "grade": 0,
+   "reason": "Cantonal parliament motion counts; unrelated to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "0a5059fe-33bf-44c2-88de-d0ccd71d8f7e",
+   "item": "id3848df4",
+   "grade": 1,
+   "reason": "School district financial health overview; public finance, a neighbouring subject to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "108c4325-b33e-490d-95c9-520fe83d880b",
+   "item": "i0103725c",
+   "grade": 1,
+   "reason": "Consolidated cantonal government expenditure by function; public finance, not GDP/business statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "145437ca-ed3d-4132-9419-56dd47938c4b",
+   "item": "icd64c47d",
+   "grade": 0,
+   "reason": "Census 2000 households/families for a canton; not economic/GDP statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "35869601-e3ab-4324-b3ad-c6116152c99b",
+   "item": "i31ebcf73",
+   "grade": 0,
+   "reason": "Meteorological data at an aircraft-noise monitoring station; unrelated to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "3a8e485f-b184-48f3-9d60-fda4a7d1388f",
+   "item": "i8f074b9e",
+   "grade": 0,
+   "reason": "Student counts by nationality; unrelated to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "3d000898-121d-4c47-b620-eedeaa5b4f16",
+   "item": "i9ddd90b1",
+   "grade": 0,
+   "reason": "Building structure by canton (storeys, dwellings); population/housing, not economic/GDP statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "3f8295e7-6758-44a9-b1b5-6cabfa5241e5",
+   "item": "ie5c89534",
+   "grade": 0,
+   "reason": "Historical photo collection of Swiss buildings; unrelated to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "3f99d1be-0802-4bd7-bdd4-468cfb7bcf3b",
+   "item": "if26bf511",
+   "grade": 0,
+   "reason": "Counts of newly built residential buildings by category; not tagged economic, no GDP data."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "41b0dd9b-1473-47cd-b7c5-bdeeda132783",
+   "item": "i68d47239",
+   "grade": 1,
+   "reason": "Municipal financial ratio averages by canton; public finance, a neighbouring subject to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "4e46717e-7495-40d2-ae0d-1300cc0b73d9",
+   "item": "iddcd6035",
+   "grade": 0,
+   "reason": "Census 2000 households/families for a canton; not economic/GDP statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "66424ce7-5876-48d2-b376-77dce51b7ad5",
+   "item": "i159bf614",
+   "grade": 1,
+   "reason": "New dwellings built by room count and municipality; a narrow construction-activity indicator, not GDP."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "6bb05375-5392-442d-972c-d98a0bef8bed",
+   "item": "i77871400",
+   "grade": 0,
+   "reason": "Municipality-to-district mapping; unrelated to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "6f063751-4634-4aea-be48-fa81b6293224",
+   "item": "ifb1bb2d3",
+   "grade": 1,
+   "reason": "School district financial health overview; public finance, a neighbouring subject to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "84e62174-be5d-44c3-b308-7a6de51afd45",
+   "item": "ifd20e849",
+   "grade": 2,
+   "reason": "Institutional units and employees by canton and economic activity type; core regional economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "86b02b11-1860-422c-b734-916b7cd15ed2",
+   "item": "if6d99f1e",
+   "grade": 0,
+   "reason": "Parking occupancy data for a city; unrelated to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "8ae04e8d-58c6-4ed4-91e0-17d8510a64e5",
+   "item": "ia391c8cb",
+   "grade": 0,
+   "reason": "Municipal waste tonnage by year; not economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "a4ee794f-b4fb-4e50-a23a-4e911419bb02",
+   "item": "ic6e49983",
+   "grade": 0,
+   "reason": "Student counts by first language; unrelated to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "bd9e8c12-143c-4054-a460-1bcb932e106f",
+   "item": "i36aab05e",
+   "grade": 0,
+   "reason": "Census 2000 households/families for a canton; not economic/GDP statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "be253c4f-a75e-4172-80a9-ef80ebc0daeb",
+   "item": "i50424888",
+   "grade": 0,
+   "reason": "Private households by size and region; demographic, not economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "c0f3c739-58d7-40fd-a212-24ffc109e0e8",
+   "item": "ic9aa74d9",
+   "grade": 0,
+   "reason": "Census 2000 households/families for a canton; not economic/GDP statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "d5c0d743-cb0f-4133-a409-692ca05f5c6b",
+   "item": "i8c87630f",
+   "grade": 1,
+   "reason": "In-commuter counts by municipality; a labour-mobility indicator, not GDP/business statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "def4897e-3077-49de-82fc-095ec5f227f3",
+   "item": "i0c670a64",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "df6179cb-387b-49d7-8f2c-1e7b2d1c1a1b",
+   "item": "i94c37136",
+   "grade": 0,
+   "reason": "Student counts by nationality; unrelated to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "e4c00173-0494-4c57-b72e-0dd2d2c7358a",
+   "item": "iff5dcb83",
+   "grade": 0,
+   "reason": "Dwelling stock by room count and municipality; not economic/GDP statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "efd6e39a-d596-4c08-bf24-54e30f983513",
+   "item": "ib7d23027",
+   "grade": 0,
+   "reason": "Census 2000 households/families for a canton; not economic/GDP statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "f5d4b068-3f63-4cc2-ba6a-2d793a0db2c9",
+   "item": "ie48e96e7",
+   "grade": 0,
+   "reason": "Aircraft noise monitoring results; unrelated to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "feb4d5f2-eba4-4b14-a39b-5f3f36bb30c6",
+   "item": "id40d243b",
+   "grade": 0,
+   "reason": "Public library usage statistics; unrelated to economic statistics."
+  },
+  {
+   "query_id": "XD-05",
+   "dataset_id": "fec69906-1e02-4ae0-bb01-dc66f551b23c",
+   "item": "i1138495f",
+   "grade": 1,
+   "reason": "State tax revenue and tax capacity by municipality; public finance, a neighbouring subject to economic statistics."
+  }
+ ],
+ "derivation": "Joined from the unchanged raw outputs in raw/assessor_B_*.json with pool_key.json (item id to query and dataset id) and sorted by query and dataset id. Grades and reasons are copied without modification."
+}

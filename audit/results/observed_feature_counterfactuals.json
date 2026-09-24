@@ -1,0 +1,173 @@
+{
+  "scope": "Hypothetical +0.05 feature intervention on positively gated historical pairs. Does not alter stored metadata.",
+  "tests": [
+    {
+      "feature": "similarity",
+      "system": "mamdani",
+      "tested_pairs": 150,
+      "decreases": 0,
+      "largest_decrease": 0.0,
+      "example_query_id": "ENV-02",
+      "example_dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+      "example_before": [
+        0.5143584552767573,
+        0.875,
+        0.9995791988922018,
+        0.9602525677891275
+      ],
+      "example_after": [
+        0.5643584552767573,
+        0.875,
+        0.9995791988922018,
+        0.9602525677891275
+      ]
+    },
+    {
+      "feature": "similarity",
+      "system": "hybrid",
+      "tested_pairs": 150,
+      "decreases": 0,
+      "largest_decrease": 0.0,
+      "example_query_id": "ENV-02",
+      "example_dataset_id": "5ad6ebdc-5ca5-4396-aed0-173106afc9e1",
+      "example_before": [
+        0.5143584552767573,
+        0.875,
+        0.9995791988922018,
+        0.9602525677891275
+      ],
+      "example_after": [
+        0.5643584552767573,
+        0.875,
+        0.9995791988922018,
+        0.9602525677891275
+      ]
+    },
+    {
+      "feature": "completeness",
+      "system": "mamdani",
+      "tested_pairs": 150,
+      "decreases": 47,
+      "largest_decrease": -0.006168077884749212,
+      "example_query_id": "XD-04",
+      "example_dataset_id": "a4ee794f-b4fb-4e50-a23a-4e911419bb02",
+      "example_before": [
+        0.027230443583660856,
+        0.875,
+        0.999578973862565,
+        0.9602525677891275
+      ],
+      "example_after": [
+        0.027230443583660856,
+        0.925,
+        0.999578973862565,
+        0.9602525677891275
+      ]
+    },
+    {
+      "feature": "completeness",
+      "system": "hybrid",
+      "tested_pairs": 150,
+      "decreases": 0,
+      "largest_decrease": 0.0,
+      "example_query_id": "XD-04",
+      "example_dataset_id": "a4ee794f-b4fb-4e50-a23a-4e911419bb02",
+      "example_before": [
+        0.027230443583660856,
+        0.875,
+        0.999578973862565,
+        0.9602525677891275
+      ],
+      "example_after": [
+        0.027230443583660856,
+        0.925,
+        0.999578973862565,
+        0.9602525677891275
+      ]
+    },
+    {
+      "feature": "freshness",
+      "system": "mamdani",
+      "tested_pairs": 150,
+      "decreases": 0,
+      "largest_decrease": 0.0,
+      "example_query_id": "ENV-01",
+      "example_dataset_id": "0c8b2a1e-9ccc-43aa-8b6c-345c2e17fc76",
+      "example_before": [
+        0.3265231072910908,
+        0.875,
+        0.9995894464857071,
+        1.0
+      ],
+      "example_after": [
+        0.3265231072910908,
+        0.875,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "feature": "freshness",
+      "system": "hybrid",
+      "tested_pairs": 150,
+      "decreases": 0,
+      "largest_decrease": 0.0,
+      "example_query_id": "ENV-02",
+      "example_dataset_id": "3f8295e7-6758-44a9-b1b5-6cabfa5241e5",
+      "example_before": [
+        0.5374848192716986,
+        0.875,
+        0.9996382632951101,
+        0.5781296526357756
+      ],
+      "example_after": [
+        0.5374848192716986,
+        0.875,
+        1.0,
+        0.5781296526357756
+      ]
+    },
+    {
+      "feature": "resources",
+      "system": "mamdani",
+      "tested_pairs": 150,
+      "decreases": 14,
+      "largest_decrease": -0.013257931799084743,
+      "example_query_id": "MOB-03",
+      "example_dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+      "example_before": [
+        0.19698815109293125,
+        0.875,
+        0.9995751789231042,
+        0.7472217363092141
+      ],
+      "example_after": [
+        0.19698815109293125,
+        0.875,
+        0.9995751789231042,
+        0.7972217363092141
+      ]
+    },
+    {
+      "feature": "resources",
+      "system": "hybrid",
+      "tested_pairs": 150,
+      "decreases": 8,
+      "largest_decrease": -0.004242655669405182,
+      "example_query_id": "MOB-03",
+      "example_dataset_id": "fbbd9f3c-7194-448b-a7b2-1ef5aad83e6b",
+      "example_before": [
+        0.19698815109293125,
+        0.875,
+        0.9995751789231042,
+        0.7472217363092141
+      ],
+      "example_after": [
+        0.19698815109293125,
+        0.875,
+        0.9995751789231042,
+        0.7972217363092141
+      ]
+    }
+  ]
+}

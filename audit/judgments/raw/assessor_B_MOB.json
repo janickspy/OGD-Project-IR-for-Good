@@ -1,0 +1,677 @@
+[
+  {
+    "item": "ib97ea136",
+    "grade": 0,
+    "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+    "item": "i2ad5d22f",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; public transport is at most a minor chapter here."
+  },
+  {
+    "item": "idd03f3ec",
+    "grade": 0,
+    "reason": "Parking occupancy data for Frauenfeld; unrelated to public transport timetables."
+  },
+  {
+    "item": "ic3c6f63a",
+    "grade": 0,
+    "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+    "item": "i6c5f1a19",
+    "grade": 0,
+    "reason": "Business establishment/employment counts by canton; unrelated to public transport."
+  },
+  {
+    "item": "i9af08131",
+    "grade": 2,
+    "reason": "Public regional transport line data for Thurgau, incl. schedule-km and trip counts."
+  },
+  {
+    "item": "ic1a8c64b",
+    "grade": 0,
+    "reason": "Business establishment/employment counts by canton; unrelated to public transport."
+  },
+  {
+    "item": "ib61bc8f0",
+    "grade": 0,
+    "reason": "Counts motorized private car traffic, the opposite of public transport."
+  },
+  {
+    "item": "i423476e9",
+    "grade": 0,
+    "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+    "item": "i662c41a9",
+    "grade": 0,
+    "reason": "Real-time parking occupancy for Frauenfeld; unrelated to public transport timetables."
+  },
+  {
+    "item": "ib4abdc71",
+    "grade": 0,
+    "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+    "item": "i4ffdb1d8",
+    "grade": 0,
+    "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+    "item": "i87197701",
+    "grade": 0,
+    "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+    "item": "i34282cc9",
+    "grade": 0,
+    "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+    "item": "i5373e37a",
+    "grade": 0,
+    "reason": "Housing/building census data for Zurich; unrelated to public transport."
+  },
+  {
+    "item": "i8ff547dc",
+    "grade": 0,
+    "reason": "Historic photo archive of Swiss buildings; unrelated to public transport."
+  },
+  {
+    "item": "i3b56053e",
+    "grade": 0,
+    "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+    "item": "i91297e66",
+    "grade": 0,
+    "reason": "Households and families census data; unrelated to public transport."
+  },
+  {
+    "item": "i03d79035",
+    "grade": 0,
+    "reason": "Counts motorized private car traffic by class; not public transport."
+  },
+  {
+    "item": "i199bbc52",
+    "grade": 0,
+    "reason": "Road vehicle registration counts for Thurgau; not public transport timetable data."
+  },
+  {
+    "item": "ic794189a",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+    "item": "iece34e79",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+    "item": "i156037db",
+    "grade": 1,
+    "reason": "Road traffic volume counts, a neighbouring subject, but no accident data shown."
+  },
+  {
+    "item": "i13780c51",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+    "item": "ic5cf073e",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+    "item": "ia8d9bfec",
+    "grade": 0,
+    "reason": "Public library statistics for Thurgau; unrelated to traffic accidents."
+  },
+  {
+    "item": "ie0ecccc6",
+    "grade": 0,
+    "reason": "Settlement/population register for Thurgau; unrelated to traffic accidents."
+  },
+  {
+    "item": "i8aea68f0",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+    "item": "i7c639302",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+    "item": "i1cee6c6e",
+    "grade": 0,
+    "reason": "Municipality boundary/name changes; unrelated to traffic accidents."
+  },
+  {
+    "item": "i5e707819",
+    "grade": 0,
+    "reason": "Public library statistics for Thurgau; unrelated to traffic accidents."
+  },
+  {
+    "item": "iacc7d4db",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+    "item": "i83e837fb",
+    "grade": 0,
+    "reason": "Notary certification counts; unrelated to traffic accidents."
+  },
+  {
+    "item": "i7992546d",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+    "item": "i20e312ca",
+    "grade": 0,
+    "reason": "Employment counts by economic sector; unrelated to traffic accidents."
+  },
+  {
+    "item": "i57ea3bf2",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; traffic accidents are at most a minor chapter."
+  },
+  {
+    "item": "i8941f55a",
+    "grade": 0,
+    "reason": "Building heating energy sources by canton; not about vehicle charging."
+  },
+  {
+    "item": "iaf959be9",
+    "grade": 0,
+    "reason": "Housing/building census data; unrelated to EV charging stations."
+  },
+  {
+    "item": "i1e414318",
+    "grade": 0,
+    "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+    "item": "i848a516a",
+    "grade": 0,
+    "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+    "item": "ic5e16eda",
+    "grade": 0,
+    "reason": "Aircraft noise monitoring station data; unrelated to EV charging."
+  },
+  {
+    "item": "i0bf195b2",
+    "grade": 0,
+    "reason": "General statistics yearbook (no description); no indication of EV charging data."
+  },
+  {
+    "item": "iafc1ce60",
+    "grade": 0,
+    "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+    "item": "i58a73057",
+    "grade": 0,
+    "reason": "Public library statistics; unrelated to EV charging."
+  },
+  {
+    "item": "ib3d5c40e",
+    "grade": 0,
+    "reason": "1909 yearbook predates electromobility; no charging station data."
+  },
+  {
+    "item": "i9c7f5f15",
+    "grade": 0,
+    "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+    "item": "id61ebc7d",
+    "grade": 0,
+    "reason": "Vehicle-class traffic counts; no fuel-type or charging-station data."
+  },
+  {
+    "item": "ie5ab8794",
+    "grade": 0,
+    "reason": "1961 yearbook predates electromobility; no charging station data."
+  },
+  {
+    "item": "ie9c05593",
+    "grade": 0,
+    "reason": "Historic photo archive; unrelated to EV charging."
+  },
+  {
+    "item": "idf4ac616",
+    "grade": 0,
+    "reason": "1977 yearbook predates electromobility; no charging station data."
+  },
+  {
+    "item": "i47180838",
+    "grade": 0,
+    "reason": "Car parking occupancy data; no mention of EV charging infrastructure."
+  },
+  {
+    "item": "ib391f8b2",
+    "grade": 0,
+    "reason": "Car parking occupancy data; no mention of EV charging infrastructure."
+  },
+  {
+    "item": "i50d627ff",
+    "grade": 0,
+    "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+    "item": "i3b15cc86",
+    "grade": 0,
+    "reason": "1964 yearbook predates electromobility; no charging station data."
+  },
+  {
+    "item": "i790fbc87",
+    "grade": 0,
+    "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+    "item": "id748b56e",
+    "grade": 0,
+    "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+    "item": "i30b9f3cf",
+    "grade": 0,
+    "reason": "Settlement register for Thurgau; unrelated to EV charging stations."
+  },
+  {
+    "item": "i230309cc",
+    "grade": 0,
+    "reason": "General statistics yearbook; charging station locations are not such content."
+  },
+  {
+    "item": "i1f71e6f4",
+    "grade": 0,
+    "reason": "Municipality boundary changes; unrelated to EV charging."
+  },
+  {
+    "item": "i67189ea8",
+    "grade": 0,
+    "reason": "Motorized traffic counts; no fuel-type or charging-station data."
+  },
+  {
+    "item": "i909b443a",
+    "grade": 0,
+    "reason": "Building heating energy sources by canton; not about vehicle charging."
+  },
+  {
+    "item": "i48f6c5d4",
+    "grade": 0,
+    "reason": "1948 yearbook predates electromobility; no charging station data."
+  },
+  {
+    "item": "i5c38da45",
+    "grade": 0,
+    "reason": "1946 yearbook predates electromobility; no charging station data."
+  },
+  {
+    "item": "i8cf1523f",
+    "grade": 0,
+    "reason": "1921 yearbook predates electromobility; no charging station data."
+  },
+  {
+    "item": "i70fe4970",
+    "grade": 0,
+    "reason": "Weather data at a noise-monitoring station; unrelated to EV charging."
+  },
+  {
+    "item": "i7ed0e6db",
+    "grade": 0,
+    "reason": "Archaeological find reports; unrelated to EV charging."
+  },
+  {
+    "item": "if9f84cca",
+    "grade": 0,
+    "reason": "Building heating energy sources by canton; not about vehicle charging."
+  },
+  {
+    "item": "i24f8d7b2",
+    "grade": 0,
+    "reason": "1907 yearbook predates electromobility; no charging station data."
+  },
+  {
+    "item": "i5cf8d44e",
+    "grade": 0,
+    "reason": "1997 yearbook (no description); no indication of EV charging data."
+  },
+  {
+    "item": "i7176665b",
+    "grade": 0,
+    "reason": "Employment counts by economic sector; unrelated to EV charging."
+  },
+  {
+    "item": "i566a4518",
+    "grade": 0,
+    "reason": "Youth sports program funding; unrelated to EV charging."
+  },
+  {
+    "item": "ia2d5088b",
+    "grade": 0,
+    "reason": "General statistics yearbook; no indication it lists charging stations."
+  },
+  {
+    "item": "iaab46d7f",
+    "grade": 0,
+    "reason": "Public library statistics; unrelated to EV charging."
+  },
+  {
+    "item": "i667ea60a",
+    "grade": 0,
+    "reason": "Housing/building census data; unrelated to bicycle traffic or paths."
+  },
+  {
+    "item": "i1dc54fcc",
+    "grade": 0,
+    "reason": "Housing/building census data; unrelated to bicycle traffic or paths."
+  },
+  {
+    "item": "i941fda2f",
+    "grade": 0,
+    "reason": "Census employment/education data; no cycling or transport-mode data shown."
+  },
+  {
+    "item": "i5d2ed19e",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+    "item": "i4f9bcbaf",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+    "item": "i9404a6a7",
+    "grade": 0,
+    "reason": "Aircraft noise monitoring; unrelated to bicycle traffic or infrastructure."
+  },
+  {
+    "item": "i2e85fc57",
+    "grade": 0,
+    "reason": "Counts only motorized traffic, explicitly excluding bicycles."
+  },
+  {
+    "item": "ifa298b59",
+    "grade": 0,
+    "reason": "Historic photo archive; unrelated to cycling."
+  },
+  {
+    "item": "id0abb4a3",
+    "grade": 0,
+    "reason": "Municipality boundary/name changes; unrelated to cycling."
+  },
+  {
+    "item": "i4a33bcbd",
+    "grade": 0,
+    "reason": "Car parking occupancy data; unrelated to bicycles."
+  },
+  {
+    "item": "i86eacaff",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+    "item": "id68eb70d",
+    "grade": 0,
+    "reason": "Motorized vehicle-class traffic counts; excludes bicycles."
+  },
+  {
+    "item": "ia572e8f6",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+    "item": "i59ca10fd",
+    "grade": 0,
+    "reason": "Households and families census; unrelated to cycling."
+  },
+  {
+    "item": "ieb3e1840",
+    "grade": 0,
+    "reason": "Public library statistics; unrelated to cycling."
+  },
+  {
+    "item": "ia9cc9533",
+    "grade": 0,
+    "reason": "Land price data; unrelated to bicycle traffic or paths."
+  },
+  {
+    "item": "iec1e499d",
+    "grade": 0,
+    "reason": "Archaeological find reports; unrelated to cycling."
+  },
+  {
+    "item": "i597abc98",
+    "grade": 0,
+    "reason": "Households and families census; unrelated to cycling."
+  },
+  {
+    "item": "i933fb9c7",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+    "item": "iaa1f8fce",
+    "grade": 0,
+    "reason": "Water quality monitoring; unrelated to cycling."
+  },
+  {
+    "item": "i179ee753",
+    "grade": 0,
+    "reason": "Public transport line statistics (bus/train/boat); not about bicycles."
+  },
+  {
+    "item": "i0610cf15",
+    "grade": 0,
+    "reason": "Settlement register; unrelated to cycling infrastructure."
+  },
+  {
+    "item": "i51de406f",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+    "item": "iee401c23",
+    "grade": 0,
+    "reason": "Youth sports program funding; not bicycle traffic or infrastructure data."
+  },
+  {
+    "item": "ia5b56a61",
+    "grade": 0,
+    "reason": "Public library statistics; unrelated to cycling."
+  },
+  {
+    "item": "i95598aa7",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+    "item": "ia29e214e",
+    "grade": 0,
+    "reason": "Employment counts by economic sector; unrelated to cycling."
+  },
+  {
+    "item": "i00198749",
+    "grade": 1,
+    "reason": "General Swiss statistical yearbook; bicycle traffic at most a minor chapter."
+  },
+  {
+    "item": "i40ccc7e9",
+    "grade": 0,
+    "reason": "Domestic violence statistics; unrelated to parking."
+  },
+  {
+    "item": "i06b3d639",
+    "grade": 0,
+    "reason": "Housing rent-class data; unrelated to parking."
+  },
+  {
+    "item": "i6788a78c",
+    "grade": 0,
+    "reason": "Hydrological monitoring stations; unrelated to parking."
+  },
+  {
+    "item": "ib4af2b37",
+    "grade": 0,
+    "reason": "Residential building stock counts; unrelated to parking."
+  },
+  {
+    "item": "i2172d380",
+    "grade": 0,
+    "reason": "Urban housing-situation indicators; unrelated to parking."
+  },
+  {
+    "item": "i2713ab38",
+    "grade": 0,
+    "reason": "Business unit/employment counts by canton; unrelated to parking."
+  },
+  {
+    "item": "i420cdc55",
+    "grade": 0,
+    "reason": "Workplace/employment counts by municipality; unrelated to parking."
+  },
+  {
+    "item": "id9f7afc2",
+    "grade": 0,
+    "reason": "Census employment/education data; unrelated to parking."
+  },
+  {
+    "item": "i035e4e11",
+    "grade": 0,
+    "reason": "Youth sports program funding; unrelated to parking."
+  },
+  {
+    "item": "id65594bc",
+    "grade": 0,
+    "reason": "Water quality monitoring; unrelated to parking."
+  },
+  {
+    "item": "i8e871cd7",
+    "grade": 0,
+    "reason": "Public library statistics; unrelated to parking."
+  },
+  {
+    "item": "idbbf2b5e",
+    "grade": 0,
+    "reason": "School enrollment by nationality; unrelated to parking."
+  },
+  {
+    "item": "i55022d79",
+    "grade": 0,
+    "reason": "Archaeological find reports; unrelated to parking."
+  },
+  {
+    "item": "ice06fc46",
+    "grade": 0,
+    "reason": "Vacant-apartment statistics; unrelated to vehicle parking."
+  },
+  {
+    "item": "if2a218d6",
+    "grade": 0,
+    "reason": "Moving-traffic vehicle counts by class; no parking availability data."
+  },
+  {
+    "item": "if71c89cc",
+    "grade": 0,
+    "reason": "Daily weather station values; unrelated to parking."
+  },
+  {
+    "item": "i783458f2",
+    "grade": 0,
+    "reason": "School enrollment by first language; unrelated to parking."
+  },
+  {
+    "item": "i70a4c4f2",
+    "grade": 0,
+    "reason": "Domestic violence statistics; unrelated to parking."
+  },
+  {
+    "item": "i4700975c",
+    "grade": 0,
+    "reason": "Moving motorized-traffic counts; no parking availability data."
+  },
+  {
+    "item": "if62a8d76",
+    "grade": 0,
+    "reason": "Housing unit counts by room number; unrelated to parking."
+  },
+  {
+    "item": "ie7daacce",
+    "grade": 0,
+    "reason": "Public library statistics; unrelated to parking."
+  },
+  {
+    "item": "i6ec3071e",
+    "grade": 2,
+    "reason": "Hourly parking occupancy for 5 Frauenfeld lots, daily updated; on-topic though not live."
+  },
+  {
+    "item": "if8a10e41",
+    "grade": 0,
+    "reason": "Workplace/employment counts by canton; unrelated to parking."
+  },
+  {
+    "item": "ie6c28bef",
+    "grade": 0,
+    "reason": "Directory of sports clubs; unrelated to parking."
+  },
+  {
+    "item": "i69254d50",
+    "grade": 0,
+    "reason": "Daily weather station values; unrelated to parking."
+  },
+  {
+    "item": "i43b01e6d",
+    "grade": 0,
+    "reason": "Workplace/employment counts by canton; unrelated to parking."
+  },
+  {
+    "item": "i03da320c",
+    "grade": 0,
+    "reason": "Index to 1891-1901 yearbook volumes; predates cars, no parking data."
+  },
+  {
+    "item": "if9e31805",
+    "grade": 0,
+    "reason": "Workplace/employment counts by canton; unrelated to parking."
+  },
+  {
+    "item": "id386b74d",
+    "grade": 0,
+    "reason": "Commercial registry of companies; unrelated to parking availability."
+  },
+  {
+    "item": "i2abf0b0b",
+    "grade": 2,
+    "reason": "Real-time occupied/free counts for 5 public parking lots, updated every 5 minutes."
+  },
+  {
+    "item": "ie2de1350",
+    "grade": 0,
+    "reason": "Census employment/education data; unrelated to parking."
+  },
+  {
+    "item": "ie3f682d1",
+    "grade": 0,
+    "reason": "Agricultural crop and tree data; unrelated to parking."
+  },
+  {
+    "item": "ia990aee4",
+    "grade": 0,
+    "reason": "School enrollment by nationality; unrelated to parking."
+  },
+  {
+    "item": "id6d2dbd3",
+    "grade": 0,
+    "reason": "Census employment/education data; unrelated to parking."
+  }
+]

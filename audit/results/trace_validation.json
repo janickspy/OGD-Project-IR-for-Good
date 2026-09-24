@@ -1,0 +1,13 @@
+{
+  "query_document_pairs": 7500,
+  "max_absolute_centroid_error": 3.3306690738754696e-16,
+  "verified_pooled_orders": 60,
+  "pooled_traces": 150,
+  "checks": [
+    "Independent array centroid versus scorer",
+    "BM25 matched-term contribution sums",
+    "Hybrid arithmetic and lexical gate",
+    "Saved pooled order equality"
+  ],
+  "not_tested": "Human comprehension or normative appropriateness of the policy"
+}

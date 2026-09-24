@@ -1,0 +1,80 @@
+{
+  "source": "Benchmark topic definitions (query text and information need) of the inherited collection",
+  "topics": [
+    {
+      "id": "ENV-01",
+      "query": "Aktuelle Luftqualitätsdaten für Schweizer Städte",
+      "description": "Find current air quality measurements for Swiss cities"
+    },
+    {
+      "id": "ENV-02",
+      "query": "Biodiversität und Artenschutz in der Schweiz",
+      "description": "Find datasets about biodiversity and species protection"
+    },
+    {
+      "id": "ENV-03",
+      "query": "Wasserqualität in Schweizer Seen und Flüssen",
+      "description": "Find water quality monitoring data"
+    },
+    {
+      "id": "ENV-04",
+      "query": "Lärmbelastung und Lärmkarten Schweiz",
+      "description": "Find noise pollution maps and measurements"
+    },
+    {
+      "id": "ENV-05",
+      "query": "Klimawandel und CO2-Emissionen Schweiz",
+      "description": "Find climate change and emissions data"
+    },
+    {
+      "id": "MOB-01",
+      "query": "Öffentlicher Verkehr Fahrplandaten Schweiz",
+      "description": "Find public transport timetable/schedule data"
+    },
+    {
+      "id": "MOB-02",
+      "query": "Verkehrsunfälle Statistik Schweiz",
+      "description": "Find traffic accident statistics"
+    },
+    {
+      "id": "MOB-03",
+      "query": "Elektromobilität Ladestationen Schweiz",
+      "description": "Find electric vehicle charging station locations"
+    },
+    {
+      "id": "MOB-04",
+      "query": "Veloverkehr und Radwege in der Schweiz",
+      "description": "Find bicycle traffic and cycling infrastructure data"
+    },
+    {
+      "id": "MOB-05",
+      "query": "Parkplätze und Parkhäuser Echtzeitdaten",
+      "description": "Find real-time parking availability data"
+    },
+    {
+      "id": "XD-01",
+      "query": "Bevölkerungsentwicklung und Demografie Schweiz",
+      "description": "Find population and demographic statistics"
+    },
+    {
+      "id": "XD-02",
+      "query": "Energieverbrauch nach Kantonen",
+      "description": "Find energy consumption by canton"
+    },
+    {
+      "id": "XD-03",
+      "query": "Bildungsstatistik Schulen und Universitäten",
+      "description": "Find education statistics"
+    },
+    {
+      "id": "XD-04",
+      "query": "Gesundheitsversorgung und Spitäler",
+      "description": "Find healthcare facilities and statistics"
+    },
+    {
+      "id": "XD-05",
+      "query": "Wirtschaftsstatistik und BIP nach Region",
+      "description": "Find economic statistics by region"
+    }
+  ]
+}

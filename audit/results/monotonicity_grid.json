@@ -1,0 +1,176 @@
+{
+  "scope": "Synthetic feature grid, not observed user behaviour or effectiveness",
+  "grid_points": 194481,
+  "step": 0.05,
+  "score": "Ungated outputs. A synthetic positive lexical gate is assumed for hybrid.",
+  "tests": [
+    {
+      "system": "mamdani",
+      "feature": "similarity",
+      "adjacent_pairs": 185220,
+      "decreases": 818,
+      "largest_decrease": -0.005848287590898504,
+      "example_low": {
+        "similarity": 0.75,
+        "completeness": 0.8,
+        "freshness": 0.25,
+        "resources": 0.8
+      },
+      "example_high": {
+        "similarity": 0.8,
+        "completeness": 0.8,
+        "freshness": 0.25,
+        "resources": 0.8
+      },
+      "example_score_low": 0.6687241379310345,
+      "example_score_high": 0.662875850340136
+    },
+    {
+      "system": "mamdani",
+      "feature": "completeness",
+      "adjacent_pairs": 185220,
+      "decreases": 12038,
+      "largest_decrease": -0.017201599800024947,
+      "example_low": {
+        "similarity": 0.05,
+        "completeness": 0.75,
+        "freshness": 0.0,
+        "resources": 0.55
+      },
+      "example_high": {
+        "similarity": 0.05,
+        "completeness": 0.8,
+        "freshness": 0.0,
+        "resources": 0.55
+      },
+      "example_score_low": 0.3268888888888889,
+      "example_score_high": 0.30968728908886395
+    },
+    {
+      "system": "mamdani",
+      "feature": "freshness",
+      "adjacent_pairs": 185220,
+      "decreases": 19636,
+      "largest_decrease": -0.020838349306529613,
+      "example_low": {
+        "similarity": 0.1,
+        "completeness": 1.0,
+        "freshness": 0.25,
+        "resources": 1.0
+      },
+      "example_high": {
+        "similarity": 0.1,
+        "completeness": 1.0,
+        "freshness": 0.30000000000000004,
+        "resources": 1.0
+      },
+      "example_score_low": 0.41638315217391314,
+      "example_score_high": 0.3955448028673835
+    },
+    {
+      "system": "mamdani",
+      "feature": "resources",
+      "adjacent_pairs": 185220,
+      "decreases": 19636,
+      "largest_decrease": -0.020838349306529613,
+      "example_low": {
+        "similarity": 0.1,
+        "completeness": 1.0,
+        "freshness": 1.0,
+        "resources": 0.25
+      },
+      "example_high": {
+        "similarity": 0.1,
+        "completeness": 1.0,
+        "freshness": 1.0,
+        "resources": 0.30000000000000004
+      },
+      "example_score_low": 0.41638315217391314,
+      "example_score_high": 0.3955448028673835
+    },
+    {
+      "system": "hybrid",
+      "feature": "similarity",
+      "adjacent_pairs": 185220,
+      "decreases": 0,
+      "largest_decrease": 0.0,
+      "example_low": {
+        "similarity": 0.75,
+        "completeness": 0.8,
+        "freshness": 0.25,
+        "resources": 0.8500000000000001
+      },
+      "example_high": {
+        "similarity": 0.8,
+        "completeness": 0.8,
+        "freshness": 0.25,
+        "resources": 0.8500000000000001
+      },
+      "example_score_low": 0.6665456896551725,
+      "example_score_high": 0.6671193027210883
+    },
+    {
+      "system": "hybrid",
+      "feature": "completeness",
+      "adjacent_pairs": 185220,
+      "decreases": 6117,
+      "largest_decrease": -0.006806039870016267,
+      "example_low": {
+        "similarity": 0.05,
+        "completeness": 0.75,
+        "freshness": 0.0,
+        "resources": 0.55
+      },
+      "example_high": {
+        "similarity": 0.05,
+        "completeness": 0.8,
+        "freshness": 0.0,
+        "resources": 0.55
+      },
+      "example_score_low": 0.3306027777777778,
+      "example_score_high": 0.32379673790776153
+    },
+    {
+      "system": "hybrid",
+      "feature": "freshness",
+      "adjacent_pairs": 185220,
+      "decreases": 9082,
+      "largest_decrease": -0.009169927049244186,
+      "example_low": {
+        "similarity": 0.1,
+        "completeness": 1.0,
+        "freshness": 0.25,
+        "resources": 1.0
+      },
+      "example_high": {
+        "similarity": 0.1,
+        "completeness": 1.0,
+        "freshness": 0.30000000000000004,
+        "resources": 1.0
+      },
+      "example_score_low": 0.47627404891304354,
+      "example_score_high": 0.46710412186379935
+    },
+    {
+      "system": "hybrid",
+      "feature": "resources",
+      "adjacent_pairs": 185220,
+      "decreases": 9082,
+      "largest_decrease": -0.009169927049244186,
+      "example_low": {
+        "similarity": 0.1,
+        "completeness": 1.0,
+        "freshness": 1.0,
+        "resources": 0.25
+      },
+      "example_high": {
+        "similarity": 0.1,
+        "completeness": 1.0,
+        "freshness": 1.0,
+        "resources": 0.30000000000000004
+      },
+      "example_score_low": 0.47627404891304354,
+      "example_score_high": 0.46710412186379935
+    }
+  ]
+}

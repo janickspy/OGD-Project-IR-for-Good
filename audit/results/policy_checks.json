@@ -1,0 +1,143 @@
+{
+  "corpus_hash": "7adc2298b65d200004a3beb1cf55e22f873487b1f2069bb675af92bc41c9ee09",
+  "config_hash": "f608008928603527d4ed19157e5f229f58b5f2a5a94365c4548102dd8c97e189",
+  "exposure_scope": "Share of 1/log2(rank+1) exposure by publisher over the 15 pooled rankings.",
+  "exposure": {
+    "bm25": {
+      "bundesamt-fur-statistik-bfs": 0.3172378467891486,
+      "kanton-thurgau": 0.6097696135183523,
+      "schweizerische-nationalbibliothek-nb": 0.07299253969249898
+    },
+    "linear": {
+      "bundesamt-fur-statistik-bfs": 0.2616033399254865,
+      "kanton-thurgau": 0.6959828012752123,
+      "schweizerische-nationalbibliothek-nb": 0.042413858799301124
+    },
+    "mamdani": {
+      "bundesamt-fur-statistik-bfs": 0.3073979176724303,
+      "kanton-thurgau": 0.6196095426350706,
+      "schweizerische-nationalbibliothek-nb": 0.07299253969249898
+    },
+    "hybrid": {
+      "bundesamt-fur-statistik-bfs": 0.284296068016564,
+      "kanton-thurgau": 0.6658990455969989,
+      "schweizerische-nationalbibliothek-nb": 0.049804886386437326
+    },
+    "hybrid_resources_fixed_at_median": {
+      "bundesamt-fur-statistik-bfs": 0.3172378467891486,
+      "kanton-thurgau": 0.6097696135183523,
+      "schweizerische-nationalbibliothek-nb": 0.07299253969249898
+    }
+  },
+  "full_corpus_exposure_scope": "Same measure over the full-collection top-ten runs (results/full_corpus_runs.json).",
+  "full_corpus_exposure": {
+    "bm25": {
+      "bundesamt-fur-statistik-bfs": 0.49213704556624005,
+      "kanton-thurgau": 0.4728411777512412,
+      "schweizerische-nationalbibliothek-nb": 0.03502177668251876
+    },
+    "linear": {
+      "bundesamt-fur-statistik-bfs": 0.06326580836256719,
+      "kanton-thurgau": 0.9367341916374329
+    },
+    "mamdani": {
+      "bundesamt-fur-statistik-bfs": 0.4364174427167024,
+      "kanton-thurgau": 0.5285607806007788,
+      "schweizerische-nationalbibliothek-nb": 0.03502177668251876
+    },
+    "hybrid": {
+      "bundesamt-fur-statistik-bfs": 0.23331301021416304,
+      "kanton-thurgau": 0.7666869897858369
+    },
+    "semantic": {
+      "bundesamt-fur-statistik-bfs": 0.5746127470490802,
+      "kanton-thurgau": 0.4253872529509198
+    }
+  },
+  "sensitivity": [
+    {
+      "name": "similarity middle peak -0.05",
+      "changed_queries": 2,
+      "mean_tau": 0.9881481481481481,
+      "ndcg10": 0.4775098787713324
+    },
+    {
+      "name": "similarity middle peak +0.05",
+      "changed_queries": 0,
+      "mean_tau": 0.9999999999999999,
+      "ndcg10": 0.4839589261570484
+    },
+    {
+      "name": "completeness middle peak -0.05",
+      "changed_queries": 0,
+      "mean_tau": 0.9999999999999999,
+      "ndcg10": 0.4839589261570484
+    },
+    {
+      "name": "completeness middle peak +0.05",
+      "changed_queries": 0,
+      "mean_tau": 0.9999999999999999,
+      "ndcg10": 0.4839589261570484
+    },
+    {
+      "name": "freshness middle peak -0.05",
+      "changed_queries": 0,
+      "mean_tau": 0.9999999999999999,
+      "ndcg10": 0.4839589261570484
+    },
+    {
+      "name": "freshness middle peak +0.05",
+      "changed_queries": 0,
+      "mean_tau": 0.9999999999999999,
+      "ndcg10": 0.4839589261570484
+    },
+    {
+      "name": "resources middle peak -0.05",
+      "changed_queries": 2,
+      "mean_tau": 0.994074074074074,
+      "ndcg10": 0.4817264016731635
+    },
+    {
+      "name": "resources middle peak +0.05",
+      "changed_queries": 0,
+      "mean_tau": 0.9999999999999999,
+      "ndcg10": 0.4839589261570484
+    },
+    {
+      "name": "alpha 0.5",
+      "changed_queries": 6,
+      "mean_tau": 0.9674074074074074,
+      "ndcg10": 0.4682307175883686
+    },
+    {
+      "name": "alpha 0.8",
+      "changed_queries": 6,
+      "mean_tau": 0.9318518518518518,
+      "ndcg10": 0.4839589261570484
+    },
+    {
+      "name": "low rule weights 0.9",
+      "changed_queries": 0,
+      "mean_tau": 0.9999999999999999,
+      "ndcg10": 0.4839589261570484
+    },
+    {
+      "name": "moderate rule weights 0.9",
+      "changed_queries": 0,
+      "mean_tau": 0.9999999999999999,
+      "ndcg10": 0.4839589261570484
+    },
+    {
+      "name": "good rule weights 0.9",
+      "changed_queries": 0,
+      "mean_tau": 0.9999999999999999,
+      "ndcg10": 0.4839589261570484
+    },
+    {
+      "name": "excellent rule weights 0.9",
+      "changed_queries": 0,
+      "mean_tau": 0.9999999999999999,
+      "ndcg10": 0.4839589261570484
+    }
+  ]
+}

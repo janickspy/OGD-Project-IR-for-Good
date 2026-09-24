@@ -1,0 +1,98 @@
+{
+  "statistic": "Absolute paired mean nDCG@10 difference",
+  "two_sided": "Exhaustive within-query system-label swaps; zero pairs factored out; tolerance 1e-12",
+  "family": "All ten pairs of five systems, 15 queries",
+  "assumption": "Independent query-level exchangeability under the null. A small selected query set limits generalization.",
+  "tests": [
+    {
+      "a": "bm25",
+      "b": "linear",
+      "mean_difference": 0.054001282948792854,
+      "nonzero_query_pairs": 4,
+      "distinct_sign_assignments": 16,
+      "p_exact": 0.125,
+      "p_holm": 1
+    },
+    {
+      "a": "bm25",
+      "b": "mamdani",
+      "mean_difference": 0.008156350615857207,
+      "nonzero_query_pairs": 1,
+      "distinct_sign_assignments": 2,
+      "p_exact": 1.0,
+      "p_holm": 1
+    },
+    {
+      "a": "bm25",
+      "b": "hybrid",
+      "mean_difference": 0.028360529027530147,
+      "nonzero_query_pairs": 3,
+      "distinct_sign_assignments": 8,
+      "p_exact": 0.25,
+      "p_holm": 1
+    },
+    {
+      "a": "bm25",
+      "b": "semantic",
+      "mean_difference": -0.06002172816020182,
+      "nonzero_query_pairs": 5,
+      "distinct_sign_assignments": 32,
+      "p_exact": 0.1875,
+      "p_holm": 1
+    },
+    {
+      "a": "linear",
+      "b": "mamdani",
+      "mean_difference": -0.04584493233293565,
+      "nonzero_query_pairs": 4,
+      "distinct_sign_assignments": 16,
+      "p_exact": 0.125,
+      "p_holm": 1
+    },
+    {
+      "a": "linear",
+      "b": "hybrid",
+      "mean_difference": -0.02564075392126271,
+      "nonzero_query_pairs": 4,
+      "distinct_sign_assignments": 16,
+      "p_exact": 0.125,
+      "p_holm": 1
+    },
+    {
+      "a": "linear",
+      "b": "semantic",
+      "mean_difference": -0.11402301110899467,
+      "nonzero_query_pairs": 5,
+      "distinct_sign_assignments": 32,
+      "p_exact": 0.0625,
+      "p_holm": 0.625
+    },
+    {
+      "a": "mamdani",
+      "b": "hybrid",
+      "mean_difference": 0.02020417841167294,
+      "nonzero_query_pairs": 2,
+      "distinct_sign_assignments": 4,
+      "p_exact": 0.5,
+      "p_holm": 1
+    },
+    {
+      "a": "mamdani",
+      "b": "semantic",
+      "mean_difference": -0.06817807877605903,
+      "nonzero_query_pairs": 5,
+      "distinct_sign_assignments": 32,
+      "p_exact": 0.1875,
+      "p_holm": 1
+    },
+    {
+      "a": "hybrid",
+      "b": "semantic",
+      "mean_difference": -0.08838225718773197,
+      "nonzero_query_pairs": 6,
+      "distinct_sign_assignments": 64,
+      "p_exact": 0.09375,
+      "p_holm": 0.84375
+    }
+  ]
+}

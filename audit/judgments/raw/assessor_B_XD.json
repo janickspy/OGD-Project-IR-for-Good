@@ -1,0 +1,807 @@
+[
+  {
+    "item": "id39fa08e",
+    "grade": 1,
+    "reason": "Student counts by first language; education data with only a demographic side-aspect, not general population statistics."
+  },
+  {
+    "item": "i2c9d3512",
+    "grade": 0,
+    "reason": "Historical photo collection of Swiss buildings; no population or demographic data."
+  },
+  {
+    "item": "i73936e2b",
+    "grade": 1,
+    "reason": "General statistical yearbook covering many domains; population is only a minor part of the compilation."
+  },
+  {
+    "item": "i3a499ce3",
+    "grade": 1,
+    "reason": "General statistical yearbook (no description); population at most a minor part of such compilations."
+  },
+  {
+    "item": "ib1040da1",
+    "grade": 1,
+    "reason": "Census 2000 data on buildings, dwellings and housing conditions, not directly population/demographic counts."
+  },
+  {
+    "item": "iacc1e9df",
+    "grade": 1,
+    "reason": "General statistical yearbook covering population, society, economy; population a minor part of broad compilation."
+  },
+  {
+    "item": "icd0f3e38",
+    "grade": 1,
+    "reason": "Student counts by nationality; education data with a demographic dimension, not general population statistics."
+  },
+  {
+    "item": "i78a75ecf",
+    "grade": 1,
+    "reason": "General statistical yearbook; population is a minor part of this broad compilation."
+  },
+  {
+    "item": "ib636636e",
+    "grade": 0,
+    "reason": "Youth sports program participation and funding data; unrelated to population/demographic statistics."
+  },
+  {
+    "item": "i2dc6464b",
+    "grade": 1,
+    "reason": "General statistical yearbook (1961); population only a minor part of broad compilation."
+  },
+  {
+    "item": "ib4da22ee",
+    "grade": 1,
+    "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+    "item": "i9a75b92a",
+    "grade": 1,
+    "reason": "General statistical yearbook (1909); population only a minor part of broad compilation."
+  },
+  {
+    "item": "i24d06a82",
+    "grade": 1,
+    "reason": "General statistical yearbook (1946); population only a minor part of broad compilation."
+  },
+  {
+    "item": "ib38b8b39",
+    "grade": 0,
+    "reason": "Census data on employment and education/training, not population or demographic characteristics."
+  },
+  {
+    "item": "i06e9b678",
+    "grade": 1,
+    "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+    "item": "i12111ac0",
+    "grade": 1,
+    "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+    "item": "i239cd6c3",
+    "grade": 1,
+    "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+    "item": "i95e297ec",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to population or demographics."
+  },
+  {
+    "item": "i9de5dfd8",
+    "grade": 1,
+    "reason": "General statistical yearbook (1907); population only a minor part of broad compilation."
+  },
+  {
+    "item": "idc6c2822",
+    "grade": 1,
+    "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+    "item": "i5e0b762f",
+    "grade": 0,
+    "reason": "Records of municipality mergers/name changes, not population counts or demographic data."
+  },
+  {
+    "item": "i8ac753db",
+    "grade": 0,
+    "reason": "Employee counts by economic sector and municipality; economic, not demographic, statistics."
+  },
+  {
+    "item": "i116fcf63",
+    "grade": 1,
+    "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+    "item": "i57c09aca",
+    "grade": 1,
+    "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+    "item": "i38ebc1ee",
+    "grade": 2,
+    "reason": "Census 2000 data on households and families for a canton; core demographic content."
+  },
+  {
+    "item": "i49df7aa9",
+    "grade": 1,
+    "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+    "item": "i299438d5",
+    "grade": 1,
+    "reason": "Student counts by nationality; education data with a demographic dimension, not general population statistics."
+  },
+  {
+    "item": "i6eace3c8",
+    "grade": 1,
+    "reason": "General statistical yearbook (1964); population only a minor part of broad compilation."
+  },
+  {
+    "item": "i5609b23e",
+    "grade": 0,
+    "reason": "Archaeological find reports; unrelated to population or demographic statistics."
+  },
+  {
+    "item": "i3fee1d3c",
+    "grade": 2,
+    "reason": "Census 2000 resident population by language, religion, nationality for a canton; core demographic data."
+  },
+  {
+    "item": "i3d7113ba",
+    "grade": 1,
+    "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+    "item": "i3799b5b2",
+    "grade": 1,
+    "reason": "General statistical yearbook (1977); population only a minor part of broad compilation."
+  },
+  {
+    "item": "icd29ad61",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to population or demographics."
+  },
+  {
+    "item": "ie81e2270",
+    "grade": 2,
+    "reason": "Settlement directory including population figures per settlement from the cantonal population survey."
+  },
+  {
+    "item": "i3a21a3db",
+    "grade": 1,
+    "reason": "General statistical yearbook (1997); population only a minor part of broad compilation."
+  },
+  {
+    "item": "i045793fc",
+    "grade": 1,
+    "reason": "General statistical yearbook (1948); population only a minor part of broad compilation."
+  },
+  {
+    "item": "i074938fb",
+    "grade": 1,
+    "reason": "General statistical yearbook; population only a minor part of broad compilation."
+  },
+  {
+    "item": "i115f2c5c",
+    "grade": 2,
+    "reason": "Population development 1850-2000 by canton, district, municipality; directly matches the topic."
+  },
+  {
+    "item": "i61ddc0c6",
+    "grade": 0,
+    "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+    "item": "i86470508",
+    "grade": 0,
+    "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+    "item": "ia83134fd",
+    "grade": 0,
+    "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+    "item": "i272e9eaa",
+    "grade": 2,
+    "reason": "Buildings by canton with heating type and energy carrier used for heating/hot water, 2000."
+  },
+  {
+    "item": "i17ea34f6",
+    "grade": 0,
+    "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+    "item": "ibb1e625e",
+    "grade": 0,
+    "reason": "Municipality-to-district mapping; unrelated to energy consumption."
+  },
+  {
+    "item": "idf482656",
+    "grade": 0,
+    "reason": "State tax revenue and tax capacity by municipality; unrelated to energy."
+  },
+  {
+    "item": "i069e6fa2",
+    "grade": 0,
+    "reason": "Counts of newly built residential buildings by category; no energy consumption data."
+  },
+  {
+    "item": "idcd38fd4",
+    "grade": 0,
+    "reason": "Traffic counts by vehicle class on cantonal roads; not energy consumption."
+  },
+  {
+    "item": "i5efbd161",
+    "grade": 0,
+    "reason": "Livestock counts by municipality; unrelated to energy consumption."
+  },
+  {
+    "item": "ia71dfdcc",
+    "grade": 0,
+    "reason": "Parking occupancy data for a city; unrelated to energy."
+  },
+  {
+    "item": "ia63718af",
+    "grade": 0,
+    "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+    "item": "i2382c9af",
+    "grade": 0,
+    "reason": "Employee counts by economic sector and municipality; not energy consumption data."
+  },
+  {
+    "item": "i0957a757",
+    "grade": 0,
+    "reason": "Municipal waste tonnage by year; not energy consumption data."
+  },
+  {
+    "item": "i89f474f7",
+    "grade": 0,
+    "reason": "Census 2000 households/families for a canton; no energy consumption data."
+  },
+  {
+    "item": "i60c08b98",
+    "grade": 0,
+    "reason": "Student counts by nationality; unrelated to energy consumption."
+  },
+  {
+    "item": "iac25dbd1",
+    "grade": 0,
+    "reason": "Consolidated cantonal government expenditures by function; not energy-specific."
+  },
+  {
+    "item": "i7c58988b",
+    "grade": 0,
+    "reason": "National council election results by municipality; unrelated to energy."
+  },
+  {
+    "item": "i7374e923",
+    "grade": 2,
+    "reason": "Buildings by canton with heating type and energy carrier for heating/hot water, 1990 and 2000."
+  },
+  {
+    "item": "i1d0e6795",
+    "grade": 0,
+    "reason": "COVID-19 case counts for a canton; unrelated to energy."
+  },
+  {
+    "item": "i2c3ab594",
+    "grade": 0,
+    "reason": "Newly built dwellings by room count; no energy consumption data."
+  },
+  {
+    "item": "i428cf40f",
+    "grade": 0,
+    "reason": "Commuter counts by municipality; unrelated to energy consumption."
+  },
+  {
+    "item": "i43c2589c",
+    "grade": 0,
+    "reason": "Cantonal parliament motion counts by department/faction; unrelated to energy."
+  },
+  {
+    "item": "i81889435",
+    "grade": 2,
+    "reason": "Buildings by canton with heating type and energy carrier for heating/hot water, 1970-2000."
+  },
+  {
+    "item": "i9876e8a5",
+    "grade": 0,
+    "reason": "Historical photo collection of Swiss buildings; unrelated to energy."
+  },
+  {
+    "item": "iefc5aa98",
+    "grade": 0,
+    "reason": "Dwelling stock by room count and municipality; no energy consumption data."
+  },
+  {
+    "item": "ic1574f28",
+    "grade": 0,
+    "reason": "Student counts by nationality; unrelated to energy consumption."
+  },
+  {
+    "item": "i8883ce8c",
+    "grade": 1,
+    "reason": "School district financial health overview (debt, equity); fiscal not education statistics."
+  },
+  {
+    "item": "i113ca520",
+    "grade": 1,
+    "reason": "School district financial ratios; fiscal not education statistics."
+  },
+  {
+    "item": "i9d5da4e3",
+    "grade": 1,
+    "reason": "Public library statistics, explicitly excluding school libraries; neighbouring subject to education."
+  },
+  {
+    "item": "i3dadf923",
+    "grade": 0,
+    "reason": "Youth sports program participants and funding; not school/university education statistics."
+  },
+  {
+    "item": "i6387a045",
+    "grade": 1,
+    "reason": "School district financial health overview; fiscal not education statistics."
+  },
+  {
+    "item": "id01874f9",
+    "grade": 1,
+    "reason": "School district financial ratios; fiscal not education statistics."
+  },
+  {
+    "item": "ibddf11cd",
+    "grade": 1,
+    "reason": "School district financial ratios; fiscal not education statistics."
+  },
+  {
+    "item": "i406d233c",
+    "grade": 1,
+    "reason": "Public library statistics, excluding school libraries; neighbouring subject to education."
+  },
+  {
+    "item": "i2d7fdec6",
+    "grade": 1,
+    "reason": "School district financial ratios; fiscal not education statistics."
+  },
+  {
+    "item": "i34794535",
+    "grade": 1,
+    "reason": "School district financial ratios; fiscal not education statistics."
+  },
+  {
+    "item": "if90fe78a",
+    "grade": 1,
+    "reason": "School district financial health overview; fiscal not education statistics."
+  },
+  {
+    "item": "ia42313e4",
+    "grade": 1,
+    "reason": "School district financial health overview; fiscal not education statistics."
+  },
+  {
+    "item": "i848a511f",
+    "grade": 1,
+    "reason": "School district financial health overview; fiscal not education statistics."
+  },
+  {
+    "item": "ic5db03ea",
+    "grade": 2,
+    "reason": "Secondary-level student counts by school type/requirement level; core education statistics."
+  },
+  {
+    "item": "i1a5e272f",
+    "grade": 1,
+    "reason": "Census data combining employment and education/training attainment, not school/university statistics specifically."
+  },
+  {
+    "item": "i636238de",
+    "grade": 1,
+    "reason": "School district financial overview with selected ratios; fiscal not education statistics."
+  },
+  {
+    "item": "i7a541432",
+    "grade": 2,
+    "reason": "Public school student counts by municipality and first language; core education statistics."
+  },
+  {
+    "item": "i5514a5d2",
+    "grade": 1,
+    "reason": "Census data combining employment and education/training attainment for a canton."
+  },
+  {
+    "item": "i1cbc4aae",
+    "grade": 2,
+    "reason": "Public school student counts by nationality; core education statistics."
+  },
+  {
+    "item": "i232a8be5",
+    "grade": 1,
+    "reason": "School district financial health overview; fiscal not education statistics."
+  },
+  {
+    "item": "ie2b5f33e",
+    "grade": 2,
+    "reason": "Education expenditure of school districts, kindergarten through lower secondary; direct education statistic."
+  },
+  {
+    "item": "i639fafcb",
+    "grade": 1,
+    "reason": "Census data combining employment and education/training attainment for a canton."
+  },
+  {
+    "item": "i363b85b7",
+    "grade": 1,
+    "reason": "Census data combining employment and education/training attainment for a canton."
+  },
+  {
+    "item": "i52bbf8eb",
+    "grade": 2,
+    "reason": "Public school student counts by municipality and nationality; core education statistics."
+  },
+  {
+    "item": "ic67e7b6e",
+    "grade": 1,
+    "reason": "School district financial ratios and their basis; fiscal not education statistics."
+  },
+  {
+    "item": "ida1b36de",
+    "grade": 0,
+    "reason": "Census data on employment and education/training; unrelated to healthcare."
+  },
+  {
+    "item": "i172ea922",
+    "grade": 0,
+    "reason": "Motor vehicle traffic counts on cantonal roads; unrelated to healthcare."
+  },
+  {
+    "item": "i6b4709ee",
+    "grade": 0,
+    "reason": "Motor vehicle traffic counts by vehicle class; unrelated to healthcare."
+  },
+  {
+    "item": "ia372ec8c",
+    "grade": 0,
+    "reason": "Alphabetical index of old statistical yearbook volumes; not health data itself."
+  },
+  {
+    "item": "i97b43975",
+    "grade": 0,
+    "reason": "Notary office case statistics; unrelated to healthcare."
+  },
+  {
+    "item": "ib52d9568",
+    "grade": 2,
+    "reason": "City/agglomeration indicators on mortality rate and number of doctors; directly on healthcare provision."
+  },
+  {
+    "item": "i15a8ba26",
+    "grade": 0,
+    "reason": "Student counts by nationality; unrelated to healthcare."
+  },
+  {
+    "item": "i9e7c9b5a",
+    "grade": 0,
+    "reason": "Dwelling stock by room count; unrelated to healthcare."
+  },
+  {
+    "item": "id1a232ae",
+    "grade": 0,
+    "reason": "Water quality monitoring of lakes/rivers; not healthcare facilities or statistics."
+  },
+  {
+    "item": "ia1cd0bc7",
+    "grade": 0,
+    "reason": "Dwellings by room count and rent class; unrelated to healthcare."
+  },
+  {
+    "item": "i83b6c6c9",
+    "grade": 0,
+    "reason": "School district financial health overview; unrelated to healthcare despite figurative wording."
+  },
+  {
+    "item": "i77cfcf04",
+    "grade": 0,
+    "reason": "Establishments/employees by canton and broad economic sector; no health-specific data indicated."
+  },
+  {
+    "item": "i755fdb89",
+    "grade": 0,
+    "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+    "item": "i3307164e",
+    "grade": 0,
+    "reason": "Establishments/employees by municipality and economic sector; no health-specific data indicated."
+  },
+  {
+    "item": "i01d6be71",
+    "grade": 0,
+    "reason": "Resident population by occupation, sex, nationality; unrelated to healthcare."
+  },
+  {
+    "item": "i46363cf2",
+    "grade": 0,
+    "reason": "Youth sports program participants and funding; unrelated to healthcare."
+  },
+  {
+    "item": "iadb9342f",
+    "grade": 0,
+    "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+    "item": "i2fae2c11",
+    "grade": 0,
+    "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+    "item": "i50990f5b",
+    "grade": 0,
+    "reason": "Commercial register of registered firms; unrelated to healthcare."
+  },
+  {
+    "item": "iabe49f73",
+    "grade": 0,
+    "reason": "Domestic violence victim counts by offence and gender; not healthcare facility data."
+  },
+  {
+    "item": "i9b9f66d7",
+    "grade": 0,
+    "reason": "Agricultural crops and trees by municipality; unrelated to healthcare."
+  },
+  {
+    "item": "idbfab14d",
+    "grade": 0,
+    "reason": "Census data on employment and education/training; unrelated to healthcare."
+  },
+  {
+    "item": "i43e8ac86",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to healthcare."
+  },
+  {
+    "item": "i043018de",
+    "grade": 0,
+    "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+    "item": "ief79076c",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to healthcare."
+  },
+  {
+    "item": "ic8c2265a",
+    "grade": 0,
+    "reason": "Establishments/employees by canton and economic division; no health-specific data indicated."
+  },
+  {
+    "item": "iaa497b04",
+    "grade": 0,
+    "reason": "Census data on employment and education/training; unrelated to healthcare."
+  },
+  {
+    "item": "i286536ef",
+    "grade": 0,
+    "reason": "Hydrometric measuring stations for rivers/lakes; unrelated to healthcare."
+  },
+  {
+    "item": "ie58ee1a2",
+    "grade": 0,
+    "reason": "Institutional units/employees by canton and economic type; no health-specific data indicated."
+  },
+  {
+    "item": "i2ab2a501",
+    "grade": 0,
+    "reason": "Census data on employment and education/training; unrelated to healthcare."
+  },
+  {
+    "item": "ic755d7ef",
+    "grade": 0,
+    "reason": "Parking occupancy data for a city; unrelated to healthcare."
+  },
+  {
+    "item": "id2c30697",
+    "grade": 0,
+    "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+    "item": "i956e4239",
+    "grade": 0,
+    "reason": "Archaeological find reports; unrelated to healthcare."
+  },
+  {
+    "item": "i39125261",
+    "grade": 0,
+    "reason": "School district financial health overview; unrelated to healthcare."
+  },
+  {
+    "item": "i4f64cacb",
+    "grade": 0,
+    "reason": "Dwellings by room count and floor area class; unrelated to healthcare."
+  },
+  {
+    "item": "i4ae5465e",
+    "grade": 0,
+    "reason": "Directory of sports clubs; unrelated to healthcare."
+  },
+  {
+    "item": "i04d596e1",
+    "grade": 0,
+    "reason": "Establishments/employees by canton and economic type; no health-specific data indicated."
+  },
+  {
+    "item": "iad1eafbe",
+    "grade": 0,
+    "reason": "Student counts by first language; unrelated to healthcare."
+  },
+  {
+    "item": "i9fff03fc",
+    "grade": 0,
+    "reason": "Student counts by nationality; unrelated to healthcare."
+  },
+  {
+    "item": "ifa2f2059",
+    "grade": 0,
+    "reason": "Real-time parking occupancy data; unrelated to healthcare."
+  },
+  {
+    "item": "i6016508a",
+    "grade": 0,
+    "reason": "Foster-child placement counts; child welfare data, not healthcare facilities/statistics."
+  },
+  {
+    "item": "ia8fdc297",
+    "grade": 0,
+    "reason": "Domestic violence victim counts by gender and relationship; not healthcare facility data."
+  },
+  {
+    "item": "ib7d23027",
+    "grade": 0,
+    "reason": "Census 2000 households/families for a canton; not economic/GDP statistics."
+  },
+  {
+    "item": "i159bf614",
+    "grade": 1,
+    "reason": "New dwellings built by room count and municipality; a narrow construction-activity indicator, not GDP."
+  },
+  {
+    "item": "ic6e49983",
+    "grade": 0,
+    "reason": "Student counts by first language; unrelated to economic statistics."
+  },
+  {
+    "item": "ifd20e849",
+    "grade": 2,
+    "reason": "Institutional units and employees by canton and economic activity type; core regional economic statistics."
+  },
+  {
+    "item": "i94c37136",
+    "grade": 0,
+    "reason": "Student counts by nationality; unrelated to economic statistics."
+  },
+  {
+    "item": "icd64c47d",
+    "grade": 0,
+    "reason": "Census 2000 households/families for a canton; not economic/GDP statistics."
+  },
+  {
+    "item": "iff5dcb83",
+    "grade": 0,
+    "reason": "Dwelling stock by room count and municipality; not economic/GDP statistics."
+  },
+  {
+    "item": "ia391c8cb",
+    "grade": 0,
+    "reason": "Municipal waste tonnage by year; not economic statistics."
+  },
+  {
+    "item": "i31ebcf73",
+    "grade": 0,
+    "reason": "Meteorological data at an aircraft-noise monitoring station; unrelated to economic statistics."
+  },
+  {
+    "item": "ic9aa74d9",
+    "grade": 0,
+    "reason": "Census 2000 households/families for a canton; not economic/GDP statistics."
+  },
+  {
+    "item": "i9ddd90b1",
+    "grade": 0,
+    "reason": "Building structure by canton (storeys, dwellings); population/housing, not economic/GDP statistics."
+  },
+  {
+    "item": "i50424888",
+    "grade": 0,
+    "reason": "Private households by size and region; demographic, not economic statistics."
+  },
+  {
+    "item": "ifb1bb2d3",
+    "grade": 1,
+    "reason": "School district financial health overview; public finance, a neighbouring subject to economic statistics."
+  },
+  {
+    "item": "ie5c89534",
+    "grade": 0,
+    "reason": "Historical photo collection of Swiss buildings; unrelated to economic statistics."
+  },
+  {
+    "item": "if6d99f1e",
+    "grade": 0,
+    "reason": "Parking occupancy data for a city; unrelated to economic statistics."
+  },
+  {
+    "item": "i68d47239",
+    "grade": 1,
+    "reason": "Municipal financial ratio averages by canton; public finance, a neighbouring subject to economic statistics."
+  },
+  {
+    "item": "i0103725c",
+    "grade": 1,
+    "reason": "Consolidated cantonal government expenditure by function; public finance, not GDP/business statistics."
+  },
+  {
+    "item": "i77871400",
+    "grade": 0,
+    "reason": "Municipality-to-district mapping; unrelated to economic statistics."
+  },
+  {
+    "item": "if26bf511",
+    "grade": 0,
+    "reason": "Counts of newly built residential buildings by category; not tagged economic, no GDP data."
+  },
+  {
+    "item": "i8f074b9e",
+    "grade": 0,
+    "reason": "Student counts by nationality; unrelated to economic statistics."
+  },
+  {
+    "item": "ie48e96e7",
+    "grade": 0,
+    "reason": "Aircraft noise monitoring results; unrelated to economic statistics."
+  },
+  {
+    "item": "i0c670a64",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to economic statistics."
+  },
+  {
+    "item": "iddcd6035",
+    "grade": 0,
+    "reason": "Census 2000 households/families for a canton; not economic/GDP statistics."
+  },
+  {
+    "item": "iba7ab7e9",
+    "grade": 0,
+    "reason": "Cantonal parliament motion counts; unrelated to economic statistics."
+  },
+  {
+    "item": "i36aab05e",
+    "grade": 0,
+    "reason": "Census 2000 households/families for a canton; not economic/GDP statistics."
+  },
+  {
+    "item": "i8c87630f",
+    "grade": 1,
+    "reason": "In-commuter counts by municipality; a labour-mobility indicator, not GDP/business statistics."
+  },
+  {
+    "item": "id3848df4",
+    "grade": 1,
+    "reason": "School district financial health overview; public finance, a neighbouring subject to economic statistics."
+  },
+  {
+    "item": "i1138495f",
+    "grade": 1,
+    "reason": "State tax revenue and tax capacity by municipality; public finance, a neighbouring subject to economic statistics."
+  },
+  {
+    "item": "id40d243b",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to economic statistics."
+  }
+]

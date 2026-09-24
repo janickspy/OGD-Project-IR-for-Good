@@ -73,6 +73,7 @@ Optional OpenAI query assistance requires `OPENAI_API_KEY` and a model name. A r
 - [Evaluation and assessment](docs/EVALUATION.md)
 - [Capabilities and limits](docs/LIMITATIONS.md)
 - [Attribution and data provenance](docs/PROVENANCE.md)
+- [Ranking audit, extended judgments and reported results](audit/README.md)
 
 ## Licence
 
