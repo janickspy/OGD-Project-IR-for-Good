@@ -4,7 +4,7 @@ The bundled example supports offline lexical retrieval and evaluation. Semantic 
 
 ## Historical evidence
 
-The included dataset snapshot contains 500 records, heavily concentrated in a small number of publishers. The 15 queries have 150 inherited 0–2 judgments, with six pools containing no positive labels. Those six pools do not establish that the full collection lacks relevant data. Assessment provenance remains `inherited_unverified`; no new independent assessor or participant study is claimed.
+The included dataset snapshot contains 500 records, heavily concentrated in a small number of publishers. The 15 queries have 150 inherited 0–2 judgments, with six pools containing no positive labels. Those six pools do not establish that the full collection lacks relevant data. Assessment provenance remains `inherited_unverified`. The audit adds two model assessments (`audit/judgments`), which are not human judgments; no participant study is claimed.
 
 The four-method historical reanalysis, five-method semantic extension and application-normalization reanalysis are distinct runs. The v2 normalization removes internal tag identifiers and state fields from indexed text and retains portal URLs; the original v1 corpus and inherited grades remain available. Differences from the earlier application involve multiple design changes and are not controlled estimates of effectiveness improvement.
 

@@ -1,0 +1,282 @@
+[
+  {
+    "item": "i75f97a66",
+    "grade": 0,
+    "reason": "Public school pupils by nationality; no public transport or timetable content."
+  },
+  {
+    "item": "i36d5045c",
+    "grade": 0,
+    "reason": "Municipal financial accounts; no public transport data."
+  },
+  {
+    "item": "i3794c39c",
+    "grade": 0,
+    "reason": "Municipal financial accounts 2020; unrelated to transport timetables."
+  },
+  {
+    "item": "idbc7bd7f",
+    "grade": 0,
+    "reason": "Municipal financial accounts 2022; unrelated to transport timetables."
+  },
+  {
+    "item": "i647d6c8e",
+    "grade": 0,
+    "reason": "Secondary school pupils by requirement type; unrelated to transport."
+  },
+  {
+    "item": "i50e12145",
+    "grade": 0,
+    "reason": "Municipal financial accounts 2023; unrelated to transport timetables."
+  },
+  {
+    "item": "i6d8514cf",
+    "grade": 0,
+    "reason": "Public library usage statistics; unrelated to transport timetables."
+  },
+  {
+    "item": "id6015674",
+    "grade": 0,
+    "reason": "Municipal financial accounts 2021; unrelated to transport."
+  },
+  {
+    "item": "i21c62814",
+    "grade": 0,
+    "reason": "Pupils by school municipality and first language; unrelated to transport."
+  },
+  {
+    "item": "i6565d3c8",
+    "grade": 0,
+    "reason": "Pupils by school municipality and nationality; unrelated to transport."
+  },
+  {
+    "item": "i5f3143e1",
+    "grade": 0,
+    "reason": "Public library statistics; unrelated to transport timetables."
+  },
+  {
+    "item": "i9fa81ab4",
+    "grade": 1,
+    "reason": "General statistical yearbook, no description; accidents at most a minor part of broad compilation."
+  },
+  {
+    "item": "i17ac0f3c",
+    "grade": 1,
+    "reason": "General statistical yearbook, no description; possible minor accident data in broad compilation."
+  },
+  {
+    "item": "i0cdfef8f",
+    "grade": 0,
+    "reason": "Vehicle registration stock counts, not accident statistics."
+  },
+  {
+    "item": "i69317f88",
+    "grade": 1,
+    "reason": "General statistical yearbook; accidents could be minor part, no specifics given."
+  },
+  {
+    "item": "i3be27235",
+    "grade": 1,
+    "reason": "Motor traffic volume counts by vehicle class; related traffic data but not accident records."
+  },
+  {
+    "item": "icaba9674",
+    "grade": 0,
+    "reason": "Vehicle registration stock counts, not accident data."
+  },
+  {
+    "item": "iff3343e9",
+    "grade": 0,
+    "reason": "Public transport line performance metrics; no accident data."
+  },
+  {
+    "item": "i921f20e3",
+    "grade": 1,
+    "reason": "General statistical yearbook; accidents at most minor part of broad compilation."
+  },
+  {
+    "item": "i601e7be5",
+    "grade": 1,
+    "reason": "General statistical yearbook; possible minor accident section, no specifics."
+  },
+  {
+    "item": "i9a005bbf",
+    "grade": 1,
+    "reason": "General statistical yearbook; accidents at most a minor part."
+  },
+  {
+    "item": "ib27745f5",
+    "grade": 1,
+    "reason": "General statistical yearbook; accidents at most a minor part."
+  },
+  {
+    "item": "i5c835354",
+    "grade": 1,
+    "reason": "General statistical yearbook; accidents at most a minor part."
+  },
+  {
+    "item": "ic8e78909",
+    "grade": 1,
+    "reason": "General statistical yearbook; accidents at most a minor part."
+  },
+  {
+    "item": "i42d7a636",
+    "grade": 0,
+    "reason": "Vehicle registration stock counts, not accident data."
+  },
+  {
+    "item": "i8a2a1f15",
+    "grade": 0,
+    "reason": "Vehicle registration stock counts, not accident data."
+  },
+  {
+    "item": "ib3fc0821",
+    "grade": 0,
+    "reason": "Vehicle registration stock counts, not accident data."
+  },
+  {
+    "item": "i50a547eb",
+    "grade": 0,
+    "reason": "Vehicle registration stock counts, not accident data."
+  },
+  {
+    "item": "i1166aa8f",
+    "grade": 0,
+    "reason": "Manual precipitation measuring station data; unrelated to EV charging stations."
+  },
+  {
+    "item": "i23ed1c08",
+    "grade": 0,
+    "reason": "Automatic precipitation station data; unrelated to EV charging stations."
+  },
+  {
+    "item": "i5b8a6973",
+    "grade": 0,
+    "reason": "Pollen measuring station data; unrelated to EV charging stations."
+  },
+  {
+    "item": "if0dd66af",
+    "grade": 0,
+    "reason": "Manual precipitation station data; unrelated to EV charging stations."
+  },
+  {
+    "item": "i76a071eb",
+    "grade": 0,
+    "reason": "Manual precipitation station data; unrelated to EV charging stations."
+  },
+  {
+    "item": "i43527b96",
+    "grade": 0,
+    "reason": "Manual precipitation station data; unrelated to EV charging stations."
+  },
+  {
+    "item": "id15f2d58",
+    "grade": 0,
+    "reason": "Automatic weather station data; unrelated to EV charging stations."
+  },
+  {
+    "item": "i698b0007",
+    "grade": 0,
+    "reason": "Automatic precipitation station data; unrelated to EV charging stations."
+  },
+  {
+    "item": "iff1f38e5",
+    "grade": 0,
+    "reason": "Manual precipitation station data; unrelated to EV charging stations."
+  },
+  {
+    "item": "i89d113cd",
+    "grade": 0,
+    "reason": "Manual precipitation station data; unrelated to EV charging stations."
+  },
+  {
+    "item": "ia6f21bf5",
+    "grade": 1,
+    "reason": "General statistical yearbook; bicycle traffic at most a minor part of broad compilation."
+  },
+  {
+    "item": "i427dafa1",
+    "grade": 1,
+    "reason": "General statistical yearbook; bicycle traffic at most a minor part."
+  },
+  {
+    "item": "idb70b29a",
+    "grade": 1,
+    "reason": "General statistical yearbook; bicycle traffic at most a minor part."
+  },
+  {
+    "item": "i5fd1a15e",
+    "grade": 1,
+    "reason": "General statistical yearbook; bicycle traffic at most a minor part."
+  },
+  {
+    "item": "i7ad1c89c",
+    "grade": 1,
+    "reason": "General statistical yearbook; bicycle traffic at most a minor part."
+  },
+  {
+    "item": "i3b3e9c8d",
+    "grade": 1,
+    "reason": "General statistical yearbook; bicycle traffic at most a minor part."
+  },
+  {
+    "item": "i307ffb06",
+    "grade": 1,
+    "reason": "General statistical yearbook; bicycle traffic at most a minor part."
+  },
+  {
+    "item": "i62257790",
+    "grade": 1,
+    "reason": "General statistical yearbook; bicycle traffic at most a minor part."
+  },
+  {
+    "item": "if76e38c9",
+    "grade": 1,
+    "reason": "General statistical yearbook; bicycle traffic at most a minor part."
+  },
+  {
+    "item": "i0bcd42d1",
+    "grade": 1,
+    "reason": "General statistical yearbook; bicycle traffic at most a minor part."
+  },
+  {
+    "item": "i18fd270f",
+    "grade": 0,
+    "reason": "Monthly gross wage statistics by nationality and gender; unrelated to cycling."
+  },
+  {
+    "item": "icacb6fc2",
+    "grade": 0,
+    "reason": "New residential buildings by category; unrelated to parking availability."
+  },
+  {
+    "item": "i2c8689c8",
+    "grade": 0,
+    "reason": "Daycare centre listing; unrelated to parking data."
+  },
+  {
+    "item": "i6c73097b",
+    "grade": 0,
+    "reason": "Daycare centre listing; unrelated to parking data."
+  },
+  {
+    "item": "ic21ef6bf",
+    "grade": 0,
+    "reason": "Daycare centre listing; unrelated to parking data."
+  },
+  {
+    "item": "i13847909",
+    "grade": 0,
+    "reason": "Cantonal government department chairs since 1841; unrelated to parking."
+  },
+  {
+    "item": "iea7b952c",
+    "grade": 0,
+    "reason": "Daycare centre listing; unrelated to parking data."
+  },
+  {
+    "item": "i6d3639e6",
+    "grade": 0,
+    "reason": "Housing stock by building category; unrelated to parking data."
+  }
+]

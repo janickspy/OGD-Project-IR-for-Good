@@ -1,8 +1,11 @@
 """Agreement of the extended judgments and full-corpus effectiveness.
 
-Reads the two assessor files in audit/judgments, compares them with each
-other and with the inherited labels, and evaluates the full-corpus top-ten
-runs of all five systems under each assessor's labels.
+Reads the assessor files of both judging rounds (audit/judgments and
+audit/judgments/round2), compares the assessors with each other and with the
+inherited labels, and evaluates the full-corpus top-ten runs of the five
+audited systems and the two German BM25 baselines under each assessor's labels.
+Pairwise tests among the five audited systems form the primary Holm family;
+comparisons involving the German baselines, added later, form a second family.
 """
 import itertools
 import json
@@ -16,7 +19,9 @@ from ogd_ir.evaluation import metrics
 
 ROOT = Path(__file__).resolve().parents[1]
 HERE = Path(__file__).resolve().parent
-SYSTEMS = ['semantic', 'bm25', 'mamdani', 'hybrid', 'linear']
+MAIN = ['semantic', 'bm25', 'mamdani', 'hybrid', 'linear']
+GERMAN = ['bm25_stem', 'bm25_split']
+SYSTEMS = MAIN + GERMAN
 METRICS = ['map10', 'p5', 'ndcg10', 'mrr10']
 
 
@@ -63,37 +68,48 @@ def holm(tests):
     return tests
 
 
-def evaluate(runs, qrels):
+def evaluate(runs, qrels, systems=SYSTEMS):
     queries = sorted(qrels)
-    per_query = {s: {q: metrics(runs[q][s], qrels[q]) for q in queries} for s in SYSTEMS}
+    per_query = {s: {q: metrics(runs[q][s], qrels[q]) for q in queries} for s in systems}
     summary = {}
-    for s in SYSTEMS:
+    for s in systems:
         summary[s] = {}
         for m in METRICS:
             vals = np.array([per_query[s][q][m] for q in queries])
             boot = np.random.default_rng(2026).choice(vals, (2000, len(vals)), replace=True).mean(axis=1)
             summary[s][m] = {'mean': float(vals.mean()), 'bootstrap95': np.quantile(boot, [.025, .975]).tolist()}
-    ndcg = {s: {q: per_query[s][q]['ndcg10'] for q in queries} for s in SYSTEMS}
-    tests = holm([exact_permutation(ndcg, a, b, queries) for a, b in itertools.combinations(SYSTEMS, 2)])
-    return {'summary': summary, 'tests': tests, 'per_query': per_query,
+    ndcg = {s: {q: per_query[s][q]['ndcg10'] for q in queries} for s in systems}
+    tests = holm([exact_permutation(ndcg, a, b, queries) for a, b in itertools.combinations([s for s in MAIN if s in systems], 2)])
+    extra = [s for s in GERMAN if s in systems]
+    tests_german = holm([exact_permutation(ndcg, a, b, queries)
+                         for a, b in itertools.combinations(systems, 2) if a in extra or b in extra])
+    return {'summary': summary, 'tests': tests, 'tests_german_baselines': tests_german, 'per_query': per_query,
             'topics_with_relevant': sum(any(g > 0 for g in qrels[q].values()) for q in queries)}
 
 
 def ordering(summary):
-    return sorted(SYSTEMS, key=lambda s: -summary[s]['ndcg10']['mean'])
+    return sorted(summary, key=lambda s: -summary[s]['ndcg10']['mean'])
 
 
 def main():
     inherited = {q['id']: q['judgments'] for q in json.loads((ROOT / 'data/legacy/judgments.json').read_text())['queries']}
     runs = json.loads((HERE / 'results/full_corpus_runs.json').read_text())['runs']
     pooled_runs = json.loads((ROOT / 'results/application_reanalysis.json').read_text())['runs']
-    assessors = {}
+    german = json.loads((HERE / 'results/german_bm25_runs.json').read_text())
+    for name in GERMAN:
+        for q in runs:
+            runs[q][name] = german['full_collection'][name][q]
+            pooled_runs[q][name] = german['candidate_sets'][name][q]
+    assessors, round1 = {}, {}
     for name in 'AB':
-        doc = json.loads((HERE / f'judgments/assessor_{name}.json').read_text())
         qrels = {}
-        for j in doc['judgments']:
-            qrels.setdefault(j['query_id'], {})[j['dataset_id']] = j['grade']
-        assessors[name] = {'model': doc['model'], 'qrels': qrels}
+        for path in (HERE / f'judgments/assessor_{name}.json', HERE / f'judgments/round2/assessor_{name}.json'):
+            for j in json.loads(path.read_text())['judgments']:
+                qrels.setdefault(j['query_id'], {})[j['dataset_id']] = j['grade']
+            if not round1.get(name):
+                round1[name] = {q: dict(v) for q, v in qrels.items()}
+        assessors[name] = {'qrels': qrels}
+    second = {(j['query_id'], j['dataset_id']) for j in json.loads((HERE / 'judgments/round2/assessor_A.json').read_text())['judgments']}
     pairs = sorted((q, d) for q in assessors['A']['qrels'] for d in assessors['A']['qrels'][q])
     old = [(q, d) for q, d in pairs if d in inherited[q]]
     grade = lambda name, q, d: assessors[name]['qrels'][q][d]
@@ -101,7 +117,9 @@ def main():
     not_yearbook = [(q, d) for q, d in old if 'Jahrbuch' not in yearbook[d]['title'].get('de', '')]
 
     coverage = {s: sum(d in inherited[q] for q in runs for d in runs[q][s]) for s in SYSTEMS}
-    result = {'pairs': len(pairs), 'inherited_pairs': len(old),
+    positions = {s: sum(len(runs[q][s]) for q in runs) for s in SYSTEMS}
+    result = {'pairs': len(pairs), 'inherited_pairs': len(old), 'round2_pairs': len(second),
+              'top10_positions': positions,
               'inherited_coverage_of_full_corpus_top10': {'positions_per_system': 150, 'judged': coverage},
               'grade_counts': {n: dict(Counter(grade(n, q, d) for q, d in pairs)) for n in 'AB'},
               'grade_counts_inherited': dict(Counter(inherited[q][d] for q, d in old)),
@@ -112,6 +130,9 @@ def main():
                   'A_vs_B_inherited_pairs': agreement([grade('A', q, d) for q, d in old], [grade('B', q, d) for q, d in old]),
                   'A_vs_B_new_pairs': agreement([grade('A', q, d) for q, d in pairs if d not in inherited[q]],
                                                 [grade('B', q, d) for q, d in pairs if d not in inherited[q]]),
+                  'A_vs_B_round1_new_pairs': agreement([grade('A', q, d) for q, d in pairs if d not in inherited[q] and (q, d) not in second],
+                                                       [grade('B', q, d) for q, d in pairs if d not in inherited[q] and (q, d) not in second]),
+                  'A_vs_B_round2': agreement([grade('A', q, d) for q, d in sorted(second)], [grade('B', q, d) for q, d in sorted(second)]),
                   'A_vs_inherited_without_yearbooks': agreement([grade('A', q, d) for q, d in not_yearbook], [inherited[q][d] for q, d in not_yearbook]),
                   'B_vs_inherited_without_yearbooks': agreement([grade('B', q, d) for q, d in not_yearbook], [inherited[q][d] for q, d in not_yearbook])}}
 
@@ -127,20 +148,22 @@ def main():
             'min_AB': evaluate(runs, consensus),
             'A_grade2_only': evaluate(runs, strict['A']), 'B_grade2_only': evaluate(runs, strict['B']),
             'A_yearbooks_not_relevant': evaluate(runs, no_yearbooks['A']),
-            'B_yearbooks_not_relevant': evaluate(runs, no_yearbooks['B'])}
+            'B_yearbooks_not_relevant': evaluate(runs, no_yearbooks['B']),
+            'A_round1_pool': evaluate(runs, round1['A'], MAIN), 'B_round1_pool': evaluate(runs, round1['B'], MAIN)}
     pooled = {name: evaluate(pooled_runs, {q: {d: assessors[name]['qrels'][q][d] for d in inherited[q]} for q in inherited})
               for name in 'AB'}
     pooled['inherited'] = evaluate(pooled_runs, inherited)
     orders = {f'full_{k}': ordering(v['summary']) for k, v in full.items()}
     orders.update({f'pooled_{k}': ordering(v['summary']) for k, v in pooled.items()})
-    rank_of = lambda order: [order.index(s) for s in SYSTEMS]
+    rank_of = lambda order: [order.index(s) for s in MAIN]
     taus = {f'{a}~{b}': float(kendalltau(rank_of(orders[a]), rank_of(orders[b])).statistic)
             for a, b in itertools.combinations(orders, 2)}
-    result.update({'full_corpus': {k: {x: v[x] for x in ('summary', 'tests', 'topics_with_relevant')} for k, v in full.items()},
-                   'pooled_reranking': {k: {x: v[x] for x in ('summary', 'tests', 'topics_with_relevant')} for k, v in pooled.items()},
+    keep = ('summary', 'tests', 'tests_german_baselines', 'topics_with_relevant')
+    result.update({'full_corpus': {k: {x: v[x] for x in keep} for k, v in full.items()},
+                   'pooled_reranking': {k: {x: v[x] for x in keep} for k, v in pooled.items()},
                    'system_orderings': orders, 'kendall_tau_between_orderings': taus,
                    'per_query_full_corpus_ndcg10': {k: {s: {q: v['per_query'][s][q]['ndcg10'] for q in v['per_query'][s]}
-                                                        for s in SYSTEMS} for k, v in full.items()}})
+                                                        for s in v['per_query']} for k, v in full.items()}})
     (HERE / 'results/judgment_analysis.json').write_text(json.dumps(result, indent=2) + '\n')
 
     print('inherited labels in full-collection top ten:', coverage)
@@ -150,7 +173,7 @@ def main():
     for label, block in (('full', full), ('pooled', pooled)):
         for k, v in block.items():
             print(label, k, 'topics with relevant:', v['topics_with_relevant'],
-                  {s: round(v['summary'][s]['ndcg10']['mean'], 4) for s in SYSTEMS})
+                  {s: round(v['summary'][s]['ndcg10']['mean'], 4) for s in v['summary']})
     print(orders)
     print(taus)
 

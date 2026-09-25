@@ -81,7 +81,7 @@ def main():
            xticks=range(3, 16), xlim=(2.7, 15.3))
     ax.yaxis.set_major_formatter(FormatStrFormatter('%.3f'))
     ax.grid(axis='y', color='#dddddd', linewidth=.5)
-    fig.savefig(ROOT / 'results/resource_counterfactual.pdf')
+    fig.savefig(ROOT / 'results/resource_counterfactual.pdf', metadata={'CreationDate': None})
 
 
 if __name__ == '__main__':

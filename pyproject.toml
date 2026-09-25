@@ -15,6 +15,7 @@ dependencies = ["numpy==2.3.5", "scipy==1.17.0", "requests==2.32.5"]
 app = ["streamlit==1.55.0", "plotly==6.6.0"]
 semantic = ["onnxruntime==1.24.3", "tokenizers==0.22.2", "huggingface-hub==1.5.0", "httpx[socks]==0.28.1"]
 dev = ["pytest==9.0.2"]
+audit = ["snowballstemmer==3.1.1", "compound-split==1.0.2", "openpyxl==3.1.5"]
 
 [project.scripts]
 ogd-ir = "ogd_ir.cli:main"
