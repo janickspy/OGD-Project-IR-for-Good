@@ -81,4 +81,4 @@ After the first analysis, two BM25 variants were added (`german_bm25.py`): `bm25
 
 These labels are model judgments, not human assessments. `results/judgment_analysis.json` reports their agreement with the inherited labels and with each other, and evaluates every system separately under each assessor, with only grade 2 counted as relevant, and with statistical yearbooks counted as not relevant.
 
-`spot_check.py sample` draws 40 pairs without and 20 pairs with inherited labels from the first-round pool into a blind grading sheet (`judgments/spot_check_sheet.xlsx`); `spot_check.py score <sheet>` compares a completed sheet with both assessors and with the inherited labels.
+`spot_check.py sample` draws 40 pairs without and 20 pairs with inherited labels from the first-round pool into a blind grading sheet (`judgments/spot_check_sheet.xlsx`); `spot_check.py score <sheet> [<sheet> ...]` compares each completed sheet with both assessors and with the inherited labels and, when several people grade the sheet independently, the sheets with each other.
