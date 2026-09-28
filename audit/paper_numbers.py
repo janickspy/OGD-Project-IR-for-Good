@@ -80,6 +80,20 @@ def main():
     out['decompounded_minus_semantic_full'] = {k: round(nd('full_corpus', k, 'bm25_split') - nd('full_corpus', k, 'semantic'), 3)
                                                for k in ('A', 'B')}
 
+    # Human spot check (Sect. 4.2 and 5.1)
+    sc = R('spot_check.json')
+    strict = lambda conf: sum(conf[i][j] for i in range(3) for j in range(3) if (i == 2) == (j == 2))
+    fmt = lambda v: {'pairs': v['pairs'], 'exact': round(100 * v['exact'], 1), 'kappa_w': round(v['weighted_kappa_quadratic'], 2),
+                     'grade2_agreement': strict(v['confusion'])}
+    out['spot_check'] = {f'{h}_vs_{k}': fmt(sc['humans'][h][f'vs_{k}_all']) for h in ('H1', 'H2') for k in ('A', 'B')}
+    out['spot_check']['H1_vs_H2'] = fmt(sc['H1_vs_H2']['all'])
+    out['spot_check'].update({f'{h}_vs_inherited': fmt(sc['humans'][h]['vs_inherited']) for h in ('H1', 'H2')})
+    out['spot_check']['grade2_per_human'] = {h: sum(sc['humans'][h]['vs_A_all']['confusion'][2]) for h in ('H1', 'H2')}
+    out['spot_check']['disagreements_between_0_and_1'] = {
+        k: (v['confusion'][0][1] + v['confusion'][1][0], v['pairs'] - round(v['exact'] * v['pairs']))
+        for k, v in [(f'{h}_vs_{a}', sc['humans'][h][f'vs_{a}_all']) for h in ('H1', 'H2') for a in ('A', 'B')]
+                    + [('H1_vs_H2', sc['H1_vs_H2']['all'])]}
+
     # Table 2 rows of the German baselines (candidate sets, inherited labels)
     positive = [q for q, j in inherited.items() if any(g > 0 for g in j.values())]
     out['table2_german'] = {}
